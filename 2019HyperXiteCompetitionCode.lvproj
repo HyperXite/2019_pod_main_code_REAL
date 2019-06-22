@@ -153,10 +153,7 @@
 		<Item Name="Finite State Machine Control Loop" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="States" Type="Folder">
-				<Item Name="FaultConditions" Type="Folder">
-					<Item Name="CheckFaultConditions.vi" Type="VI" URL="../../../LabViewBuilds/Testing/FaultPractice/CheckFaultConditions.vi"/>
-					<Item Name="UpdateStateMax&amp;Min.vi" Type="VI" URL="../../../LabViewBuilds/Testing/FaultPractice/UpdateStateMax&amp;Min.vi"/>
-				</Item>
+				<Item Name="FaultConditions" Type="Folder"/>
 				<Item Name="CrawlingPrechargeState.vi" Type="VI" URL="../StateMachineVI/CrawlingPrechargeState.vi"/>
 				<Item Name="CrawlingState.vi" Type="VI" URL="../StateMachineVI/CrawlingState.vi"/>
 				<Item Name="FaultCheck.vi" Type="VI" URL="../StateMachineVI/FaultCheck.vi"/>
@@ -177,7 +174,7 @@
 			<Item Name="Start&amp;End" Type="Folder">
 				<Item Name="StartProgram.vi" Type="VI" URL="../StartProgram.vi"/>
 			</Item>
-			<Item Name="MainStateMachine.vi" Type="VI" URL="../MainStateMachine.vi"/>
+			<Item Name="MainStateMachine.vi" Type="VI" URL="../StateMachineVI/MainStateMachine.vi"/>
 		</Item>
 		<Item Name="Type_Def" Type="Folder">
 			<Item Name="Type_Def Actuator Controls.ctl" Type="VI" URL="../Type_Def/Type_Def Actuator Controls.ctl"/>
@@ -993,11 +990,18 @@
 			</Item>
 		</Item>
 		<Item Name="NetworkSharedVariable.lvlib" Type="Library" URL="../NetworkSharedVariable.lvlib"/>
-		<Item Name="SimulateData.vi" Type="VI" URL="../../../LabViewBuilds/Testing/FaultPractice/SimulateData.vi"/>
 		<Item Name="SingleProcessVariable.lvlib" Type="Library" URL="../SingleProcessVariable.lvlib"/>
+		<Item Name="CheckFaultConditions.vi" Type="VI" URL="../FaultCheck/CheckFaultConditions.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="MakeArrayofClusters.vi" Type="VI" URL="../../../LabViewBuilds/Testing/FaultPractice/MakeArrayofClusters.vi"/>
+			<Item Name="Type_Def ClusterSensor.ctl" Type="VI" URL="../Type_Def/Type_Def ClusterSensor.ctl"/>
+			<Item Name="ClusterToArray.vi" Type="VI" URL="../FaultCheck/ClusterToArray.vi"/>
+			<Item Name="MakeArrayofClusters.vi" Type="VI" URL="../FaultCheck/MakeArrayofClusters.vi"/>
+			<Item Name="UpdateMin&amp;Max.vi" Type="VI" URL="../FaultCheck/UpdateMin&amp;Max.vi"/>
+			<Item Name="UpdateSensorReadings.vi" Type="VI" URL="../FaultCheck/UpdateSensorReadings.vi"/>
+			<Item Name="CheckValues.vi" Type="VI" URL="../FaultCheck/CheckValues.vi"/>
 			<Item Name="ServiceWaitState.vi" Type="VI" URL="../StateMachineVI/ServiceWaitState.vi"/>
+			<Item Name="UpdateStateMax&amp;Min.vi" Type="VI" URL="../FaultCheck/UpdateStateMax&amp;Min.vi"/>
+			<Item Name="SimulateData.vi" Type="VI" URL="../FaultCheck/SimulateData.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
