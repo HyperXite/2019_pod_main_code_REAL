@@ -996,13 +996,8 @@
 		<Item Name="SimulateData.vi" Type="VI" URL="../../../LabViewBuilds/Testing/FaultPractice/SimulateData.vi"/>
 		<Item Name="SingleProcessVariable.lvlib" Type="Library" URL="../SingleProcessVariable.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="CheckValues.vi" Type="VI" URL="../../../LabViewBuilds/Testing/FaultPractice/CheckValues.vi"/>
-			<Item Name="ClusterToArray.vi" Type="VI" URL="../../../LabViewBuilds/Testing/FaultPractice/ClusterToArray.vi"/>
 			<Item Name="MakeArrayofClusters.vi" Type="VI" URL="../../../LabViewBuilds/Testing/FaultPractice/MakeArrayofClusters.vi"/>
 			<Item Name="ServiceWaitState.vi" Type="VI" URL="../StateMachineVI/ServiceWaitState.vi"/>
-			<Item Name="Type_Def ClusterSensor.ctl" Type="VI" URL="../../../LabViewBuilds/Testing/FaultPractice/Type_Def ClusterSensor.ctl"/>
-			<Item Name="UpdateMin&amp;Max.vi" Type="VI" URL="../../../LabViewBuilds/Testing/FaultPractice/UpdateMin&amp;Max.vi"/>
-			<Item Name="UpdateSensorReadings.vi" Type="VI" URL="../../../LabViewBuilds/Testing/FaultPractice/UpdateSensorReadings.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
