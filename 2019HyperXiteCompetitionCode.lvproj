@@ -30,12 +30,13 @@
 	<Property Name="varPersistentID:{552464E5-2D8A-414C-8BC7-10CFFA8C141A}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/SystemCheck</Property>
 	<Property Name="varPersistentID:{56D6B4C2-C38C-4448-9583-6BA80504B404}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Digital Output1/DO1</Property>
 	<Property Name="varPersistentID:{5A2AE0C5-1B1F-483D-927C-EDC8ABC6D726}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Digital Output 2/DO7</Property>
-	<Property Name="varPersistentID:{5A7CF102-3B66-4A15-901F-1EAFC0E8E4A4}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/SensorMin</Property>
-	<Property Name="varPersistentID:{5AD8EB39-EA3E-4DF8-9712-E11A546F5C2F}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/SensorMax</Property>
+	<Property Name="varPersistentID:{5AC4C47A-2BCB-4F91-83D3-B4A5E6A8E578}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/AllSensorData</Property>
+	<Property Name="varPersistentID:{5ACA738E-B076-4A08-A938-6585F6D1DEF2}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/AllSensorDataMin</Property>
 	<Property Name="varPersistentID:{5BCB03F4-D2E6-447E-8E0F-2151ACE819F5}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Analog Input/AI10</Property>
 	<Property Name="varPersistentID:{5BFB4754-E83A-41A8-A696-98B9B8868A29}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Analog Input/AI4</Property>
 	<Property Name="varPersistentID:{5C824D47-57AC-4740-9C74-47A256B2B25D}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Analog Input/AI8</Property>
 	<Property Name="varPersistentID:{609FE3DA-4716-434B-BE1D-C75F44933524}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Analog Input/AI23</Property>
+	<Property Name="varPersistentID:{6163F8DB-1C95-407C-B5A8-F567D2F48284}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/AllSensorDataMax</Property>
 	<Property Name="varPersistentID:{63A63F42-193C-4FF8-B8D5-15BD394C3A9B}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Analog Input/AI9</Property>
 	<Property Name="varPersistentID:{6F5E8E25-4BA5-43C4-A52D-0A74FE0C7DD0}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/Time</Property>
 	<Property Name="varPersistentID:{7208622C-BC83-4F9A-B632-9AD31B8D8A24}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Analog Input/AI17</Property>
@@ -66,7 +67,6 @@
 	<Property Name="varPersistentID:{D37541D6-5C71-4548-ABD4-3EFAF256DD8A}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Digital Output1/DO3</Property>
 	<Property Name="varPersistentID:{DD5C559F-DB96-41E3-8718-5B6C80189799}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Digital Output 2/DO4</Property>
 	<Property Name="varPersistentID:{E4C70BE3-FA19-43D9-9F4F-C7E9CA6EF12F}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/Velocity</Property>
-	<Property Name="varPersistentID:{EAE825BE-75AD-4B12-93D3-B84A1B587224}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/SensorData</Property>
 	<Property Name="varPersistentID:{EBB25A45-1D3C-4C71-BFF9-127376DC9921}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Analog Input/AI30</Property>
 	<Property Name="varPersistentID:{F2E49B46-2D9D-46F9-9ABA-D44E935DBC86}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/CrawlingTime</Property>
 	<Property Name="varPersistentID:{F47F2E22-8052-4252-9145-056BA7D093A9}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Analog Input/AI14</Property>
@@ -154,8 +154,8 @@
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="States" Type="Folder">
 				<Item Name="FaultConditions" Type="Folder">
-					<Item Name="CheckFaultConditions.vi" Type="VI" URL="/C/Users/eric/Documents/LabViewBuilds/Testing/FaultPractice/CheckFaultConditions.vi"/>
-					<Item Name="UpdateStateMax&amp;Min.vi" Type="VI" URL="/C/Users/eric/Documents/LabViewBuilds/Testing/FaultPractice/UpdateStateMax&amp;Min.vi"/>
+					<Item Name="CheckFaultConditions.vi" Type="VI" URL="../../../LabViewBuilds/Testing/FaultPractice/CheckFaultConditions.vi"/>
+					<Item Name="UpdateStateMax&amp;Min.vi" Type="VI" URL="../../../LabViewBuilds/Testing/FaultPractice/UpdateStateMax&amp;Min.vi"/>
 				</Item>
 				<Item Name="CrawlingPrechargeState.vi" Type="VI" URL="../StateMachineVI/CrawlingPrechargeState.vi"/>
 				<Item Name="CrawlingState.vi" Type="VI" URL="../StateMachineVI/CrawlingState.vi"/>
@@ -181,13 +181,11 @@
 		</Item>
 		<Item Name="Type_Def" Type="Folder">
 			<Item Name="Type_Def Actuator Controls.ctl" Type="VI" URL="../Type_Def/Type_Def Actuator Controls.ctl"/>
-			<Item Name="Type_Def AllData.ctl" Type="VI" URL="../Type_Def/Type_Def AllData.ctl"/>
 			<Item Name="Type_Def BMSData.ctl" Type="VI" URL="../Type_Def/Type_Def BMSData.ctl"/>
 			<Item Name="Type_Def ControlState.ctl" Type="VI" URL="../Type_Def/Type_Def ControlState.ctl"/>
-			<Item Name="Type_Def MotorData.ctl" Type="VI" URL="../Type_Def/Type_Def MotorData.ctl"/>
 			<Item Name="Type_Def SystemCheckInputs.ctl" Type="VI" URL="../Type_Def/Type_Def SystemCheckInputs.ctl"/>
 			<Item Name="Type_Def IMUData.ctl" Type="VI" URL="../Type_Def/Type_Def IMUData.ctl"/>
-			<Item Name="Type_Def AllSensorData.ctl" Type="VI" URL="../Type_Def/Type_Def AllSensorData.ctl"/>
+			<Item Name="Type_Def cRIOData.ctl" Type="VI" URL="../Type_Def/Type_Def cRIOData.ctl"/>
 		</Item>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">express</Property>
@@ -995,19 +993,16 @@
 			</Item>
 		</Item>
 		<Item Name="NetworkSharedVariable.lvlib" Type="Library" URL="../NetworkSharedVariable.lvlib"/>
-		<Item Name="SimulateData.vi" Type="VI" URL="/C/Users/eric/Documents/LabViewBuilds/Testing/FaultPractice/SimulateData.vi"/>
+		<Item Name="SimulateData.vi" Type="VI" URL="../../../LabViewBuilds/Testing/FaultPractice/SimulateData.vi"/>
 		<Item Name="SingleProcessVariable.lvlib" Type="Library" URL="../SingleProcessVariable.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="CheckValues.vi" Type="VI" URL="/C/Users/eric/Documents/LabViewBuilds/Testing/FaultPractice/CheckValues.vi"/>
-			<Item Name="ClusterToArray.vi" Type="VI" URL="/C/Users/eric/Documents/LabViewBuilds/Testing/FaultPractice/ClusterToArray.vi"/>
-			<Item Name="fixedMotorData.ctl" Type="VI" URL="../../../2019_CompetitionCode-master/2019_CompetitionCode-master/Master/CAN/MotorController/fixedMotorData.ctl"/>
-			<Item Name="MakeArrayofClusters.vi" Type="VI" URL="/C/Users/eric/Documents/LabViewBuilds/Testing/FaultPractice/MakeArrayofClusters.vi"/>
-			<Item Name="MotorStatus.ctl" Type="VI" URL="../../../2019_CompetitionCode-master/2019_CompetitionCode-master/Master/CAN/MotorController/MotorStatus.ctl"/>
+			<Item Name="CheckValues.vi" Type="VI" URL="../../../LabViewBuilds/Testing/FaultPractice/CheckValues.vi"/>
+			<Item Name="ClusterToArray.vi" Type="VI" URL="../../../LabViewBuilds/Testing/FaultPractice/ClusterToArray.vi"/>
+			<Item Name="MakeArrayofClusters.vi" Type="VI" URL="../../../LabViewBuilds/Testing/FaultPractice/MakeArrayofClusters.vi"/>
 			<Item Name="ServiceWaitState.vi" Type="VI" URL="../StateMachineVI/ServiceWaitState.vi"/>
-			<Item Name="Type_Def ClusterSensor.ctl" Type="VI" URL="/C/Users/eric/Documents/LabViewBuilds/Testing/FaultPractice/Type_Def ClusterSensor.ctl"/>
-			<Item Name="TypeDef_cRIOData.ctl" Type="VI" URL="../../../2019_CompetitionCode-master/2019_CompetitionCode-master/Master/DAQ/TypeDef_cRIOData.ctl"/>
-			<Item Name="UpdateMin&amp;Max.vi" Type="VI" URL="/C/Users/eric/Documents/LabViewBuilds/Testing/FaultPractice/UpdateMin&amp;Max.vi"/>
-			<Item Name="UpdateSensorReadings.vi" Type="VI" URL="/C/Users/eric/Documents/LabViewBuilds/Testing/FaultPractice/UpdateSensorReadings.vi"/>
+			<Item Name="Type_Def ClusterSensor.ctl" Type="VI" URL="../../../LabViewBuilds/Testing/FaultPractice/Type_Def ClusterSensor.ctl"/>
+			<Item Name="UpdateMin&amp;Max.vi" Type="VI" URL="../../../LabViewBuilds/Testing/FaultPractice/UpdateMin&amp;Max.vi"/>
+			<Item Name="UpdateSensorReadings.vi" Type="VI" URL="../../../LabViewBuilds/Testing/FaultPractice/UpdateSensorReadings.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
