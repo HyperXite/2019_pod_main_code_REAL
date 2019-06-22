@@ -42,6 +42,7 @@
 	<Property Name="varPersistentID:{7208622C-BC83-4F9A-B632-9AD31B8D8A24}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Analog Input/AI17</Property>
 	<Property Name="varPersistentID:{74A3F1FC-B290-4A15-8BD3-E45B38FC7C65}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Digital Output1/DO0</Property>
 	<Property Name="varPersistentID:{76778F42-A99B-4312-BAB7-A393317161C4}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Analog Input/AI21</Property>
+	<Property Name="varPersistentID:{7E663C70-C803-44CE-B122-10042B1BD90E}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/IMUData</Property>
 	<Property Name="varPersistentID:{7F2C09F3-052C-4F26-AD10-D9890CC43F42}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/ServicePush</Property>
 	<Property Name="varPersistentID:{80245057-A64C-4B2C-973F-6E486423E94B}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Digital Output 2/DO2</Property>
 	<Property Name="varPersistentID:{81A2B6E7-C752-4D74-84E5-EDDFA83B4318}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Digital Output1/DO7</Property>
@@ -150,7 +151,7 @@
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="Finite State Machine Control Loop" Type="Folder">
+		<Item Name=" State Control Loop" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="States" Type="Folder">
 				<Item Name="FaultConditions" Type="Folder"/>
@@ -170,11 +171,21 @@
 				<Item Name="UnpoweredState.vi" Type="VI" URL="../StateMachineVI/UnpoweredState.vi"/>
 				<Item Name="VentState.vi" Type="VI" URL="../StateMachineVI/VentState.vi"/>
 				<Item Name="SystemCheckState.vi" Type="VI" URL="../StateMachineVI/SystemCheckState.vi"/>
+				<Item Name="ServiceWaitState.vi" Type="VI" URL="../StateMachineVI/ServiceWaitState.vi"/>
 			</Item>
 			<Item Name="Start&amp;End" Type="Folder">
 				<Item Name="StartProgram.vi" Type="VI" URL="../StartProgram.vi"/>
 			</Item>
 			<Item Name="MainStateMachine.vi" Type="VI" URL="../StateMachineVI/MainStateMachine.vi"/>
+		</Item>
+		<Item Name="IMU" Type="Folder">
+			<Item Name="Master_IMUMain.vi" Type="VI" URL="../IMU/Master_IMUMain.vi"/>
+			<Item Name="SBG_Ellipse_case_select_n_buffer (SubVI).vi" Type="VI" URL="../IMU/SBG_Ellipse_case_select_n_buffer (SubVI).vi"/>
+			<Item Name="SBG_Ellipse_check_length_n_end (SubVI).vi" Type="VI" URL="../IMU/SBG_Ellipse_check_length_n_end (SubVI).vi"/>
+			<Item Name="SBG_Ellipse_convert_to_little_endian (SubVI).vi" Type="VI" URL="../IMU/SBG_Ellipse_convert_to_little_endian (SubVI).vi"/>
+			<Item Name="SBG_Ellipse_init_UART (SubVI).vi" Type="VI" URL="../IMU/SBG_Ellipse_init_UART (SubVI).vi"/>
+			<Item Name="SBG_Ellipse_skip_data_if_incorrect (SubVI).vi" Type="VI" URL="../IMU/SBG_Ellipse_skip_data_if_incorrect (SubVI).vi"/>
+			<Item Name="SBG_Ellipse_starting_debug (SubVI).vi" Type="VI" URL="../IMU/SBG_Ellipse_starting_debug (SubVI).vi"/>
 		</Item>
 		<Item Name="Type_Def" Type="Folder">
 			<Item Name="Type_Def Actuator Controls.ctl" Type="VI" URL="../Type_Def/Type_Def Actuator Controls.ctl"/>
@@ -183,7 +194,19 @@
 			<Item Name="Type_Def SystemCheckInputs.ctl" Type="VI" URL="../Type_Def/Type_Def SystemCheckInputs.ctl"/>
 			<Item Name="Type_Def IMUData.ctl" Type="VI" URL="../Type_Def/Type_Def IMUData.ctl"/>
 			<Item Name="Type_Def cRIOData.ctl" Type="VI" URL="../Type_Def/Type_Def cRIOData.ctl"/>
+			<Item Name="Type_Def ClusterSensor.ctl" Type="VI" URL="../Type_Def/Type_Def ClusterSensor.ctl"/>
 		</Item>
+		<Item Name="FaultCheck" Type="Folder">
+			<Item Name="CheckFaultConditions.vi" Type="VI" URL="../FaultCheck/CheckFaultConditions.vi"/>
+			<Item Name="CheckValues.vi" Type="VI" URL="../FaultCheck/CheckValues.vi"/>
+			<Item Name="ClusterToArray.vi" Type="VI" URL="../FaultCheck/ClusterToArray.vi"/>
+			<Item Name="MakeArrayofClusters.vi" Type="VI" URL="../FaultCheck/MakeArrayofClusters.vi"/>
+			<Item Name="SimulateData.vi" Type="VI" URL="../FaultCheck/SimulateData.vi"/>
+			<Item Name="UpdateMin&amp;Max.vi" Type="VI" URL="../FaultCheck/UpdateMin&amp;Max.vi"/>
+			<Item Name="UpdateSensorReadings.vi" Type="VI" URL="../FaultCheck/UpdateSensorReadings.vi"/>
+			<Item Name="UpdateStateMax&amp;Min.vi" Type="VI" URL="../FaultCheck/UpdateStateMax&amp;Min.vi"/>
+		</Item>
+		<Item Name="MainFullCode.vi" Type="VI" URL="../MainFullCode.vi"/>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">express</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
@@ -991,17 +1014,12 @@
 		</Item>
 		<Item Name="NetworkSharedVariable.lvlib" Type="Library" URL="../NetworkSharedVariable.lvlib"/>
 		<Item Name="SingleProcessVariable.lvlib" Type="Library" URL="../SingleProcessVariable.lvlib"/>
-		<Item Name="CheckFaultConditions.vi" Type="VI" URL="../FaultCheck/CheckFaultConditions.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="Type_Def ClusterSensor.ctl" Type="VI" URL="../Type_Def/Type_Def ClusterSensor.ctl"/>
-			<Item Name="ClusterToArray.vi" Type="VI" URL="../FaultCheck/ClusterToArray.vi"/>
-			<Item Name="MakeArrayofClusters.vi" Type="VI" URL="../FaultCheck/MakeArrayofClusters.vi"/>
-			<Item Name="UpdateMin&amp;Max.vi" Type="VI" URL="../FaultCheck/UpdateMin&amp;Max.vi"/>
-			<Item Name="UpdateSensorReadings.vi" Type="VI" URL="../FaultCheck/UpdateSensorReadings.vi"/>
-			<Item Name="CheckValues.vi" Type="VI" URL="../FaultCheck/CheckValues.vi"/>
-			<Item Name="ServiceWaitState.vi" Type="VI" URL="../StateMachineVI/ServiceWaitState.vi"/>
-			<Item Name="UpdateStateMax&amp;Min.vi" Type="VI" URL="../FaultCheck/UpdateStateMax&amp;Min.vi"/>
-			<Item Name="SimulateData.vi" Type="VI" URL="../FaultCheck/SimulateData.vi"/>
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
