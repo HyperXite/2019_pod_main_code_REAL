@@ -4,7 +4,25 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="CurrentState" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">Type_Def ControlState.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../Type_Def/Type_Def ControlState.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$HYQ!!!"A!A!!!!!!"!.%!]1!!!!!!!!!"'62Z='6@2'6G)%.P&lt;H2S&lt;WR4&gt;'&amp;U:3ZD&gt;'Q!LU!7!"%&amp;1GRB&lt;GM.5XFT&gt;'6N=S"$;'6D;Q2*:'RF"6*F972Z"V"V=WBJ&lt;G=21X*B&gt;WRJ&lt;G&gt;1=G6D;'&amp;S:W5(1H*B;WFO:Q6'986M&gt;!&gt;#&lt;W^U)&amp;6Q#66O='^X:8*F:!B$=G&amp;X&lt;'FO:QB4;(6U:'^X&lt;AR4:8*W;7.F)&amp;"V=WA-5W6S&gt;GFD:3"897FU"&amp;:F&lt;H1*5(*F9WBB=G&gt;F#%.P&lt;WRE&lt;X&gt;O!!!%27ZV&lt;1!!!1!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="DisableFaultCheck" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"A!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="driveEnable" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
@@ -49,6 +67,22 @@ If Boolean is False, the Pod is unpowered</Property>
 		<Property Name="Description:Description" Type="Str">If Launch is True, go to Launch
 If Launch is False, go to Idle</Property>
 		<Property Name="featurePacks" Type="Str">Description,Network</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"A!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="NewSystemCheckInputs" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;14!%!!"A!A!!!!!!2!!R!)1&gt;'&lt;X*X98*E!!Z!)1B-&lt;X=A5WFE:1!!$E!B#6"S:7.I98*H:1!/1#%*3'FH;#"4;72F!"*!)1V%;7&gt;J&gt;'&amp;M)%^V&gt;#!V!"*!)1V%;7&gt;J&gt;'&amp;M)%^V&gt;#!W!"2!)1Z%;7&gt;J&gt;'&amp;M)%^V&gt;#!X)!!!$E!B#$)U)&amp;"P&gt;W6S!!!11#%,6'&amp;O;S"797RW:3!!%%!B#U*S97NF)&amp;:B&lt;(:F!!J!)121&gt;7VQ!!!51#%/2'FH;82B&lt;#"0&gt;81A-3!!!"*!)1V%;7&gt;J&gt;'&amp;M)%^V&gt;#!S!"*!)1V%;7&gt;J&gt;'&amp;M)%^V&gt;#!T!"2!)1Z%;7&gt;J&gt;'&amp;M)%^V&gt;#!U)!!!$%!B"V*F&gt;G6S=W5!,E"1!"!!!!!"!!)!!Q!%!!5!"A!(!!A!#1!+!!M!$!!.!!Y!$Q&gt;$&lt;(6T&gt;'6S!!%!%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Precharge" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
