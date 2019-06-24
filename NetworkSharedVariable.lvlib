@@ -73,6 +73,16 @@ If Launch is False, go to Idle</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"A!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="LoopPeriods" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">TypeDef_LoopPeriods.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../../../../../Desktop/HyperXcite2019competitionCode/2019_pod_main_code/Master/TypeDef_LoopPeriods.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$*R1!!!"A!A!!!!!!'!"6!"!!/1W^O&gt;(*P&lt;#"1:8*J&lt;W1!!"&amp;!"Q!+2%&amp;2)&amp;"F=GFP:!!!%5!(!!J*465A5'6S;7^E!!!21!1!#E."4C"1:8*J&lt;W1!!"&amp;!"Q!+4G&amp;W)&amp;"F=GFP:!!!1!$R!!!!!!!!!!%86(FQ:52F:F^-&lt;W^Q5'6S;7^E=SZD&gt;'Q!)%"1!!5!!!!"!!)!!Q!%#URP&lt;X!A5'6S;7^E!!%!"1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="NewSystemCheckInputs" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>

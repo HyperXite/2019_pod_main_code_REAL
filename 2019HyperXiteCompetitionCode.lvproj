@@ -25,6 +25,7 @@
 	<Property Name="varPersistentID:{3C9FFBFF-E893-491C-A1B3-811ED0879920}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/driveEnable</Property>
 	<Property Name="varPersistentID:{433AD886-622D-4CF5-A9B9-B6404CC92375}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/IsPowered</Property>
 	<Property Name="varPersistentID:{4551247C-E624-408A-8554-1D2528E76ACA}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Digital Output 2/DO6</Property>
+	<Property Name="varPersistentID:{4620E7EA-D3F8-4F21-8FCE-0693E052F748}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/LoopPeriods</Property>
 	<Property Name="varPersistentID:{46617DE6-BC56-438C-B6BE-652716B5162C}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Service</Property>
 	<Property Name="varPersistentID:{4726B905-F5AF-4BB3-A67F-F7F0E7EC33E8}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Digital Output1/DO6</Property>
 	<Property Name="varPersistentID:{49DC9513-CB8F-4FD1-BBFC-F5094C4B1AE9}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Analog Input/AI5</Property>
@@ -104,6 +105,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="HostNew" Type="Folder">
 			<Item Name="HealthCheck.lvclass" Type="LVClass" URL="../Host/HealthCheckClass/HealthCheck.lvclass"/>
+			<Item Name="Host_SetParameters_new.vi" Type="VI" URL="../Host/Host_SetParameters_new.vi"/>
 			<Item Name="HostGlobals.lvlib" Type="Library" URL="../Host/HealthCheckClass/HostGlobals.lvlib"/>
 		</Item>
 		<Item Name="HostOld" Type="Folder">
@@ -285,7 +287,7 @@
 				<Item Name="ServiceWaitState.vi" Type="VI" URL="../StateMachineVI/ServiceWaitState.vi"/>
 			</Item>
 			<Item Name="Start&amp;End" Type="Folder">
-				<Item Name="StartProgram.vi" Type="VI" URL="../StartProgram.vi"/>
+				<Item Name="StartProgram.vi" Type="VI" URL="../StateMachineVI/StartProgram.vi"/>
 			</Item>
 			<Item Name="MainStateMachine.vi" Type="VI" URL="../StateMachineVI/MainStateMachine.vi"/>
 		</Item>
@@ -304,14 +306,15 @@
 			<Item Name="Type_Def SystemCheckInputs.ctl" Type="VI" URL="../Type_Def/Type_Def SystemCheckInputs.ctl"/>
 			<Item Name="Type_Def IMUData.ctl" Type="VI" URL="../Type_Def/Type_Def IMUData.ctl"/>
 			<Item Name="Type_Def ClusterSensor.ctl" Type="VI" URL="../Type_Def/Type_Def ClusterSensor.ctl"/>
-			<Item Name="Type_Def SensorData.ctl" Type="VI" URL="../Type_Def/Type_Def SensorData.ctl"/>
 			<Item Name="Type_Def SensorMax.ctl" Type="VI" URL="../Type_Def/Type_Def SensorMax.ctl"/>
 			<Item Name="Type_Def SensorMin.ctl" Type="VI" URL="../Type_Def/Type_Def SensorMin.ctl"/>
 			<Item Name="TypeDef_BMSData.ctl" Type="VI" URL="../Type_Def/TypeDef_BMSData.ctl"/>
 			<Item Name="TypeDef_cRIOData.ctl" Type="VI" URL="../Type_Def/TypeDef_cRIOData.ctl"/>
 			<Item Name="TypeDef_DigitalOuts.ctl" Type="VI" URL="../Type_Def/TypeDef_DigitalOuts.ctl"/>
-			<Item Name="TypeDef_LoopPeriods.ctl" Type="VI" URL="../Type_Def/TypeDef_LoopPeriods.ctl"/>
 			<Item Name="TypeDef_BmsStatus.ctl" Type="VI" URL="../Type_Def/TypeDef_BmsStatus.ctl"/>
+			<Item Name="TypeDef_MotorData.ctl" Type="VI" URL="../Type_Def/TypeDef_MotorData.ctl"/>
+			<Item Name="Type_Def AllData.ctl" Type="VI" URL="../Type_Def/Type_Def AllData.ctl"/>
+			<Item Name="TypeDef_LoopPeriods.ctl" Type="VI" URL="../../../../../Desktop/HyperXcite2019competitionCode/2019_pod_main_code/Master/TypeDef_LoopPeriods.ctl"/>
 		</Item>
 		<Item Name="FaultCheck" Type="Folder">
 			<Item Name="CheckFaultConditions.vi" Type="VI" URL="../FaultCheck/CheckFaultConditions.vi"/>
@@ -1136,6 +1139,12 @@
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="NI_Real-Time Target Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI_Real-Time Target Support.lvlib"/>
+				<Item Name="ni_emb.dll" Type="Document" URL="/&lt;vilib&gt;/ni_emb.dll"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+			</Item>
+			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
