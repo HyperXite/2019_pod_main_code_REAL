@@ -45,6 +45,7 @@
 	<Property Name="varPersistentID:{5C824D47-57AC-4740-9C74-47A256B2B25D}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Analog Input/AI8</Property>
 	<Property Name="varPersistentID:{609FE3DA-4716-434B-BE1D-C75F44933524}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Analog Input/AI23</Property>
 	<Property Name="varPersistentID:{63A63F42-193C-4FF8-B8D5-15BD394C3A9B}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Analog Input/AI9</Property>
+	<Property Name="varPersistentID:{6F58ECB6-CB9A-4A3A-90C8-2D6ED006BB4C}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/driveTarget</Property>
 	<Property Name="varPersistentID:{6F5E8E25-4BA5-43C4-A52D-0A74FE0C7DD0}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/Time</Property>
 	<Property Name="varPersistentID:{7208622C-BC83-4F9A-B632-9AD31B8D8A24}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Analog Input/AI17</Property>
 	<Property Name="varPersistentID:{74A3F1FC-B290-4A15-8BD3-E45B38FC7C65}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Digital Output1/DO0</Property>
@@ -320,8 +321,8 @@
 			<Item Name="Type_Def SensorData.ctl" Type="VI" URL="../Type_Def/Type_Def SensorData.ctl"/>
 			<Item Name="TypeDef_LoopPeriod.ctl" Type="VI" URL="../Type_Def/TypeDef_LoopPeriod.ctl"/>
 			<Item Name="Type_Def Actuator Controls.ctl" Type="VI" URL="../Type_Def/Type_Def Actuator Controls.ctl"/>
-			<Item Name="TypeDef_LoopPeriods.ctl" Type="VI" URL="/D/Downloads/2019_CompetitionCode-master/2019_pod_main_code-masterNoComments/Master/TypeDef_LoopPeriods.ctl"/>
 			<Item Name="Type_Def MotorStatus.ctl" Type="VI" URL="../Master/CAN/MotorController/Type_Def MotorStatus.ctl"/>
+			<Item Name="Type_Def MotorControlState.ctl" Type="VI" URL="../Type_Def/Type_Def MotorControlState.ctl"/>
 		</Item>
 		<Item Name="FaultCheck" Type="Folder">
 			<Item Name="CheckFaultConditions.vi" Type="VI" URL="../FaultCheck/CheckFaultConditions.vi"/>
