@@ -8,11 +8,13 @@
 	<Property Name="varPersistentID:{0BC60856-79F4-46F0-9D86-F18E1924BF71}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/SystemCheckInputs</Property>
 	<Property Name="varPersistentID:{0C59A446-5CE8-4468-AF9C-62835262A22B}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/StartTime</Property>
 	<Property Name="varPersistentID:{0CE5BFF3-D154-44FC-A1E9-F47E0E00B6B5}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/Displacement</Property>
+	<Property Name="varPersistentID:{0D29DE80-6C9A-48BD-85BD-9F668702D64D}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/BMSFreeze</Property>
 	<Property Name="varPersistentID:{0D7AD58D-4F16-4331-AF30-93B886C43BA5}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Analog Input/AI12</Property>
 	<Property Name="varPersistentID:{0ECD35E6-73C0-40D1-9D44-BB43BCDB86C8}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Analog Input/AI15</Property>
 	<Property Name="varPersistentID:{0F032A8C-267C-4540-B2B8-6067A8048E38}" Type="Ref">/My Computer/HostOld/Libraries/HostVariables.lvlib/RecordData</Property>
 	<Property Name="varPersistentID:{11E3FB49-436C-4AAA-8DB3-06E4DF6D86B0}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Digital Output1/DO4</Property>
 	<Property Name="varPersistentID:{1415CB92-E338-4248-893A-7E9985343A2C}" Type="Ref">/My Computer/HostOld/Libraries/HostVariables.lvlib/ServicePump</Property>
+	<Property Name="varPersistentID:{155D0253-488D-4853-BA89-6669AC9EF4E5}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/driveMode</Property>
 	<Property Name="varPersistentID:{186F1150-A66A-463E-BB4C-33DA5E3233AF}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Vent</Property>
 	<Property Name="varPersistentID:{1E7A1C4D-36EE-4DD1-8197-2D766CD14CF5}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Digital Output1/DO2</Property>
 	<Property Name="varPersistentID:{23A23B93-D6ED-40C7-8F67-F3928482D7F5}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Precharge</Property>
@@ -199,12 +201,14 @@
 			<Item Name="MotorStatus.ctl" Type="VI" URL="../Master/CAN/MotorController/MotorStatus.ctl"/>
 			<Item Name="RunTypeList.ctl" Type="VI" URL="../Master/Control/RunTypesLibrary/RunTypeList.ctl"/>
 			<Item Name="Type_Def ControlState.ctl" Type="VI" URL="../Type_Def/Type_Def ControlState.ctl"/>
+			<Item Name="Type_Def MotorStatus.ctl" Type="VI" URL="../Master/CAN/MotorController/Type_Def MotorStatus.ctl"/>
 			<Item Name="TypeDef_BMS_Status.ctl" Type="VI" URL="../Master/CAN/TypeDef_BMS_Status.ctl"/>
 			<Item Name="TypeDef_BMSData.ctl" Type="VI" URL="../Master/CAN/TypeDef_BMSData.ctl"/>
 			<Item Name="TypeDef_cRIOData.ctl" Type="VI" URL="../Master/DAQ/TypeDef_cRIOData.ctl"/>
 			<Item Name="TypeDef_CurrentState.ctl" Type="VI" URL="../Host/Libraries/TypeDef_CurrentState.ctl"/>
 			<Item Name="TypeDef_DigitalOuts.ctl" Type="VI" URL="../Master/Control/TypeDef_DigitalOuts.ctl"/>
 			<Item Name="TypeDef_IMUData.ctl" Type="VI" URL="../Master/IMU/TypeDef_IMUData.ctl"/>
+			<Item Name="TypeDef_LoopPeriod.ctl" Type="VI" URL="../Type_Def/TypeDef_LoopPeriod.ctl"/>
 			<Item Name="TypeDef_LoopPeriods.ctl" Type="VI" URL="../Master/TypeDef_LoopPeriods.ctl"/>
 			<Item Name="TypeDef_RunParameters.ctl" Type="VI" URL="../Master/TypeDef_RunParameters.ctl"/>
 		</Item>
@@ -264,7 +268,7 @@
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name=" State Control Loop" Type="Folder">
+		<Item Name="State Control Loop" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="States" Type="Folder">
 				<Item Name="FaultConditions" Type="Folder"/>
@@ -301,7 +305,6 @@
 			<Item Name="SBG_Ellipse_starting_debug (SubVI).vi" Type="VI" URL="../IMU/SBG_Ellipse_starting_debug (SubVI).vi"/>
 		</Item>
 		<Item Name="Type_Def" Type="Folder">
-			<Item Name="Type_Def Actuator Controls.ctl" Type="VI" URL="../Type_Def/Type_Def Actuator Controls.ctl"/>
 			<Item Name="Type_Def ControlState.ctl" Type="VI" URL="../Type_Def/Type_Def ControlState.ctl"/>
 			<Item Name="Type_Def SystemCheckInputs.ctl" Type="VI" URL="../Type_Def/Type_Def SystemCheckInputs.ctl"/>
 			<Item Name="Type_Def IMUData.ctl" Type="VI" URL="../Type_Def/Type_Def IMUData.ctl"/>
@@ -310,11 +313,15 @@
 			<Item Name="Type_Def SensorMin.ctl" Type="VI" URL="../Type_Def/Type_Def SensorMin.ctl"/>
 			<Item Name="TypeDef_BMSData.ctl" Type="VI" URL="../Type_Def/TypeDef_BMSData.ctl"/>
 			<Item Name="TypeDef_cRIOData.ctl" Type="VI" URL="../Type_Def/TypeDef_cRIOData.ctl"/>
-			<Item Name="TypeDef_DigitalOuts.ctl" Type="VI" URL="../Type_Def/TypeDef_DigitalOuts.ctl"/>
+			<Item Name="TypeDef_DigitalOuts.ctl" Type="VI" URL="/D/Downloads/2019_CompetitionCode-master/2019_pod_main_code-masterNoComments/Master/Control/TypeDef_DigitalOuts.ctl"/>
 			<Item Name="TypeDef_BmsStatus.ctl" Type="VI" URL="../Type_Def/TypeDef_BmsStatus.ctl"/>
 			<Item Name="TypeDef_MotorData.ctl" Type="VI" URL="../Type_Def/TypeDef_MotorData.ctl"/>
 			<Item Name="Type_Def AllData.ctl" Type="VI" URL="../Type_Def/Type_Def AllData.ctl"/>
-			<Item Name="TypeDef_LoopPeriods.ctl" Type="VI" URL="../../../../../Desktop/HyperXcite2019competitionCode/2019_pod_main_code/Master/TypeDef_LoopPeriods.ctl"/>
+			<Item Name="Type_Def SensorData.ctl" Type="VI" URL="../Type_Def/Type_Def SensorData.ctl"/>
+			<Item Name="TypeDef_LoopPeriod.ctl" Type="VI" URL="../Type_Def/TypeDef_LoopPeriod.ctl"/>
+			<Item Name="Type_Def Actuator Controls.ctl" Type="VI" URL="../Type_Def/Type_Def Actuator Controls.ctl"/>
+			<Item Name="TypeDef_LoopPeriods.ctl" Type="VI" URL="/D/Downloads/2019_CompetitionCode-master/2019_pod_main_code-masterNoComments/Master/TypeDef_LoopPeriods.ctl"/>
+			<Item Name="Type_Def MotorStatus.ctl" Type="VI" URL="../Master/CAN/MotorController/Type_Def MotorStatus.ctl"/>
 		</Item>
 		<Item Name="FaultCheck" Type="Folder">
 			<Item Name="CheckFaultConditions.vi" Type="VI" URL="../FaultCheck/CheckFaultConditions.vi"/>
@@ -325,6 +332,17 @@
 			<Item Name="UpdateMin&amp;Max.vi" Type="VI" URL="../FaultCheck/UpdateMin&amp;Max.vi"/>
 			<Item Name="UpdateSensorReadings.vi" Type="VI" URL="../FaultCheck/UpdateSensorReadings.vi"/>
 			<Item Name="UpdateStateMax&amp;Min.vi" Type="VI" URL="../FaultCheck/UpdateStateMax&amp;Min.vi"/>
+		</Item>
+		<Item Name="CAN" Type="Folder">
+			<Item Name="BMS" Type="Folder">
+				<Item Name="OrionBMSClass.lvclass" Type="LVClass" URL="../CAN/BMS/OrionBMSClass.lvclass"/>
+			</Item>
+			<Item Name="MotorController" Type="Folder">
+				<Item Name="MotorControllerClass.lvclass" Type="LVClass" URL="../CAN/BMS/MotorControllerClass.lvclass"/>
+			</Item>
+			<Item Name="CAN_MotorControlandBMS.vi" Type="VI" URL="../CAN/CAN_MotorControlandBMS.vi"/>
+			<Item Name="CAN_ReadBMS.vi" Type="VI" URL="../CAN/CAN_ReadBMS.vi"/>
+			<Item Name="Master_CAN.vi" Type="VI" URL="../CAN/Master_CAN.vi"/>
 		</Item>
 		<Item Name="MainFullCode.vi" Type="VI" URL="../MainFullCode.vi"/>
 		<Item Name="Chassis" Type="cRIO Chassis">
@@ -1142,10 +1160,95 @@
 				<Item Name="NI_Real-Time Target Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI_Real-Time Target Support.lvlib"/>
 				<Item Name="ni_emb.dll" Type="Document" URL="/&lt;vilib&gt;/ni_emb.dll"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="CANopen Close.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Close.vi"/>
+				<Item Name="CANopen Interface Close.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Interface Close.vi"/>
+				<Item Name="CANopenStatusToError.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopenStatusToError.vi"/>
+				<Item Name="CANopen SDO Close.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Close.vi"/>
+				<Item Name="CANopen RPDO Close.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen RPDO Close.vi"/>
+				<Item Name="CANopen TPDO Close.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen TPDO Close.vi"/>
+				<Item Name="CANopen SYNC Close.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SYNC Close.vi"/>
+				<Item Name="CANopen Heartbeat Close.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Heartbeat Close.vi"/>
+				<Item Name="CANopen Emergency Close.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Emergency Close.vi"/>
+				<Item Name="CANopen CAN Frame Read Close.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen CAN Frame Read Close.vi"/>
+				<Item Name="CANopen Node Guarding Close.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Node Guarding Close.vi"/>
+				<Item Name="CANopen Create.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Create.vi"/>
+				<Item Name="CANopen Emergency Create.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Emergency Create.vi"/>
+				<Item Name="CANopen SYNC Create.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SYNC Create.vi"/>
+				<Item Name="CANopen RPDO Create.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen RPDO Create.vi"/>
+				<Item Name="CANopen Heartbeat Create.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Heartbeat Create.vi"/>
+				<Item Name="CANopen TPDO Create.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen TPDO Create.vi"/>
+				<Item Name="CANopen SDO Create.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Create.vi"/>
+				<Item Name="CANopen Interface Create.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Interface Create.vi"/>
+				<Item Name="CANopen BaudRate.ctl" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen BaudRate.ctl"/>
+				<Item Name="CANopen CAN Frame Read Create.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen CAN Frame Read Create.vi"/>
+				<Item Name="CANopen Node Guarding Create.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Node Guarding Create.vi"/>
+				<Item Name="CANopen Start.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Start.vi"/>
+				<Item Name="CANopen Emergency Start.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Emergency Start.vi"/>
+				<Item Name="CANopen Heartbeat Start.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Heartbeat Start.vi"/>
+				<Item Name="CANopen TPDO Start.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen TPDO Start.vi"/>
+				<Item Name="CANopen RPDO Start.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen RPDO Start.vi"/>
+				<Item Name="CANopen SYNC Start.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SYNC Start.vi"/>
+				<Item Name="CANopen CAN Frame Read Start.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen CAN Frame Read Start.vi"/>
+				<Item Name="CANopen Node Guarding Start.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Node Guarding Start.vi"/>
+				<Item Name="CANopen TPDO Read.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen TPDO Read.vi"/>
+				<Item Name="CANopen Fetch from Data.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Fetch from Data.vi"/>
+				<Item Name="CANopen Fetch from Data [DBL].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Fetch from Data [DBL].vi"/>
+				<Item Name="CANopen Fetch from Data [I16].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Fetch from Data [I16].vi"/>
+				<Item Name="CANopen Fetch from Data [I32].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Fetch from Data [I32].vi"/>
+				<Item Name="CANopen Fetch from Data [I8].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Fetch from Data [I8].vi"/>
+				<Item Name="CANopen Fetch from Data [SGL].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Fetch from Data [SGL].vi"/>
+				<Item Name="CANopen Fetch from Data [STR].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Fetch from Data [STR].vi"/>
+				<Item Name="CANopen Fetch from Data [U16].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Fetch from Data [U16].vi"/>
+				<Item Name="CANopen Fetch from Data [U32].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Fetch from Data [U32].vi"/>
+				<Item Name="CANopen Fetch from Data [U8].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Fetch from Data [U8].vi"/>
+				<Item Name="CANopen RPDO Write.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen RPDO Write.vi"/>
+				<Item Name="CANopen Convert To Data [I8].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Convert To Data [I8].vi"/>
+				<Item Name="CANopen SDO Write [I8].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Write [I8].vi"/>
+				<Item Name="CANopen Convert To Data [U8].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Convert To Data [U8].vi"/>
+				<Item Name="CANopen SDO Write [U8].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Write [U8].vi"/>
+				<Item Name="CANopen Convert To Data [U32].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Convert To Data [U32].vi"/>
+				<Item Name="CANopen SDO Write [U32].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Write [U32].vi"/>
+				<Item Name="CANopen Convert To Data [U16].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Convert To Data [U16].vi"/>
+				<Item Name="CANopen SDO Write [U16].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Write [U16].vi"/>
+				<Item Name="CANopen SDO Write [STR].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Write [STR].vi"/>
+				<Item Name="CANopen Convert To Data [SGL].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Convert To Data [SGL].vi"/>
+				<Item Name="CANopen SDO Write [SGL].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Write [SGL].vi"/>
+				<Item Name="CANopen Convert To Data [I32].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Convert To Data [I32].vi"/>
+				<Item Name="CANopen SDO Write [I32].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Write [I32].vi"/>
+				<Item Name="CANopen Convert To Data [I16].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Convert To Data [I16].vi"/>
+				<Item Name="CANopen SDO Write [I16].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Write [I16].vi"/>
+				<Item Name="CANopen Convert To Data [DBL].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Convert To Data [DBL].vi"/>
+				<Item Name="CANopen SDO Write [DBL].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Write [DBL].vi"/>
+				<Item Name="CANopen SDO Write [Block].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Write [Block].vi"/>
+				<Item Name="CANopen SDO Write.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Write.vi"/>
+				<Item Name="CANopen SDO Read [STR].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Read [STR].vi"/>
+				<Item Name="CANopen SDO Read [U8].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Read [U8].vi"/>
+				<Item Name="CANopen SDO Read [U16].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Read [U16].vi"/>
+				<Item Name="CANopen SDO Read [U32].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Read [U32].vi"/>
+				<Item Name="CANopen SDO Read [SGL].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Read [SGL].vi"/>
+				<Item Name="CANopen SDO Read [I8].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Read [I8].vi"/>
+				<Item Name="CANopen SDO Read [I32].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Read [I32].vi"/>
+				<Item Name="CANopen SDO Read [I16].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Read [I16].vi"/>
+				<Item Name="CANopen SDO Read [DBL].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Read [DBL].vi"/>
+				<Item Name="CANopen SDO Read [Block].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Read [Block].vi"/>
+				<Item Name="CANopen SDO Read.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Read.vi"/>
+				<Item Name="CANopen CAN Frame Write.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen CAN Frame Write.vi"/>
+				<Item Name="CANopen SDO Completion Code to String.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Completion Code to String.vi"/>
+				<Item Name="CANopen Node Guarding State Read.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Node Guarding State Read.vi"/>
+				<Item Name="CANopen Heartbeat State Read.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Heartbeat State Read.vi"/>
+				<Item Name="CANopen Emergency Read.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Emergency Read.vi"/>
+				<Item Name="CANopen Error Control Read.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Error Control Read.vi"/>
+				<Item Name="CANopen NMT Write.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen NMT Write.vi"/>
+				<Item Name="CANopen Convert To Data.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Convert To Data.vi"/>
+				<Item Name="CANopen Convert To Data [STR].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Convert To Data [STR].vi"/>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="nicanopenlvapi.dll" Type="Document" URL="nicanopenlvapi.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="TypeDef_LoopPeriods.ctl" Type="VI" URL="../Master/TypeDef_LoopPeriods.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
