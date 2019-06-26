@@ -12,6 +12,73 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="AllData" Type="Variable">
+		<Property Name="Description:Description" Type="Str">This records all the data and is a networked shared variable</Property>
+		<Property Name="featurePacks" Type="Str">Description,Network</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">6</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">Type_Def IMUData.ctl</Property>
+		<Property Name="typedefName2" Type="Str">Type_Def Master_DataControl.ctl</Property>
+		<Property Name="typedefName3" Type="Str">TypeDef FixedMotorData.ctl</Property>
+		<Property Name="typedefName4" Type="Str">TypeDef_BMSData.ctl</Property>
+		<Property Name="typedefName5" Type="Str">TypeDef_BmsStatus.ctl</Property>
+		<Property Name="typedefName6" Type="Str">TypeDef_cRIOData.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../Type_Def/Type_Def IMUData.ctl</Property>
+		<Property Name="typedefPath2" Type="PathRel">../Type_Def/Type_Def Master_DataControl.ctl</Property>
+		<Property Name="typedefPath3" Type="PathRel">../Type_Def/TypeDef FixedMotorData.ctl</Property>
+		<Property Name="typedefPath4" Type="PathRel">../Type_Def/TypeDef_BMSData.ctl</Property>
+		<Property Name="typedefPath5" Type="PathRel">../Type_Def/TypeDef_BmsStatus.ctl</Property>
+		<Property Name="typedefPath6" Type="PathRel">../Type_Def/TypeDef_cRIOData.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!=J*1=!!"A!A!!!!!!Y!!^!#A!*6'FN:3!I&lt;8-J!"6!#A!0-D27)%*B&gt;(2F=HEA+&amp;9J!"&gt;!#A!14'^X6C"$&gt;8*S:7ZU)#B"+1!!'5!+!".';72V9WFB&lt;#"4:7ZT&lt;X)A+&amp;9J!"F!#A!35&amp;9A5(*F=X.V=G5A+("T;7=J!!!61!I!$U:M&lt;X=A5W6O=W^S)#B7+1!81!I!%&amp;2F&lt;8!A2G&amp;J=GFO:S!I2CE!!"F!#A!36'6N=#"3:8.F=H:P;8)A+%9J!!!&lt;1!I!&amp;5BB&lt;'R&amp;:G:F9X1A5GFH;(1A+'FO+1!&lt;1!I!&amp;%BB&lt;'R&amp;:G:F9X1A4'6G&gt;#!I;7YJ!!!61!I!$F"5)&amp;2B&lt;GMA+("T;7=J!!!&lt;1!I!&amp;6"5)%.M97VQ)&amp;*J:WBU)#BQ=WFH+1!&lt;1!I!&amp;&amp;"5)%.M97VQ)%RF:H1A+("T;7=J!!!61!I!$V"5)%*S97NF)#BQ=WFH+1!81!I!%6"5)%.P&lt;WRJ&lt;G=A+("T;7=J!"&gt;!#A!22'FT='RB9W6N:7ZU)#BG&gt;#E!&amp;5!+!!^7:7RP9WFU?3!I:H1P=SE!5Q$R!!!!!!!!!!%56(FQ:52F:F^D5EF02'&amp;U93ZD&gt;'Q!.E"1!"%!!!!"!!)!!Q!%!!5!"A!(!!A!#1!+!!M!$!!.!!Y!$Q!1#7.335]A2'&amp;U91!:1!I!%HAA97.D:7RF=G&amp;U;7^O)#BH+1!!&amp;5!+!!^1=G6T=X6S:3!I=(.J93E!&amp;5!+!!^5:7VQ:8*B&gt;(6S:3!I2CE!.Q$R!!!!!!!!!!%56(FQ:6^%:79A35V62'&amp;U93ZD&gt;'Q!'E"1!!-!%A!4!"1)35V6)%2B&gt;'%!!"N!#A!547&amp;Y)%.F&lt;'QA6G^M&gt;'&amp;H:3!I6CE!!"&amp;!#A!,47&amp;Y)%.F&lt;'QA351!'U!+!"2.;7YA1W6M&lt;#"7&lt;WRU97&gt;F)#B7+1!!%5!+!!N.;7YA1W6M&lt;#"*2!!:1!I!%V.U982F)'^G)%.I98*H:3!I*3E!'5!+!"."&gt;G6S97&gt;F)&amp;:P&lt;(2B:W5A+&amp;9J!"&gt;!#A!26G^M&gt;'&amp;H:3"%:7RU93!I6CE!&amp;U!+!""197.L)%.V=H*F&lt;H1A+%%J!!!81!I!%&amp;"B9WMA6G^M&gt;'&amp;H:3!I6CE!!"N!#A!547&amp;Y)&amp;*F=WFT&gt;'&amp;O9W5A+%^I&lt;3E!!"N!#A!547FO)&amp;*F=WFT&gt;'&amp;O9W5A+%^I&lt;3E!!"^!#A!918:F=G&amp;H:3"3:8.J=X2B&lt;G.F)#B0;'UJ!!!&gt;1!I!&amp;E2F&lt;(2B)&amp;*F=WFT&gt;'&amp;O9W5A+%^I&lt;3E!!"V!#A!73'FH;'6T&gt;#"5:7VQ:8*B&gt;(6S:3B'+1!!$%!B"WFT2G&amp;V&lt;(1!'%!B%WFT&lt;WRB&gt;'FP&lt;EVP&lt;GFU&lt;X*J&lt;G=!.A$R!!!!!!!!!!%66(FQ:52F:F^#&lt;8.4&gt;'&amp;U&gt;8-O9X2M!"B!5!!#!#1!*1F#&lt;8.4&gt;'&amp;U&gt;8-!4A$R!!!!!!!!!!%46(FQ:52F:F^#46.%982B,G.U&lt;!!S1&amp;!!$Q!7!"=!'!!:!"I!'Q!=!"U!(A!@!#!!)1!C!#-!*AB#46-A2'&amp;U91!!&amp;5!$!!]A6G6M&lt;W.J&gt;(EA+&amp;*143E!%U!&amp;!!UA47^U&lt;X*5:7VQ+%-J!"6!"1!0)%.P&lt;H2S&lt;WR5:7VQ+%-J!"6!#A!/)%2D4'FO;V:P&lt;(1I6CE!!"&amp;!#A!+)%6S=G^S1W^E:1!!$%!B"UFT17RJ&gt;G5!$%!B"WFT5G6B:(E!#E!B"'FT4WY!!!Z!)1BJ=U^Q:8*&amp;&lt;A!!$E!B#'FT6G^M&gt;%6O!!!31#%.&gt;'&amp;S:W6U5G6B9WBF:!!/1#%*;8.898*O;7ZH!#"!5!!(!#Y!,Q!Q!#1!-1!S!$-,&lt;7^U&lt;X*4&gt;'&amp;U&gt;8-!'U!'!"2N&lt;X2P=E.P&lt;H2S&lt;WRM:8*4&gt;'&amp;U:1!!31$R!!!!!!!!!!%;6(FQ:52F:C"';8BF:%VP&gt;'^S2'&amp;U93ZD&gt;'Q!*E"1!!A!+!!J!#I!+Q!M!#U!.!!V#EVP&gt;'^S)%2B&gt;'%!!%!!]1!!!!!!!!!"(V2Z='6@2'6G)%VB=X2F=F^%982B1W^O&gt;(*P&lt;#ZD&gt;'Q!'%"1!!1!%1!6!#=!.A2%982B!!!"!$=!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="AllDataMax" Type="Variable">
+		<Property Name="Description:Description" Type="Str">This cluster contains the Max values for the AllData varaible. Values can be set from the GUI
+</Property>
+		<Property Name="featurePacks" Type="Str">Description,Network</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">6</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">Type_Def IMUData.ctl</Property>
+		<Property Name="typedefName2" Type="Str">Type_Def Master_DataControl.ctl</Property>
+		<Property Name="typedefName3" Type="Str">TypeDef FixedMotorData.ctl</Property>
+		<Property Name="typedefName4" Type="Str">TypeDef_BMSData.ctl</Property>
+		<Property Name="typedefName5" Type="Str">TypeDef_BmsStatus.ctl</Property>
+		<Property Name="typedefName6" Type="Str">TypeDef_cRIOData.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../Type_Def/Type_Def IMUData.ctl</Property>
+		<Property Name="typedefPath2" Type="PathRel">../Type_Def/Type_Def Master_DataControl.ctl</Property>
+		<Property Name="typedefPath3" Type="PathRel">../Type_Def/TypeDef FixedMotorData.ctl</Property>
+		<Property Name="typedefPath4" Type="PathRel">../Type_Def/TypeDef_BMSData.ctl</Property>
+		<Property Name="typedefPath5" Type="PathRel">../Type_Def/TypeDef_BmsStatus.ctl</Property>
+		<Property Name="typedefPath6" Type="PathRel">../Type_Def/TypeDef_cRIOData.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!=J*1=!!"A!A!!!!!!Y!!^!#A!*6'FN:3!I&lt;8-J!"6!#A!0-D27)%*B&gt;(2F=HEA+&amp;9J!"&gt;!#A!14'^X6C"$&gt;8*S:7ZU)#B"+1!!'5!+!".';72V9WFB&lt;#"4:7ZT&lt;X)A+&amp;9J!"F!#A!35&amp;9A5(*F=X.V=G5A+("T;7=J!!!61!I!$U:M&lt;X=A5W6O=W^S)#B7+1!81!I!%&amp;2F&lt;8!A2G&amp;J=GFO:S!I2CE!!"F!#A!36'6N=#"3:8.F=H:P;8)A+%9J!!!&lt;1!I!&amp;5BB&lt;'R&amp;:G:F9X1A5GFH;(1A+'FO+1!&lt;1!I!&amp;%BB&lt;'R&amp;:G:F9X1A4'6G&gt;#!I;7YJ!!!61!I!$F"5)&amp;2B&lt;GMA+("T;7=J!!!&lt;1!I!&amp;6"5)%.M97VQ)&amp;*J:WBU)#BQ=WFH+1!&lt;1!I!&amp;&amp;"5)%.M97VQ)%RF:H1A+("T;7=J!!!61!I!$V"5)%*S97NF)#BQ=WFH+1!81!I!%6"5)%.P&lt;WRJ&lt;G=A+("T;7=J!"&gt;!#A!22'FT='RB9W6N:7ZU)#BG&gt;#E!&amp;5!+!!^7:7RP9WFU?3!I:H1P=SE!5Q$R!!!!!!!!!!%56(FQ:52F:F^D5EF02'&amp;U93ZD&gt;'Q!.E"1!"%!!!!"!!)!!Q!%!!5!"A!(!!A!#1!+!!M!$!!.!!Y!$Q!1#7.335]A2'&amp;U91!:1!I!%HAA97.D:7RF=G&amp;U;7^O)#BH+1!!&amp;5!+!!^1=G6T=X6S:3!I=(.J93E!&amp;5!+!!^5:7VQ:8*B&gt;(6S:3!I2CE!.Q$R!!!!!!!!!!%56(FQ:6^%:79A35V62'&amp;U93ZD&gt;'Q!'E"1!!-!%A!4!"1)35V6)%2B&gt;'%!!"N!#A!547&amp;Y)%.F&lt;'QA6G^M&gt;'&amp;H:3!I6CE!!"&amp;!#A!,47&amp;Y)%.F&lt;'QA351!'U!+!"2.;7YA1W6M&lt;#"7&lt;WRU97&gt;F)#B7+1!!%5!+!!N.;7YA1W6M&lt;#"*2!!:1!I!%V.U982F)'^G)%.I98*H:3!I*3E!'5!+!"."&gt;G6S97&gt;F)&amp;:P&lt;(2B:W5A+&amp;9J!"&gt;!#A!26G^M&gt;'&amp;H:3"%:7RU93!I6CE!&amp;U!+!""197.L)%.V=H*F&lt;H1A+%%J!!!81!I!%&amp;"B9WMA6G^M&gt;'&amp;H:3!I6CE!!"N!#A!547&amp;Y)&amp;*F=WFT&gt;'&amp;O9W5A+%^I&lt;3E!!"N!#A!547FO)&amp;*F=WFT&gt;'&amp;O9W5A+%^I&lt;3E!!"^!#A!918:F=G&amp;H:3"3:8.J=X2B&lt;G.F)#B0;'UJ!!!&gt;1!I!&amp;E2F&lt;(2B)&amp;*F=WFT&gt;'&amp;O9W5A+%^I&lt;3E!!"V!#A!73'FH;'6T&gt;#"5:7VQ:8*B&gt;(6S:3B'+1!!$%!B"WFT2G&amp;V&lt;(1!'%!B%WFT&lt;WRB&gt;'FP&lt;EVP&lt;GFU&lt;X*J&lt;G=!.A$R!!!!!!!!!!%66(FQ:52F:F^#&lt;8.4&gt;'&amp;U&gt;8-O9X2M!"B!5!!#!#1!*1F#&lt;8.4&gt;'&amp;U&gt;8-!4A$R!!!!!!!!!!%46(FQ:52F:F^#46.%982B,G.U&lt;!!S1&amp;!!$Q!7!"=!'!!:!"I!'Q!=!"U!(A!@!#!!)1!C!#-!*AB#46-A2'&amp;U91!!&amp;5!$!!]A6G6M&lt;W.J&gt;(EA+&amp;*143E!%U!&amp;!!UA47^U&lt;X*5:7VQ+%-J!"6!"1!0)%.P&lt;H2S&lt;WR5:7VQ+%-J!"6!#A!/)%2D4'FO;V:P&lt;(1I6CE!!"&amp;!#A!+)%6S=G^S1W^E:1!!$%!B"UFT17RJ&gt;G5!$%!B"WFT5G6B:(E!#E!B"'FT4WY!!!Z!)1BJ=U^Q:8*&amp;&lt;A!!$E!B#'FT6G^M&gt;%6O!!!31#%.&gt;'&amp;S:W6U5G6B9WBF:!!/1#%*;8.898*O;7ZH!#"!5!!(!#Y!,Q!Q!#1!-1!S!$-,&lt;7^U&lt;X*4&gt;'&amp;U&gt;8-!'U!'!"2N&lt;X2P=E.P&lt;H2S&lt;WRM:8*4&gt;'&amp;U:1!!31$R!!!!!!!!!!%;6(FQ:52F:C"';8BF:%VP&gt;'^S2'&amp;U93ZD&gt;'Q!*E"1!!A!+!!J!#I!+Q!M!#U!.!!V#EVP&gt;'^S)%2B&gt;'%!!%!!]1!!!!!!!!!"(V2Z='6@2'6G)%VB=X2F=F^%982B1W^O&gt;(*P&lt;#ZD&gt;'Q!'%"1!!1!%1!6!#=!.A2%982B!!!"!$=!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="AllDataMin" Type="Variable">
+		<Property Name="Description:Description" Type="Str">This cluster contains the Min values for the AllData varaible. Values can be set from the GUI
+</Property>
+		<Property Name="featurePacks" Type="Str">Description,Network</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">6</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">Type_Def IMUData.ctl</Property>
+		<Property Name="typedefName2" Type="Str">Type_Def Master_DataControl.ctl</Property>
+		<Property Name="typedefName3" Type="Str">TypeDef FixedMotorData.ctl</Property>
+		<Property Name="typedefName4" Type="Str">TypeDef_BMSData.ctl</Property>
+		<Property Name="typedefName5" Type="Str">TypeDef_BmsStatus.ctl</Property>
+		<Property Name="typedefName6" Type="Str">TypeDef_cRIOData.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../Type_Def/Type_Def IMUData.ctl</Property>
+		<Property Name="typedefPath2" Type="PathRel">../Type_Def/Type_Def Master_DataControl.ctl</Property>
+		<Property Name="typedefPath3" Type="PathRel">../Type_Def/TypeDef FixedMotorData.ctl</Property>
+		<Property Name="typedefPath4" Type="PathRel">../Type_Def/TypeDef_BMSData.ctl</Property>
+		<Property Name="typedefPath5" Type="PathRel">../Type_Def/TypeDef_BmsStatus.ctl</Property>
+		<Property Name="typedefPath6" Type="PathRel">../Type_Def/TypeDef_cRIOData.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!=J*1=!!"A!A!!!!!!Y!!^!#A!*6'FN:3!I&lt;8-J!"6!#A!0-D27)%*B&gt;(2F=HEA+&amp;9J!"&gt;!#A!14'^X6C"$&gt;8*S:7ZU)#B"+1!!'5!+!".';72V9WFB&lt;#"4:7ZT&lt;X)A+&amp;9J!"F!#A!35&amp;9A5(*F=X.V=G5A+("T;7=J!!!61!I!$U:M&lt;X=A5W6O=W^S)#B7+1!81!I!%&amp;2F&lt;8!A2G&amp;J=GFO:S!I2CE!!"F!#A!36'6N=#"3:8.F=H:P;8)A+%9J!!!&lt;1!I!&amp;5BB&lt;'R&amp;:G:F9X1A5GFH;(1A+'FO+1!&lt;1!I!&amp;%BB&lt;'R&amp;:G:F9X1A4'6G&gt;#!I;7YJ!!!61!I!$F"5)&amp;2B&lt;GMA+("T;7=J!!!&lt;1!I!&amp;6"5)%.M97VQ)&amp;*J:WBU)#BQ=WFH+1!&lt;1!I!&amp;&amp;"5)%.M97VQ)%RF:H1A+("T;7=J!!!61!I!$V"5)%*S97NF)#BQ=WFH+1!81!I!%6"5)%.P&lt;WRJ&lt;G=A+("T;7=J!"&gt;!#A!22'FT='RB9W6N:7ZU)#BG&gt;#E!&amp;5!+!!^7:7RP9WFU?3!I:H1P=SE!5Q$R!!!!!!!!!!%56(FQ:52F:F^D5EF02'&amp;U93ZD&gt;'Q!.E"1!"%!!!!"!!)!!Q!%!!5!"A!(!!A!#1!+!!M!$!!.!!Y!$Q!1#7.335]A2'&amp;U91!:1!I!%HAA97.D:7RF=G&amp;U;7^O)#BH+1!!&amp;5!+!!^1=G6T=X6S:3!I=(.J93E!&amp;5!+!!^5:7VQ:8*B&gt;(6S:3!I2CE!.Q$R!!!!!!!!!!%56(FQ:6^%:79A35V62'&amp;U93ZD&gt;'Q!'E"1!!-!%A!4!"1)35V6)%2B&gt;'%!!"N!#A!547&amp;Y)%.F&lt;'QA6G^M&gt;'&amp;H:3!I6CE!!"&amp;!#A!,47&amp;Y)%.F&lt;'QA351!'U!+!"2.;7YA1W6M&lt;#"7&lt;WRU97&gt;F)#B7+1!!%5!+!!N.;7YA1W6M&lt;#"*2!!:1!I!%V.U982F)'^G)%.I98*H:3!I*3E!'5!+!"."&gt;G6S97&gt;F)&amp;:P&lt;(2B:W5A+&amp;9J!"&gt;!#A!26G^M&gt;'&amp;H:3"%:7RU93!I6CE!&amp;U!+!""197.L)%.V=H*F&lt;H1A+%%J!!!81!I!%&amp;"B9WMA6G^M&gt;'&amp;H:3!I6CE!!"N!#A!547&amp;Y)&amp;*F=WFT&gt;'&amp;O9W5A+%^I&lt;3E!!"N!#A!547FO)&amp;*F=WFT&gt;'&amp;O9W5A+%^I&lt;3E!!"^!#A!918:F=G&amp;H:3"3:8.J=X2B&lt;G.F)#B0;'UJ!!!&gt;1!I!&amp;E2F&lt;(2B)&amp;*F=WFT&gt;'&amp;O9W5A+%^I&lt;3E!!"V!#A!73'FH;'6T&gt;#"5:7VQ:8*B&gt;(6S:3B'+1!!$%!B"WFT2G&amp;V&lt;(1!'%!B%WFT&lt;WRB&gt;'FP&lt;EVP&lt;GFU&lt;X*J&lt;G=!.A$R!!!!!!!!!!%66(FQ:52F:F^#&lt;8.4&gt;'&amp;U&gt;8-O9X2M!"B!5!!#!#1!*1F#&lt;8.4&gt;'&amp;U&gt;8-!4A$R!!!!!!!!!!%46(FQ:52F:F^#46.%982B,G.U&lt;!!S1&amp;!!$Q!7!"=!'!!:!"I!'Q!=!"U!(A!@!#!!)1!C!#-!*AB#46-A2'&amp;U91!!&amp;5!$!!]A6G6M&lt;W.J&gt;(EA+&amp;*143E!%U!&amp;!!UA47^U&lt;X*5:7VQ+%-J!"6!"1!0)%.P&lt;H2S&lt;WR5:7VQ+%-J!"6!#A!/)%2D4'FO;V:P&lt;(1I6CE!!"&amp;!#A!+)%6S=G^S1W^E:1!!$%!B"UFT17RJ&gt;G5!$%!B"WFT5G6B:(E!#E!B"'FT4WY!!!Z!)1BJ=U^Q:8*&amp;&lt;A!!$E!B#'FT6G^M&gt;%6O!!!31#%.&gt;'&amp;S:W6U5G6B9WBF:!!/1#%*;8.898*O;7ZH!#"!5!!(!#Y!,Q!Q!#1!-1!S!$-,&lt;7^U&lt;X*4&gt;'&amp;U&gt;8-!'U!'!"2N&lt;X2P=E.P&lt;H2S&lt;WRM:8*4&gt;'&amp;U:1!!31$R!!!!!!!!!!%;6(FQ:52F:C"';8BF:%VP&gt;'^S2'&amp;U93ZD&gt;'Q!*E"1!!A!+!!J!#I!+Q!M!#U!.!!V#EVP&gt;'^S)%2B&gt;'%!!%!!]1!!!!!!!!!"(V2Z='6@2'6G)%VB=X2F=F^%982B1W^O&gt;(*P&lt;#ZD&gt;'Q!'%"1!!1!%1!6!#=!.A2%982B!!!"!$=!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="BMSFreeze" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
@@ -19,6 +86,24 @@
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"A!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="CalcAccelerationOffSet" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"A!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="CurrentActuations" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">Type_Def Actuator Controls.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../Type_Def/Type_Def Actuator Controls.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;^?1%!!"A!A!!!!!!2!!Z!)1B3:8:F=H.F)!!!$%!B"U:P=H&gt;B=G1!$E!B#%RP&gt;S"4;72F!!!/1#%*5(*F9WBB=G&gt;F!!Z!)1F);7&gt;I)&amp;.J:'5!%E!B$52J:WFU97QA4X6U)$5!%E!B$52J:WFU97QA4X6U)$9!&amp;%!B$E2J:WFU97QA4X6U)$=A!!!/1#%)-D1A5'^X:8)!!""!)1N597ZL)&amp;:B&lt;(:F)!!11#%,1H*B;W5A6G&amp;M&gt;G5!#E!B"&amp;"V&lt;8!!!"2!)1Z%;7&gt;J&gt;'&amp;M)%^V&gt;#!R)!!!%E!B$52J:WFU97QA4X6U)$)!%E!B$52J:WFU97QA4X6U)$-!&amp;%!B$E2J:WFU97QA4X6U)$1A!!":!0%!!!!!!!!!!2Z5?8"F8U2F:C""9X2V982P=C"$&lt;WZU=G^M=SZD&gt;'Q!-E"1!"!!!!!"!!)!!Q!%!!5!"A!(!!A!#1!+!!M!$!!.!!Y!$Q&gt;$&lt;(6T&gt;'6S!!%!%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="CurrentState" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -29,6 +114,26 @@
 		<Property Name="typedefName1" Type="Str">Type_Def ControlState.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../Type_Def/Type_Def ControlState.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$HYQ!!!"A!A!!!!!!"!.%!]1!!!!!!!!!"'62Z='6@2'6G)%.P&lt;H2S&lt;WR4&gt;'&amp;U:3ZD&gt;'Q!LU!7!"%&amp;1GRB&lt;GM.5XFT&gt;'6N=S"$;'6D;Q2*:'RF"6*F972Z"V"V=WBJ&lt;G=21X*B&gt;WRJ&lt;G&gt;1=G6D;'&amp;S:W5(1H*B;WFO:Q6'986M&gt;!&gt;#&lt;W^U)&amp;6Q#66O='^X:8*F:!B$=G&amp;X&lt;'FO:QB4;(6U:'^X&lt;AR4:8*W;7.F)&amp;"V=WA-5W6S&gt;GFD:3"897FU"&amp;:F&lt;H1*5(*F9WBB=G&gt;F#%.P&lt;WRE&lt;X&gt;O!!!%27ZV&lt;1!!!1!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="DataOverride" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">6</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">Type_Def IMUData.ctl</Property>
+		<Property Name="typedefName2" Type="Str">Type_Def Master_DataControl.ctl</Property>
+		<Property Name="typedefName3" Type="Str">TypeDef FixedMotorData.ctl</Property>
+		<Property Name="typedefName4" Type="Str">TypeDef_BMSData.ctl</Property>
+		<Property Name="typedefName5" Type="Str">TypeDef_BmsStatus.ctl</Property>
+		<Property Name="typedefName6" Type="Str">TypeDef_cRIOData.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../Type_Def/Type_Def IMUData.ctl</Property>
+		<Property Name="typedefPath2" Type="PathRel">../Type_Def/Type_Def Master_DataControl.ctl</Property>
+		<Property Name="typedefPath3" Type="PathRel">../Type_Def/TypeDef FixedMotorData.ctl</Property>
+		<Property Name="typedefPath4" Type="PathRel">../Type_Def/TypeDef_BMSData.ctl</Property>
+		<Property Name="typedefPath5" Type="PathRel">../Type_Def/TypeDef_BmsStatus.ctl</Property>
+		<Property Name="typedefPath6" Type="PathRel">../Type_Def/TypeDef_cRIOData.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!=J*1=!!"A!A!!!!!!Y!!^!#A!*6'FN:3!I&lt;8-J!"6!#A!0-D27)%*B&gt;(2F=HEA+&amp;9J!"&gt;!#A!14'^X6C"$&gt;8*S:7ZU)#B"+1!!'5!+!".';72V9WFB&lt;#"4:7ZT&lt;X)A+&amp;9J!"F!#A!35&amp;9A5(*F=X.V=G5A+("T;7=J!!!61!I!$U:M&lt;X=A5W6O=W^S)#B7+1!81!I!%&amp;2F&lt;8!A2G&amp;J=GFO:S!I2CE!!"F!#A!36'6N=#"3:8.F=H:P;8)A+%9J!!!&lt;1!I!&amp;5BB&lt;'R&amp;:G:F9X1A5GFH;(1A+'FO+1!&lt;1!I!&amp;%BB&lt;'R&amp;:G:F9X1A4'6G&gt;#!I;7YJ!!!61!I!$F"5)&amp;2B&lt;GMA+("T;7=J!!!&lt;1!I!&amp;6"5)%.M97VQ)&amp;*J:WBU)#BQ=WFH+1!&lt;1!I!&amp;&amp;"5)%.M97VQ)%RF:H1A+("T;7=J!!!61!I!$V"5)%*S97NF)#BQ=WFH+1!81!I!%6"5)%.P&lt;WRJ&lt;G=A+("T;7=J!"&gt;!#A!22'FT='RB9W6N:7ZU)#BG&gt;#E!&amp;5!+!!^7:7RP9WFU?3!I:H1P=SE!5Q$R!!!!!!!!!!%56(FQ:52F:F^D5EF02'&amp;U93ZD&gt;'Q!.E"1!"%!!!!"!!)!!Q!%!!5!"A!(!!A!#1!+!!M!$!!.!!Y!$Q!1#7.335]A2'&amp;U91!:1!I!%HAA97.D:7RF=G&amp;U;7^O)#BH+1!!&amp;5!+!!^1=G6T=X6S:3!I=(.J93E!&amp;5!+!!^5:7VQ:8*B&gt;(6S:3!I2CE!.Q$R!!!!!!!!!!%56(FQ:6^%:79A35V62'&amp;U93ZD&gt;'Q!'E"1!!-!%A!4!"1)35V6)%2B&gt;'%!!"N!#A!547&amp;Y)%.F&lt;'QA6G^M&gt;'&amp;H:3!I6CE!!"&amp;!#A!,47&amp;Y)%.F&lt;'QA351!'U!+!"2.;7YA1W6M&lt;#"7&lt;WRU97&gt;F)#B7+1!!%5!+!!N.;7YA1W6M&lt;#"*2!!:1!I!%V.U982F)'^G)%.I98*H:3!I*3E!'5!+!"."&gt;G6S97&gt;F)&amp;:P&lt;(2B:W5A+&amp;9J!"&gt;!#A!26G^M&gt;'&amp;H:3"%:7RU93!I6CE!&amp;U!+!""197.L)%.V=H*F&lt;H1A+%%J!!!81!I!%&amp;"B9WMA6G^M&gt;'&amp;H:3!I6CE!!"N!#A!547&amp;Y)&amp;*F=WFT&gt;'&amp;O9W5A+%^I&lt;3E!!"N!#A!547FO)&amp;*F=WFT&gt;'&amp;O9W5A+%^I&lt;3E!!"^!#A!918:F=G&amp;H:3"3:8.J=X2B&lt;G.F)#B0;'UJ!!!&gt;1!I!&amp;E2F&lt;(2B)&amp;*F=WFT&gt;'&amp;O9W5A+%^I&lt;3E!!"V!#A!73'FH;'6T&gt;#"5:7VQ:8*B&gt;(6S:3B'+1!!$%!B"WFT2G&amp;V&lt;(1!'%!B%WFT&lt;WRB&gt;'FP&lt;EVP&lt;GFU&lt;X*J&lt;G=!.A$R!!!!!!!!!!%66(FQ:52F:F^#&lt;8.4&gt;'&amp;U&gt;8-O9X2M!"B!5!!#!#1!*1F#&lt;8.4&gt;'&amp;U&gt;8-!4A$R!!!!!!!!!!%46(FQ:52F:F^#46.%982B,G.U&lt;!!S1&amp;!!$Q!7!"=!'!!:!"I!'Q!=!"U!(A!@!#!!)1!C!#-!*AB#46-A2'&amp;U91!!&amp;5!$!!]A6G6M&lt;W.J&gt;(EA+&amp;*143E!%U!&amp;!!UA47^U&lt;X*5:7VQ+%-J!"6!"1!0)%.P&lt;H2S&lt;WR5:7VQ+%-J!"6!#A!/)%2D4'FO;V:P&lt;(1I6CE!!"&amp;!#A!+)%6S=G^S1W^E:1!!$%!B"UFT17RJ&gt;G5!$%!B"WFT5G6B:(E!#E!B"'FT4WY!!!Z!)1BJ=U^Q:8*&amp;&lt;A!!$E!B#'FT6G^M&gt;%6O!!!31#%.&gt;'&amp;S:W6U5G6B9WBF:!!/1#%*;8.898*O;7ZH!#"!5!!(!#Y!,Q!Q!#1!-1!S!$-,&lt;7^U&lt;X*4&gt;'&amp;U&gt;8-!'U!'!"2N&lt;X2P=E.P&lt;H2S&lt;WRM:8*4&gt;'&amp;U:1!!31$R!!!!!!!!!!%;6(FQ:52F:C"';8BF:%VP&gt;'^S2'&amp;U93ZD&gt;'Q!*E"1!!A!+!!J!#I!+Q!M!#U!.!!V#EVP&gt;'^S)%2B&gt;'%!!%!!]1!!!!!!!!!"(V2Z='6@2'6G)%VB=X2F=F^%982B1W^O&gt;(*P&lt;#ZD&gt;'Q!'%"1!!1!%1!6!#=!.A2%982B!!!"!$=!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="DisableFaultCheck" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -147,6 +252,14 @@ If Ready is True, the state goes to Precharge and then Ready
 If not ready, it goes to ServiceWait
  </Property>
 		<Property Name="featurePacks" Type="Str">Description,Network</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"A!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="ReIntStreams" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>

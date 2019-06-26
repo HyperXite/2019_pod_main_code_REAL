@@ -14,13 +14,14 @@
 	<Property Name="varPersistentID:{0F032A8C-267C-4540-B2B8-6067A8048E38}" Type="Ref">/My Computer/HostOld/Libraries/HostVariables.lvlib/RecordData</Property>
 	<Property Name="varPersistentID:{11E3FB49-436C-4AAA-8DB3-06E4DF6D86B0}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Digital Output1/DO4</Property>
 	<Property Name="varPersistentID:{1415CB92-E338-4248-893A-7E9985343A2C}" Type="Ref">/My Computer/HostOld/Libraries/HostVariables.lvlib/ServicePump</Property>
+	<Property Name="varPersistentID:{143D4511-FADD-4A4F-BDFE-5A8A77DC12B2}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/ReIntStreams</Property>
 	<Property Name="varPersistentID:{155D0253-488D-4853-BA89-6669AC9EF4E5}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/driveMode</Property>
 	<Property Name="varPersistentID:{186F1150-A66A-463E-BB4C-33DA5E3233AF}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Vent</Property>
 	<Property Name="varPersistentID:{1E7A1C4D-36EE-4DD1-8197-2D766CD14CF5}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Digital Output1/DO2</Property>
 	<Property Name="varPersistentID:{23A23B93-D6ED-40C7-8F67-F3928482D7F5}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Precharge</Property>
 	<Property Name="varPersistentID:{2476557F-56B7-4EE4-9407-C27CCF05CBCF}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Fault</Property>
 	<Property Name="varPersistentID:{28F6E087-169C-48BD-862B-822A2419BEA0}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Analog Input/AI6</Property>
-	<Property Name="varPersistentID:{2C68ED42-E644-4CAF-B1A9-EDCE1D78E547}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/AllSensorDataMax</Property>
+	<Property Name="varPersistentID:{2C68ED42-E644-4CAF-B1A9-EDCE1D78E547}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/AllDataMax</Property>
 	<Property Name="varPersistentID:{2FD56318-9DF8-4D2B-A733-D53898AE7960}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Analog Input/AI25</Property>
 	<Property Name="varPersistentID:{308201E7-8B28-4FCB-9AB7-DB023B85AE55}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Analog Input/AI31</Property>
 	<Property Name="varPersistentID:{3854127F-8EE5-42A8-ADC9-A6477C957ACA}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/GlobalStop</Property>
@@ -44,7 +45,9 @@
 	<Property Name="varPersistentID:{5BCB03F4-D2E6-447E-8E0F-2151ACE819F5}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Analog Input/AI10</Property>
 	<Property Name="varPersistentID:{5BFB4754-E83A-41A8-A696-98B9B8868A29}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Analog Input/AI4</Property>
 	<Property Name="varPersistentID:{5C824D47-57AC-4740-9C74-47A256B2B25D}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Analog Input/AI8</Property>
+	<Property Name="varPersistentID:{5DF61318-AAB1-4634-A10C-9D60AECB27EA}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/Connected</Property>
 	<Property Name="varPersistentID:{609FE3DA-4716-434B-BE1D-C75F44933524}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Analog Input/AI23</Property>
+	<Property Name="varPersistentID:{62769874-7AC7-4307-944B-7CA943FA1ABD}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/DataOverride</Property>
 	<Property Name="varPersistentID:{63A63F42-193C-4FF8-B8D5-15BD394C3A9B}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Analog Input/AI9</Property>
 	<Property Name="varPersistentID:{6F58ECB6-CB9A-4A3A-90C8-2D6ED006BB4C}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/driveTarget</Property>
 	<Property Name="varPersistentID:{6F5E8E25-4BA5-43C4-A52D-0A74FE0C7DD0}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/Time</Property>
@@ -82,10 +85,13 @@
 	<Property Name="varPersistentID:{C782A0D2-21AD-465E-AC3F-24A1230D2C50}" Type="Ref">/My Computer/HostOld/Libraries/HostVariables.lvlib/SensorData</Property>
 	<Property Name="varPersistentID:{D37541D6-5C71-4548-ABD4-3EFAF256DD8A}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Digital Output1/DO3</Property>
 	<Property Name="varPersistentID:{DD5C559F-DB96-41E3-8718-5B6C80189799}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Digital Output 2/DO4</Property>
-	<Property Name="varPersistentID:{E0652C3A-0035-4004-B42B-744D65D401BA}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/AllSensorDataMin</Property>
+	<Property Name="varPersistentID:{E0652C3A-0035-4004-B42B-744D65D401BA}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/AllDataMin</Property>
+	<Property Name="varPersistentID:{E0BC11D1-7FDC-4B3C-8C75-0DD00E9947BD}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/CurrentActuations</Property>
+	<Property Name="varPersistentID:{E2CA1D89-2B21-4DED-B232-D036D52C8A74}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/CalcAccelerationOffSet</Property>
 	<Property Name="varPersistentID:{E4C70BE3-FA19-43D9-9F4F-C7E9CA6EF12F}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Velocity</Property>
 	<Property Name="varPersistentID:{EBB25A45-1D3C-4C71-BFF9-127376DC9921}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Analog Input/AI30</Property>
-	<Property Name="varPersistentID:{F0D79D2F-7622-4390-A6B5-2218C2E43535}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/AllSensorData</Property>
+	<Property Name="varPersistentID:{EFB51117-E117-4A00-9E9F-C62C20FDCA1C}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/AllData</Property>
+	<Property Name="varPersistentID:{F0D79D2F-7622-4390-A6B5-2218C2E43535}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/SensorData</Property>
 	<Property Name="varPersistentID:{F2E49B46-2D9D-46F9-9ABA-D44E935DBC86}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/CrawlingTime</Property>
 	<Property Name="varPersistentID:{F47F2E22-8052-4252-9145-056BA7D093A9}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Analog Input/AI14</Property>
 	<Property Name="varPersistentID:{F62AD18E-E2E5-4BB0-BD8C-94B906218282}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Digital Output 2/DO3</Property>
@@ -320,13 +326,17 @@
 			<Item Name="TypeDef_DigitalOuts.ctl" Type="VI" URL="/D/Downloads/2019_CompetitionCode-master/2019_pod_main_code-masterNoComments/Master/Control/TypeDef_DigitalOuts.ctl"/>
 			<Item Name="TypeDef_BmsStatus.ctl" Type="VI" URL="../Type_Def/TypeDef_BmsStatus.ctl"/>
 			<Item Name="TypeDef_MotorData.ctl" Type="VI" URL="../Type_Def/TypeDef_MotorData.ctl"/>
-			<Item Name="Type_Def AllData.ctl" Type="VI" URL="../Type_Def/Type_Def AllData.ctl"/>
 			<Item Name="Type_Def SensorData.ctl" Type="VI" URL="../Type_Def/Type_Def SensorData.ctl"/>
 			<Item Name="TypeDef_LoopPeriod.ctl" Type="VI" URL="../Type_Def/TypeDef_LoopPeriod.ctl"/>
 			<Item Name="Type_Def Actuator Controls.ctl" Type="VI" URL="../Type_Def/Type_Def Actuator Controls.ctl"/>
-			<Item Name="Type_Def MotorStatus.ctl" Type="VI" URL="../Master/CAN/MotorController/Type_Def MotorStatus.ctl"/>
+			<Item Name="Type_Def motorStatus.ctl" Type="VI" URL="../Type_Def/Type_Def motorStatus.ctl"/>
 			<Item Name="Type_Def MotorControlState.ctl" Type="VI" URL="../Type_Def/Type_Def MotorControlState.ctl"/>
 			<Item Name="TypeDef_LoopPeriods.ctl" Type="VI" URL="../Master/TypeDef_LoopPeriods.ctl"/>
+			<Item Name="Type_Def NetworkStreamState.ctl" Type="VI" URL="../Type_Def/Type_Def NetworkStreamState.ctl"/>
+			<Item Name="TypeDef FixedMotorData.ctl" Type="VI" URL="../Type_Def/TypeDef FixedMotorData.ctl"/>
+			<Item Name="Master_DataStream.vi" Type="VI" URL="../Master/Master_DataStream.vi"/>
+			<Item Name="TypeDef_NetworkStreamState.ctl" Type="VI" URL="../Host/Libraries/TypeDef_NetworkStreamState.ctl"/>
+			<Item Name="Type_Def Master_DataControl.ctl" Type="VI" URL="../Type_Def/Type_Def Master_DataControl.ctl"/>
 		</Item>
 		<Item Name="FaultCheck" Type="Folder">
 			<Item Name="CheckFaultConditions.vi" Type="VI" URL="../FaultCheck/CheckFaultConditions.vi"/>
@@ -348,6 +358,18 @@
 			<Item Name="CAN_MotorControlandBMS.vi" Type="VI" URL="../CAN/CAN_MotorControlandBMS.vi"/>
 			<Item Name="CAN_ReadBMS.vi" Type="VI" URL="../CAN/CAN_ReadBMS.vi"/>
 			<Item Name="Master_CAN.vi" Type="VI" URL="../CAN/Master_CAN.vi"/>
+		</Item>
+		<Item Name="DAQ" Type="Folder">
+			<Item Name="Master_DAQ.vi" Type="VI" URL="../DAQ/Master_DAQ.vi"/>
+			<Item Name="Master_DAQ_convertUnits.vi" Type="VI" URL="../DAQ/Master_DAQ_convertUnits.vi"/>
+			<Item Name="Master_DAQ_fixPT.vi" Type="VI" URL="../DAQ/Master_DAQ_fixPT.vi"/>
+			<Item Name="Master_DAQ_ReadVIN.vi" Type="VI" URL="../DAQ/Master_DAQ_ReadVIN.vi"/>
+		</Item>
+		<Item Name="Navigation" Type="Folder">
+			<Item Name="Master_Navigator.vi" Type="VI" URL="../Navigation/Master_Navigator.vi"/>
+			<Item Name="Master_ValueBuffer.vi" Type="VI" URL="../Master/Navigation/Master_ValueBuffer.vi"/>
+			<Item Name="Master_NavigationLoop.vi" Type="VI" URL="../Navigation/Master_NavigationLoop.vi"/>
+			<Item Name="Master_CalculateOffset.vi" Type="VI" URL="../Master/Navigation/Master_CalculateOffset.vi"/>
 		</Item>
 		<Item Name="MainFullCode.vi" Type="VI" URL="../MainFullCode.vi"/>
 		<Item Name="Chassis" Type="cRIO Chassis">
@@ -1246,6 +1268,8 @@
 				<Item Name="CANopen NMT Write.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen NMT Write.vi"/>
 				<Item Name="CANopen Convert To Data.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Convert To Data.vi"/>
 				<Item Name="CANopen Convert To Data [STR].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Convert To Data [STR].vi"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1253,6 +1277,7 @@
 			<Item Name="nicanopenlvapi.dll" Type="Document" URL="nicanopenlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
