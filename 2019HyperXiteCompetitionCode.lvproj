@@ -7,7 +7,7 @@
 	<Property Name="varPersistentID:{0A32CABC-3623-4674-BE58-D695228FF482}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/SimulateData</Property>
 	<Property Name="varPersistentID:{0BC60856-79F4-46F0-9D86-F18E1924BF71}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/SystemCheckInputs</Property>
 	<Property Name="varPersistentID:{0C59A446-5CE8-4468-AF9C-62835262A22B}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/StartTime</Property>
-	<Property Name="varPersistentID:{0CE5BFF3-D154-44FC-A1E9-F47E0E00B6B5}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/Displacement</Property>
+	<Property Name="varPersistentID:{0CE5BFF3-D154-44FC-A1E9-F47E0E00B6B5}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Displacement</Property>
 	<Property Name="varPersistentID:{0D29DE80-6C9A-48BD-85BD-9F668702D64D}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/BMSFreeze</Property>
 	<Property Name="varPersistentID:{0D7AD58D-4F16-4331-AF30-93B886C43BA5}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Analog Input/AI12</Property>
 	<Property Name="varPersistentID:{0ECD35E6-73C0-40D1-9D44-BB43BCDB86C8}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Analog Input/AI15</Property>
@@ -50,6 +50,7 @@
 	<Property Name="varPersistentID:{7208622C-BC83-4F9A-B632-9AD31B8D8A24}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Analog Input/AI17</Property>
 	<Property Name="varPersistentID:{74A3F1FC-B290-4A15-8BD3-E45B38FC7C65}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Digital Output1/DO0</Property>
 	<Property Name="varPersistentID:{76778F42-A99B-4312-BAB7-A393317161C4}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Analog Input/AI21</Property>
+	<Property Name="varPersistentID:{79F3DED1-5AA1-44E8-8B1F-23E939E2908E}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Acceleration</Property>
 	<Property Name="varPersistentID:{7C84187C-F3D0-4CF1-9E81-BAC73ED59CA0}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/IMUData</Property>
 	<Property Name="varPersistentID:{7F2C09F3-052C-4F26-AD10-D9890CC43F42}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/ServicePush</Property>
 	<Property Name="varPersistentID:{80245057-A64C-4B2C-973F-6E486423E94B}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Digital Output 2/DO2</Property>
@@ -81,7 +82,7 @@
 	<Property Name="varPersistentID:{D37541D6-5C71-4548-ABD4-3EFAF256DD8A}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Digital Output1/DO3</Property>
 	<Property Name="varPersistentID:{DD5C559F-DB96-41E3-8718-5B6C80189799}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Digital Output 2/DO4</Property>
 	<Property Name="varPersistentID:{E0652C3A-0035-4004-B42B-744D65D401BA}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/AllSensorDataMin</Property>
-	<Property Name="varPersistentID:{E4C70BE3-FA19-43D9-9F4F-C7E9CA6EF12F}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/Velocity</Property>
+	<Property Name="varPersistentID:{E4C70BE3-FA19-43D9-9F4F-C7E9CA6EF12F}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Velocity</Property>
 	<Property Name="varPersistentID:{EBB25A45-1D3C-4C71-BFF9-127376DC9921}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Analog Input/AI30</Property>
 	<Property Name="varPersistentID:{F0D79D2F-7622-4390-A6B5-2218C2E43535}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/AllSensorData</Property>
 	<Property Name="varPersistentID:{F2E49B46-2D9D-46F9-9ABA-D44E935DBC86}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/CrawlingTime</Property>
@@ -147,6 +148,7 @@
 		</Item>
 		<Item Name="Host__Main.vi" Type="VI" URL="../Host/Host__Main.vi"/>
 		<Item Name="Host__MainNewS.vi" Type="VI" URL="../Host/Host__MainNewS.vi"/>
+		<Item Name="Send_Datagram.vi" Type="VI" URL="../Host/Send_Datagram.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>

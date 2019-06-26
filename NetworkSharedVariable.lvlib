@@ -4,6 +4,14 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="Acceleration" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="BMSFreeze" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
@@ -29,6 +37,16 @@
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"A!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Displacement" Type="Variable">
+		<Property Name="Description:Description" Type="Str">The Displacement of the pod after calculations</Property>
+		<Property Name="featurePacks" Type="Str">Description,Network</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="driveEnable" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -202,6 +220,16 @@ If Shutdown is False, passes through VI</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;34A%!!"A!A!!!!!!2!!Z!)1B*:WZJ&gt;'FP&lt;A!!$%!B"U:P=H&gt;B=G1!$E!B#%RP&gt;S"4;72F!!!/1#%*5(*F9WBB=G&gt;F!!Z!)1F);7&gt;I)&amp;.J:'5!%E!B$52J:WFU97QA4X6U)$5!%E!B$52J:WFU97QA4X6U)$9!&amp;%!B$E2J:WFU97QA4X6U)$=A!!!/1#%)-D1A5'^X:8)!!""!)1N597ZL)&amp;:B&lt;(:F)!!11#%,1H*B;W5A6G&amp;M&gt;G5!#E!B"&amp;"V&lt;8!!!"2!)1Z%;7&gt;J&gt;'&amp;M)%^V&gt;#!R)!!!%E!B$52J:WFU97QA4X6U)$)!%E!B$52J:WFU97QA4X6U)$-!&amp;%!B$E2J:WFU97QA4X6U)$1A!!!O1&amp;!!%!!!!!%!!A!$!!1!"1!'!!=!#!!*!!I!#Q!-!!U!$A!0"U.M&gt;8.U:8)!!1!1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Velocity" Type="Variable">
+		<Property Name="Description:Description" Type="Str">The velocity of the pod after calculations</Property>
+		<Property Name="featurePacks" Type="Str">Description,Network</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Vent" Type="Variable">
 		<Property Name="Description:Description" Type="Str">If Vent is true go to Vent</Property>
