@@ -326,6 +326,7 @@
 			<Item Name="Type_Def Actuator Controls.ctl" Type="VI" URL="../Type_Def/Type_Def Actuator Controls.ctl"/>
 			<Item Name="Type_Def MotorStatus.ctl" Type="VI" URL="../Master/CAN/MotorController/Type_Def MotorStatus.ctl"/>
 			<Item Name="Type_Def MotorControlState.ctl" Type="VI" URL="../Type_Def/Type_Def MotorControlState.ctl"/>
+			<Item Name="TypeDef_LoopPeriods.ctl" Type="VI" URL="../Master/TypeDef_LoopPeriods.ctl"/>
 		</Item>
 		<Item Name="FaultCheck" Type="Folder">
 			<Item Name="CheckFaultConditions.vi" Type="VI" URL="../FaultCheck/CheckFaultConditions.vi"/>
@@ -1252,7 +1253,6 @@
 			<Item Name="nicanopenlvapi.dll" Type="Document" URL="nicanopenlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="TypeDef_LoopPeriods.ctl" Type="VI" URL="../Master/TypeDef_LoopPeriods.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
