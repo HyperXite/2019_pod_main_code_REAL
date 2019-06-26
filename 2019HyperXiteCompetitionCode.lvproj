@@ -25,6 +25,7 @@
 	<Property Name="varPersistentID:{308201E7-8B28-4FCB-9AB7-DB023B85AE55}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Analog Input/AI31</Property>
 	<Property Name="varPersistentID:{3854127F-8EE5-42A8-ADC9-A6477C957ACA}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/GlobalStop</Property>
 	<Property Name="varPersistentID:{3C9FFBFF-E893-491C-A1B3-811ED0879920}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/driveEnable</Property>
+	<Property Name="varPersistentID:{3ED87202-D248-42F5-87CB-4981BF21197B}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/MotorControllerData</Property>
 	<Property Name="varPersistentID:{433AD886-622D-4CF5-A9B9-B6404CC92375}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/IsPowered</Property>
 	<Property Name="varPersistentID:{4551247C-E624-408A-8554-1D2528E76ACA}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Digital Output 2/DO6</Property>
 	<Property Name="varPersistentID:{4620E7EA-D3F8-4F21-8FCE-0693E052F748}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/LoopPeriods</Property>

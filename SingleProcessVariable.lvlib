@@ -89,6 +89,17 @@
 		<Property Name="typedefPath1" Type="PathRel">../Type_Def/Type_Def IMUData.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#&amp;A1!!!"A!A!!!!!!%!"F!#A!3?#"B9W.F&lt;'6S982J&lt;WYA+'=J!!!61!I!$V"S:8.T&gt;8*F)#BQ=WFB+1!61!I!$V2F&lt;8"F=G&amp;U&gt;8*F)#B'+1!71&amp;!!!Q!!!!%!!AB*465A2'&amp;U91!!!1!$!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="MotorControllerData" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typedefName1" Type="Str">TypeDef_MotorData.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../Type_Def/TypeDef_MotorData.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(S\A%!!"A!A!!!!!!7!"6!!Q!0)&amp;:F&lt;'^D;82Z)#B35%UJ!".!"1!.)%VP&gt;'^S6'6N=#B$+1!61!5!$S"$&lt;WZU=G^M6'6N=#B$+1!61!I!$C"%9URJ&lt;GN7&lt;WRU+&amp;9J!!!21!I!#C"&amp;=H*P=E.P:'5!!!R!)1&gt;*=U&amp;M;8:F!!R!)1&gt;*=V*F972Z!!J!)15A38.0&lt;A!51#%/)%FT4X"F&lt;E6O97*M:1I!!""!)1IA38.898*O;7ZH!!!31#%.6'&amp;S:W6U5G6B9WBF:!!71#%1)%FT6G^M&gt;'&amp;H:56O97*M:1!!$%!B"WFT5G6B:(E!#E!B"'FT4WY!!!Z!)1BJ=U^Q:8*&amp;&lt;A!!$%!B"WFT2G&amp;V&lt;(1!$E!B#'FT6G^M&gt;%6O!!!31#%.&gt;'&amp;S:W6U5G6B9WBF:!!/1#%*;8.898*O;7ZH!#"!5!!(!!Q!$1!/!!]!%!!2!"),&lt;7^U&lt;X*4&gt;'&amp;U&gt;8-!'U!'!"2N&lt;X2P=E.P&lt;H2S&lt;WRM:8*4&gt;'&amp;U:1!!4A$R!!!!!!!!!!%66(FQ:52F:F^.&lt;X2P=E2B&gt;'%O9X2M!$"!5!!/!!!!!1!#!!-!"!!&amp;!!9!"Q!)!!E!#A!,!"-!&amp;!F.&lt;X2P=E2B&gt;'%!!1!6!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="StartTime" Type="Variable">
 		<Property Name="Description:Description" Type="Str">Hold the start time for the Precharge state</Property>
 		<Property Name="featurePacks" Type="Str">Description,Global</Property>
