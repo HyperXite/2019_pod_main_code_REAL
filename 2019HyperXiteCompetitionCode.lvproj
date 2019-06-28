@@ -230,7 +230,7 @@
 	</Item>
 	<Item Name="BEEFRIO" Type="RT CompactRIO">
 		<Property Name="alias.name" Type="Str">BEEFRIO</Property>
-		<Property Name="alias.value" Type="Str">192.168.0.50</Property>
+		<Property Name="alias.value" Type="Str">172.22.11.2</Property>
 		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,ARM;DeviceCode,7740;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">7740</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
