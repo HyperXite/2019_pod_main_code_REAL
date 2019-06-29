@@ -227,7 +227,7 @@
 			<Property Name="type" Type="Str">Network</Property>
 			<Property Name="typedefName1" Type="Str">Type_Def ControlState.ctl</Property>
 			<Property Name="typedefPath1" Type="PathRel">../Type_Def/Type_Def ControlState.ctl</Property>
-			<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$HYQ!!!"A!A!!!!!!"!.%!]1!!!!!!!!!"'62Z='6@2'6G)%.P&lt;H2S&lt;WR4&gt;'&amp;U:3ZD&gt;'Q!LU!7!"%&amp;1GRB&lt;GM.5XFT&gt;'6N=S"$;'6D;Q2*:'RF"6*F972Z"V"V=WBJ&lt;G=21X*B&gt;WRJ&lt;G&gt;1=G6D;'&amp;S:W5(1H*B;WFO:Q6'986M&gt;!&gt;#&lt;W^U)&amp;6Q#66O='^X:8*F:!B$=G&amp;X&lt;'FO:QB4;(6U:'^X&lt;AR4:8*W;7.F)&amp;"V=WA-5W6S&gt;GFD:3"897FU"&amp;:F&lt;H1*5(*F9WBB=G&gt;F#%.P&lt;WRE&lt;X&gt;O!!!%27ZV&lt;1!!!1!!!!!!!!!!!!!!!!</Property>
+			<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$&gt;W1!!!"A!A!!!!!!"!-=!]1!!!!!!!!!"'62Z='6@2'6G)%.P&lt;H2S&lt;WR4&gt;'&amp;U:3ZD&gt;'Q!J5!7!"!&amp;1GRB&lt;GM.5XFT&gt;'6N=S"$;'6D;Q2*:'RF"6*F972Z"V"V=WBJ&lt;G=21X*B&gt;WRJ&lt;G&gt;1=G6D;'&amp;S:W5(1H*B;WFO:Q6'986M&gt;!&gt;#&lt;W^U)&amp;6Q#66O='^X:8*F:!B$=G&amp;X&lt;'FO:QB4;(6U:'^X&lt;AR4:8*W;7.F)&amp;"V=WA-5W6S&gt;GFD:3"897FU"&amp;:F&lt;H1*5(*F9WBB=G&gt;F!!2&amp;&lt;H6N!!!"!!!!!!!!!!!!!!!!</Property>
 		</Item>
 		<Item Name="Fault" Type="Variable">
 			<Property Name="Description:Description" Type="Str">Check if there has been a fault</Property>
