@@ -4,21 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="ActuationList" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Global</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">1</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typedefName1" Type="Str">TypeDef_DigitalOuts.ctl</Property>
-		<Property Name="typedefName2" Type="Str">TypeDef_AnalogOuts.ctl</Property>
-		<Property Name="typedefName3" Type="Str">TypeDef_DigitalOuts.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../../../Master/Control/TypeDef_DigitalOuts.ctl</Property>
-		<Property Name="typedefPath2" Type="PathRel">../../../Master/Control/TypeDef_AnalogOuts.ctl</Property>
-		<Property Name="typedefPath3" Type="PathRel">../../../Master/Control/TypeDef_DigitalOuts.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%O+A%!!"A!A!!!!!!2!!Z!)1F1&lt;W1A5'^X:8)!%%!B#E2V&lt;8!A6G&amp;M&gt;G5!!!R!)1:#=G&amp;L:8-!!!J!)16$&lt;'&amp;N=!!+1#%%5(6N=!!!$E!B#%FH&lt;GFU;7^O!!!)1#%$2%]W!!B!)1.%4T=!$E!B#%BJ:WB4;72F!!!/1#%*5(*F9WBB=G&gt;F!!R!)1&gt;-&lt;X&gt;4;72F!!B!)1.%4T-!#%!B!U20.!!)1#%$2%]V!!J!)12%4T9S!!!+1#%%2%]X-A!!7A$R!!!!!!!!!!%86(FQ:52F:F^%;7&gt;J&gt;'&amp;M4X6U=SZD&gt;'Q!/E"1!"!!!!!"!!)!!Q!%!!5!"A!(!!A!#1!+!!M!$!!.!!Y!$QZ%;7&gt;J&gt;'&amp;M4X6U=(6U=Q!!!1!1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
 	<Item Name="Connected" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>

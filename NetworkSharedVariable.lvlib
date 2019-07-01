@@ -209,6 +209,21 @@
 		</Item>
 	</Item>
 	<Item Name="States" Type="Folder">
+		<Item Name="ActuationList" Type="Variable">
+			<Property Name="featurePacks" Type="Str">Network</Property>
+			<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">1</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typedefName1" Type="Str">Type_Def Actuator Controls.ctl</Property>
+			<Property Name="typedefName2" Type="Str">TypeDef_AnalogOuts.ctl</Property>
+			<Property Name="typedefName3" Type="Str">TypeDef_DigitalOuts.ctl</Property>
+			<Property Name="typedefPath1" Type="PathRel">../Type_Def/Type_Def Actuator Controls.ctl</Property>
+			<Property Name="typedefPath2" Type="PathRel">../Master/Control/TypeDef_AnalogOuts.ctl</Property>
+			<Property Name="typedefPath3" Type="PathRel">../Master/Control/TypeDef_DigitalOuts.ctl</Property>
+			<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'2D1%!!"A!A!!!!!!2!!Z!)1B3:8:F=H.F)!!!&amp;%!B$F"S:7.I98*H:3"$&gt;(*M!!!/1#%*5(6N=#"$&gt;(*M!""!)1IS.#"72%-A1X2S!!!31#%.6G6O&gt;#"4&lt;WRF&lt;G^J:!!51#%/1H*B;W5A5W^M:7ZP;71!!"J!)22&amp;45.:)#"#=G&amp;L:3"4&lt;WRF&lt;G^J:!!!&amp;%!B$U2J:WFU97QA4X6U)$&gt;#)!!31#%-2G^S&gt;W&amp;S:#"$&gt;(*M!!!11#%+1W^O&gt;'&amp;D&gt;#")-1!!%%!B#E.P&lt;H2B9X1A4$%!!""!)1J$&lt;WZU97.U)%AS!!!11#%,1W^O&gt;'&amp;D&gt;#"--C!!$%!B"UR&amp;2#"3251!$E!B#5R&amp;2#"(5E6&amp;4A!51#%0)%2J:WFU97QA4X6U)$&gt;"!&amp;E!]1!!!!!!!!!"(F2Z='6@2'6G)%&amp;D&gt;(6B&gt;'^S)%.P&lt;H2S&lt;WRT,G.U&lt;!!S1&amp;!!%!!!!!%!!A!$!!1!"1!'!!=!#!!*!!I!#Q!-!!U!$A!0"U.M&gt;8.U:8)!!1!1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
 		<Item Name="CurrentActuations" Type="Variable">
 			<Property Name="featurePacks" Type="Str">Network</Property>
 			<Property Name="Network:UseBinding" Type="Str">False</Property>

@@ -72,7 +72,7 @@
 	<Property Name="varPersistentID:{A7FD1483-FF6C-4528-B8CB-59A97A808837}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/Hall Effect Right</Property>
 	<Property Name="varPersistentID:{AC7E52C2-0EF2-46C1-A0F6-8CB35CE8DEF1}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Ready</Property>
 	<Property Name="varPersistentID:{AE9D4E59-D833-4E61-A280-02976935CC9B}" Type="Ref">/My Computer/HostNew/HostGlobals.lvlib/DataPlaceholder</Property>
-	<Property Name="varPersistentID:{B049685A-2663-4603-8D38-4898BDEDADB0}" Type="Ref">/My Computer/HostOld/Libraries/HostVariables.lvlib/ActuationList</Property>
+	<Property Name="varPersistentID:{B049685A-2663-4603-8D38-4898BDEDADB0}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/ActuationList</Property>
 	<Property Name="varPersistentID:{B6BBBC88-4FE1-4CA4-9896-4E27F5E7B722}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/DisableFaultCheck</Property>
 	<Property Name="varPersistentID:{BBAC7280-33BD-4C0C-A666-3A16DB70FE02}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/24V Voltage</Property>
 	<Property Name="varPersistentID:{BE74E3AC-73F2-4D85-9CD6-C47DA7E6287B}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/Thermistor 1</Property>
@@ -214,6 +214,7 @@
 			<Item Name="Host_Streams_convertClusters.vi" Type="VI" URL="../Host/Streams/Host_Streams_convertClusters.vi"/>
 			<Item Name="MotorStatus.ctl" Type="VI" URL="../Master/CAN/MotorController/MotorStatus.ctl"/>
 			<Item Name="RunTypeList.ctl" Type="VI" URL="../Master/Control/RunTypesLibrary/RunTypeList.ctl"/>
+			<Item Name="Type_Def Actuator Controls.ctl" Type="VI" URL="../Type_Def/Type_Def Actuator Controls.ctl"/>
 			<Item Name="Type_Def ControlState.ctl" Type="VI" URL="../Type_Def/Type_Def ControlState.ctl"/>
 			<Item Name="Type_Def MotorStatus.ctl" Type="VI" URL="../Master/CAN/MotorController/Type_Def MotorStatus.ctl"/>
 			<Item Name="TypeDef_BMS_Status.ctl" Type="VI" URL="../Master/CAN/TypeDef_BMS_Status.ctl"/>
@@ -366,7 +367,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Type_Def SensorMin.ctl" Type="VI" URL="../Type_Def/Type_Def SensorMin.ctl"/>
 			<Item Name="TypeDef_BMSData.ctl" Type="VI" URL="../Type_Def/TypeDef_BMSData.ctl"/>
 			<Item Name="TypeDef_cRIOData.ctl" Type="VI" URL="../Type_Def/TypeDef_cRIOData.ctl"/>
-			<Item Name="TypeDef_DigitalOuts.ctl" Type="VI" URL="/D/Downloads/2019_CompetitionCode-master/2019_pod_main_code-masterNoComments/Master/Control/TypeDef_DigitalOuts.ctl"/>
+			<Item Name="TypeDef_DigitalOuts.ctl" Type="VI" URL="../Master/Control/TypeDef_DigitalOuts.ctl"/>
 			<Item Name="TypeDef_BmsStatus.ctl" Type="VI" URL="../Type_Def/TypeDef_BmsStatus.ctl"/>
 			<Item Name="TypeDef_MotorData.ctl" Type="VI" URL="../Type_Def/TypeDef_MotorData.ctl"/>
 			<Item Name="Type_Def SensorData.ctl" Type="VI" URL="../Type_Def/Type_Def SensorData.ctl"/>
