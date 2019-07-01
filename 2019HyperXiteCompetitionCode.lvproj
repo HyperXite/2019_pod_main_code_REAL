@@ -15,11 +15,11 @@
 	<Property Name="varPersistentID:{143D4511-FADD-4A4F-BDFE-5A8A77DC12B2}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/ReIntStreams</Property>
 	<Property Name="varPersistentID:{155D0253-488D-4853-BA89-6669AC9EF4E5}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Motor/driveMode</Property>
 	<Property Name="varPersistentID:{186F1150-A66A-463E-BB4C-33DA5E3233AF}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Vent</Property>
-	<Property Name="varPersistentID:{199359CD-1B41-4E23-AC75-7D64BC8F2CD4}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/AI16</Property>
+	<Property Name="varPersistentID:{199359CD-1B41-4E23-AC75-7D64BC8F2CD4}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/Brake PT</Property>
 	<Property Name="varPersistentID:{1AB5CF23-BA7B-499B-A538-1D0FE5025FA3}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod3/Reverse Control</Property>
 	<Property Name="varPersistentID:{1DB122DB-E674-4C84-B892-54183030BCAA}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/AI30</Property>
-	<Property Name="varPersistentID:{2120E1FD-F68A-4F78-938D-ADCD38D16E28}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/AI8</Property>
-	<Property Name="varPersistentID:{212CD13C-66BF-4E54-BC9C-DE47D001CD5D}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/AI3</Property>
+	<Property Name="varPersistentID:{2120E1FD-F68A-4F78-938D-ADCD38D16E28}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/Contact H2 Continuity</Property>
+	<Property Name="varPersistentID:{212CD13C-66BF-4E54-BC9C-DE47D001CD5D}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/Optical Sensor 2</Property>
 	<Property Name="varPersistentID:{23A23B93-D6ED-40C7-8F67-F3928482D7F5}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Precharge</Property>
 	<Property Name="varPersistentID:{2476557F-56B7-4EE4-9407-C27CCF05CBCF}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Fault</Property>
 	<Property Name="varPersistentID:{2931AA9E-C3DF-4511-A092-E42CA9955C3F}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/AI26</Property>
@@ -27,64 +27,64 @@
 	<Property Name="varPersistentID:{2EA4E413-AD80-4055-8E92-67F9A13FE6FF}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/AI31</Property>
 	<Property Name="varPersistentID:{2EE1D775-7A40-436A-B956-CEFF0507DD6F}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod2/DO7A</Property>
 	<Property Name="varPersistentID:{30757510-E9BC-4DEE-B263-2D255E3892A9}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod2/Contact L1</Property>
-	<Property Name="varPersistentID:{312A098B-0810-4FB7-A08D-2FA4B3999EA6}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/AI0</Property>
+	<Property Name="varPersistentID:{312A098B-0810-4FB7-A08D-2FA4B3999EA6}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/Hall Effect Left</Property>
 	<Property Name="varPersistentID:{3854127F-8EE5-42A8-ADC9-A6477C957ACA}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/GlobalStop</Property>
 	<Property Name="varPersistentID:{3C9FFBFF-E893-491C-A1B3-811ED0879920}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Motor/driveEnable</Property>
 	<Property Name="varPersistentID:{3ED87202-D248-42F5-87CB-4981BF21197B}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/MotorControllerData</Property>
 	<Property Name="varPersistentID:{4104E8D2-5FCA-4675-8438-B77DC9D3595E}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/StripeCount</Property>
-	<Property Name="varPersistentID:{41FA1178-ADAE-43D9-95D3-7E36121453F7}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/AI13</Property>
+	<Property Name="varPersistentID:{41FA1178-ADAE-43D9-95D3-7E36121453F7}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/Thermistor 2</Property>
 	<Property Name="varPersistentID:{433AD886-622D-4CF5-A9B9-B6404CC92375}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/IsPowered</Property>
 	<Property Name="varPersistentID:{436264AC-B002-4761-A062-AE65D1F01DCE}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/NavigationReset</Property>
 	<Property Name="varPersistentID:{4620E7EA-D3F8-4F21-8FCE-0693E052F748}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/LoopPeriods</Property>
 	<Property Name="varPersistentID:{46617DE6-BC56-438C-B6BE-652716B5162C}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Service</Property>
-	<Property Name="varPersistentID:{48739964-7D7D-418D-BE71-EFB8A9E8009E}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/AI17</Property>
+	<Property Name="varPersistentID:{48739964-7D7D-418D-BE71-EFB8A9E8009E}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/Pump PT</Property>
 	<Property Name="varPersistentID:{4B590063-1EA6-4B4E-BA96-4B666C60637F}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/StopControlLoop</Property>
 	<Property Name="varPersistentID:{4C8E86B6-1912-45D1-8662-7F3608C0A1C9}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod3/Precharge Control</Property>
-	<Property Name="varPersistentID:{4E5AA224-7A4B-44BA-9005-A93A50DFA1EF}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/AI11</Property>
+	<Property Name="varPersistentID:{4E5AA224-7A4B-44BA-9005-A93A50DFA1EF}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/ABS Pressure 2</Property>
 	<Property Name="varPersistentID:{4FE6067B-57BE-460A-9989-5425ECE481FC}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/AI27</Property>
 	<Property Name="varPersistentID:{5043D9D5-E77C-469E-8543-8E33AE6859AA}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Launch</Property>
 	<Property Name="varPersistentID:{52241B4A-8D9F-40DC-BD25-3962C3B32252}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/BMSData</Property>
 	<Property Name="varPersistentID:{552464E5-2D8A-414C-8BC7-10CFFA8C141A}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/SystemCheck</Property>
-	<Property Name="varPersistentID:{554F70F7-08C9-4B33-A3B0-C803579E7E20}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/AI5</Property>
+	<Property Name="varPersistentID:{554F70F7-08C9-4B33-A3B0-C803579E7E20}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/24V Current</Property>
 	<Property Name="varPersistentID:{5A5C4380-E4F6-41A8-B337-89D305594ABE}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod3/Emergency Brake Solenoid</Property>
 	<Property Name="varPersistentID:{5DF61318-AAB1-4634-A10C-9D60AECB27EA}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/Connected</Property>
 	<Property Name="varPersistentID:{62769874-7AC7-4307-944B-7CA943FA1ABD}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/DataOverride</Property>
 	<Property Name="varPersistentID:{6B6F1DD7-2C5E-45EC-820F-BA1C6A49601A}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/AI20</Property>
 	<Property Name="varPersistentID:{6D28BDCD-A23D-43D0-8FE0-C34BB09E7061}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod3/Brake Solenoid Control</Property>
-	<Property Name="varPersistentID:{6D967E83-FCCD-44F7-BC90-62BA8035F15E}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/AI15</Property>
+	<Property Name="varPersistentID:{6D967E83-FCCD-44F7-BC90-62BA8035F15E}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/Thernistor 4</Property>
 	<Property Name="varPersistentID:{6E033C93-F0CD-40C5-AD33-A34B15471AAC}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod3/DO7b</Property>
 	<Property Name="varPersistentID:{6F58ECB6-CB9A-4A3A-90C8-2D6ED006BB4C}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Motor/driveTarget</Property>
 	<Property Name="varPersistentID:{6F5E8E25-4BA5-43C4-A52D-0A74FE0C7DD0}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/Time</Property>
-	<Property Name="varPersistentID:{765569EC-85FF-4B90-87C4-D81E57120BEC}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/AI18</Property>
+	<Property Name="varPersistentID:{765569EC-85FF-4B90-87C4-D81E57120BEC}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/Tank PT</Property>
 	<Property Name="varPersistentID:{79F3DED1-5AA1-44E8-8B1F-23E939E2908E}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Kinematics/Acceleration</Property>
 	<Property Name="varPersistentID:{7C84187C-F3D0-4CF1-9E81-BAC73ED59CA0}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/IMUData</Property>
-	<Property Name="varPersistentID:{7CD4C2A9-8ED3-4282-979C-D553F4F0A2CD}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/AI6</Property>
+	<Property Name="varPersistentID:{7CD4C2A9-8ED3-4282-979C-D553F4F0A2CD}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/Contact H1 Continuity</Property>
 	<Property Name="varPersistentID:{7F2C09F3-052C-4F26-AD10-D9890CC43F42}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/ServicePush</Property>
 	<Property Name="varPersistentID:{8BCEBFE8-9B41-4E28-A61C-44CDBBBAF9A8}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/AI29</Property>
 	<Property Name="varPersistentID:{8C0BCDD4-654C-44B0-A829-EC79B8DA27C7}" Type="Ref">/My Computer/HostOld/Libraries/HostVariables.lvlib/Connected</Property>
-	<Property Name="varPersistentID:{8E7A10FA-DB0A-4F57-8625-6BDCB1022124}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/AI14</Property>
+	<Property Name="varPersistentID:{8E7A10FA-DB0A-4F57-8625-6BDCB1022124}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/Thermisotr 3</Property>
 	<Property Name="varPersistentID:{972B4991-47D8-4916-A320-5B58FDF44BAB}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod2/Contact H2</Property>
 	<Property Name="varPersistentID:{98EC0D94-179F-4A64-A0F3-A1E4C822FC7A}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/ForceIdle</Property>
-	<Property Name="varPersistentID:{9B1900B0-5DFC-4CD1-AE73-522DE43BBC19}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/AI2</Property>
-	<Property Name="varPersistentID:{A15072FC-EBEA-4E11-B8DE-44F631F108AB}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/AI10</Property>
+	<Property Name="varPersistentID:{9B1900B0-5DFC-4CD1-AE73-522DE43BBC19}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/Optical Sensor 1</Property>
+	<Property Name="varPersistentID:{A15072FC-EBEA-4E11-B8DE-44F631F108AB}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/ABS Pressure 1</Property>
 	<Property Name="varPersistentID:{A2CE47FB-A3F6-4DD1-8DF2-1E9FF9EE1608}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Shutdown</Property>
 	<Property Name="varPersistentID:{A3C91434-0284-4228-B1DD-51D39C879E38}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/NewSystemCheckInputs</Property>
-	<Property Name="varPersistentID:{A7FD1483-FF6C-4528-B8CB-59A97A808837}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/AI1</Property>
+	<Property Name="varPersistentID:{A7FD1483-FF6C-4528-B8CB-59A97A808837}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/Hall Effect Right</Property>
 	<Property Name="varPersistentID:{AC7E52C2-0EF2-46C1-A0F6-8CB35CE8DEF1}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Ready</Property>
 	<Property Name="varPersistentID:{AE9D4E59-D833-4E61-A280-02976935CC9B}" Type="Ref">/My Computer/HostNew/HostGlobals.lvlib/DataPlaceholder</Property>
 	<Property Name="varPersistentID:{B049685A-2663-4603-8D38-4898BDEDADB0}" Type="Ref">/My Computer/HostOld/Libraries/HostVariables.lvlib/ActuationList</Property>
 	<Property Name="varPersistentID:{B6BBBC88-4FE1-4CA4-9896-4E27F5E7B722}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/DisableFaultCheck</Property>
-	<Property Name="varPersistentID:{BBAC7280-33BD-4C0C-A666-3A16DB70FE02}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/AI4</Property>
-	<Property Name="varPersistentID:{BE74E3AC-73F2-4D85-9CD6-C47DA7E6287B}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/AI12</Property>
+	<Property Name="varPersistentID:{BBAC7280-33BD-4C0C-A666-3A16DB70FE02}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/24V Voltage</Property>
+	<Property Name="varPersistentID:{BE74E3AC-73F2-4D85-9CD6-C47DA7E6287B}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/Thermistor 1</Property>
 	<Property Name="varPersistentID:{BFE35EB9-80F9-4F2B-8D6E-9C0878F65813}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod2/Contact H1</Property>
 	<Property Name="varPersistentID:{C04EC50B-DF74-4163-A0F7-6944D7CCCF00}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/CurrentState</Property>
 	<Property Name="varPersistentID:{C160041B-C5EA-47B8-B081-91AD0B1B241D}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod3/Vent Solenoid Control</Property>
-	<Property Name="varPersistentID:{C6FD0ED2-7979-476A-9933-F43EB989B9BC}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/AI9</Property>
+	<Property Name="varPersistentID:{C6FD0ED2-7979-476A-9933-F43EB989B9BC}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/Contact L2 Contnuity</Property>
 	<Property Name="varPersistentID:{C7633578-829D-4F81-B548-EB895C7B7D68}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod3/24 VDC Control</Property>
 	<Property Name="varPersistentID:{C782A0D2-21AD-465E-AC3F-24A1230D2C50}" Type="Ref">/My Computer/HostOld/Libraries/HostVariables.lvlib/SensorData</Property>
 	<Property Name="varPersistentID:{C90F78E4-1DD1-40C0-AD7D-EE4876B19CB0}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/SystemMessage</Property>
 	<Property Name="varPersistentID:{CA3151FC-DB79-45D8-B644-7B2AB9AE0EA7}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/AI19</Property>
-	<Property Name="varPersistentID:{DA6E50EA-5D93-44E9-A384-D6BC67357BA9}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/AI7</Property>
+	<Property Name="varPersistentID:{DA6E50EA-5D93-44E9-A384-D6BC67357BA9}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/Contact L1 Continuity</Property>
 	<Property Name="varPersistentID:{DB1E3A4B-1722-4A16-9CC2-738E94EBAC46}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/AI25</Property>
 	<Property Name="varPersistentID:{DCBF3E37-2B2C-4870-8DE1-24D2ECF361C7}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod2/Forward Ctrl</Property>
 	<Property Name="varPersistentID:{DE7A6B75-0FEA-4313-AF37-8B45DEC7ABBB}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod2/LED RED</Property>
@@ -761,7 +761,7 @@ AddOutputFilter chunkFilter
 					<Property Name="cRIOModule.EnableCalProperties" Type="Str">false</Property>
 					<Property Name="cRIOModule.EnableSpecialtyDigital" Type="Str">false</Property>
 					<Property Name="cRIOModule.MinConvTime" Type="Str">8.000000E+0</Property>
-					<Item Name="AI0" Type="Variable">
+					<Item Name="Hall Effect Left" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">0</Property>
@@ -775,7 +775,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="AI1" Type="Variable">
+					<Item Name="Hall Effect Right" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">1</Property>
@@ -789,7 +789,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="AI2" Type="Variable">
+					<Item Name="Optical Sensor 1" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">2</Property>
@@ -803,7 +803,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="AI3" Type="Variable">
+					<Item Name="Optical Sensor 2" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">3</Property>
@@ -817,7 +817,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="AI4" Type="Variable">
+					<Item Name="24V Voltage" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">4</Property>
@@ -831,7 +831,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="AI5" Type="Variable">
+					<Item Name="24V Current" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">5</Property>
@@ -845,7 +845,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="AI6" Type="Variable">
+					<Item Name="Contact H1 Continuity" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">6</Property>
@@ -859,7 +859,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="AI7" Type="Variable">
+					<Item Name="Contact L1 Continuity" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">7</Property>
@@ -873,7 +873,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="AI8" Type="Variable">
+					<Item Name="Contact H2 Continuity" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">8</Property>
@@ -887,7 +887,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="AI9" Type="Variable">
+					<Item Name="Contact L2 Contnuity" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">9</Property>
@@ -901,7 +901,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="AI10" Type="Variable">
+					<Item Name="ABS Pressure 1" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">10</Property>
@@ -915,7 +915,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="AI11" Type="Variable">
+					<Item Name="ABS Pressure 2" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">11</Property>
@@ -929,7 +929,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="AI12" Type="Variable">
+					<Item Name="Thermistor 1" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">12</Property>
@@ -943,7 +943,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="AI13" Type="Variable">
+					<Item Name="Thermistor 2" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">13</Property>
@@ -957,7 +957,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="AI14" Type="Variable">
+					<Item Name="Thermisotr 3" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">14</Property>
@@ -971,7 +971,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="AI15" Type="Variable">
+					<Item Name="Thernistor 4" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">15</Property>
@@ -985,7 +985,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="AI16" Type="Variable">
+					<Item Name="Brake PT" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">16</Property>
@@ -999,7 +999,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="AI17" Type="Variable">
+					<Item Name="Pump PT" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">17</Property>
@@ -1013,7 +1013,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="AI18" Type="Variable">
+					<Item Name="Tank PT" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">18</Property>
