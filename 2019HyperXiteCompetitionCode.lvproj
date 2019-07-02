@@ -332,6 +332,7 @@ AddOutputFilter chunkFilter
 				<Item Name="PrechargeState.vi" Type="VI" URL="../Control/PrechargeState.vi"/>
 				<Item Name="PushingState.vi" Type="VI" URL="../Control/PushingState.vi"/>
 				<Item Name="ReadyState.vi" Type="VI" URL="../Control/ReadyState.vi"/>
+				<Item Name="ActuatorOutput.vi" Type="VI" URL="../Control/ActuatorOutput.vi"/>
 				<Item Name="ServicePushState.vi" Type="VI" URL="../Control/ServicePushState.vi"/>
 				<Item Name="UnpoweredState.vi" Type="VI" URL="../Control/UnpoweredState.vi"/>
 				<Item Name="VentState.vi" Type="VI" URL="../Control/VentState.vi"/>
@@ -1211,6 +1212,9 @@ AddOutputFilter chunkFilter
 				</Item>
 			</Item>
 		</Item>
+		<Item Name="Master_ValueBuffer.vi" Type="VI" URL="../DAQ/Master_ValueBuffer.vi"/>
+		<Item Name="Master_DataStream.vi" Type="VI" URL="../DAQ/Master_DataStream.vi"/>
+		<Item Name="Master_CalculateOffset.vi" Type="VI" URL="../DAQ/Master_CalculateOffset.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
@@ -1339,13 +1343,9 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="TheMacroProject_FPGATarget_Fail-SafeControl_eeRwxioMFzY.lvbitx" Type="Document" URL="/D/Downloads/2019_CompetitionCode-master/2019_pod_main_code-masterNoComments/FPGA Bitfiles/TheMacroProject_FPGATarget_Fail-SafeControl_eeRwxioMFzY.lvbitx"/>
-			<Item Name="ActuatorOutput.vi" Type="VI" URL="../Control/ActuatorOutput.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Master_ValueBuffer.vi" Type="VI" URL="../Master/Navigation/Master_ValueBuffer.vi"/>
-			<Item Name="Master_CalculateOffset.vi" Type="VI" URL="../Master/Navigation/Master_CalculateOffset.vi"/>
-			<Item Name="Master_DataStream.vi" Type="VI" URL="../Master/Master_DataStream.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
