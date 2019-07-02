@@ -314,8 +314,8 @@ AddOutputFilter chunkFilter
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="States" Type="Folder">
 				<Item Name="Start&amp;End" Type="Folder">
-					<Item Name="StartProgram.vi" Type="VI" URL="../StateMachineVI/StartProgram.vi"/>
-					<Item Name="EndProgram.vi" Type="VI" URL="../StateMachineVI/EndProgram.vi"/>
+					<Item Name="StartProgram.vi" Type="VI" URL="../Control/StartProgram.vi"/>
+					<Item Name="EndProgram.vi" Type="VI" URL="../Control/EndProgram.vi"/>
 				</Item>
 				<Item Name="CrawlingPrechargeState.vi" Type="VI" URL="../Control/CrawlingPrechargeState.vi"/>
 				<Item Name="CrawlingState.vi" Type="VI" URL="../Control/CrawlingState.vi"/>
@@ -1331,6 +1331,9 @@ AddOutputFilter chunkFilter
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
+				<Item Name="NI_Real-Time Target Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI_Real-Time Target Support.lvlib"/>
+				<Item Name="ni_emb.dll" Type="Document" URL="/&lt;vilib&gt;/ni_emb.dll"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			</Item>
 			<Item Name="nicanopenlvapi.dll" Type="Document" URL="nicanopenlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1338,6 +1341,9 @@ AddOutputFilter chunkFilter
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="TheMacroProject_FPGATarget_Fail-SafeControl_eeRwxioMFzY.lvbitx" Type="Document" URL="/D/Downloads/2019_CompetitionCode-master/2019_pod_main_code-masterNoComments/FPGA Bitfiles/TheMacroProject_FPGATarget_Fail-SafeControl_eeRwxioMFzY.lvbitx"/>
 			<Item Name="ActuatorOutput.vi" Type="VI" URL="../Control/ActuatorOutput.vi"/>
+			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
