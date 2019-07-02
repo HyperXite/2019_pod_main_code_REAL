@@ -32,7 +32,7 @@
 	<Property Name="varPersistentID:{3C9FFBFF-E893-491C-A1B3-811ED0879920}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Motor/driveEnable</Property>
 	<Property Name="varPersistentID:{3ED87202-D248-42F5-87CB-4981BF21197B}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/MotorControllerData</Property>
 	<Property Name="varPersistentID:{4104E8D2-5FCA-4675-8438-B77DC9D3595E}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/StripeCount</Property>
-	<Property Name="varPersistentID:{41FA1178-ADAE-43D9-95D3-7E36121453F7}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/Thermistor 2</Property>
+	<Property Name="varPersistentID:{41FA1178-ADAE-43D9-95D3-7E36121453F7}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/AI13</Property>
 	<Property Name="varPersistentID:{433AD886-622D-4CF5-A9B9-B6404CC92375}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/IsPowered</Property>
 	<Property Name="varPersistentID:{436264AC-B002-4761-A062-AE65D1F01DCE}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/NavigationReset</Property>
 	<Property Name="varPersistentID:{4620E7EA-D3F8-4F21-8FCE-0693E052F748}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/LoopPeriods</Property>
@@ -51,7 +51,7 @@
 	<Property Name="varPersistentID:{62769874-7AC7-4307-944B-7CA943FA1ABD}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/DataOverride</Property>
 	<Property Name="varPersistentID:{6B6F1DD7-2C5E-45EC-820F-BA1C6A49601A}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/AI20</Property>
 	<Property Name="varPersistentID:{6D28BDCD-A23D-43D0-8FE0-C34BB09E7061}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod3/Brake Solenoid Control</Property>
-	<Property Name="varPersistentID:{6D967E83-FCCD-44F7-BC90-62BA8035F15E}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/Thernistor 4</Property>
+	<Property Name="varPersistentID:{6D967E83-FCCD-44F7-BC90-62BA8035F15E}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/AI15</Property>
 	<Property Name="varPersistentID:{6E033C93-F0CD-40C5-AD33-A34B15471AAC}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod3/DO7b</Property>
 	<Property Name="varPersistentID:{6F58ECB6-CB9A-4A3A-90C8-2D6ED006BB4C}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Motor/driveTarget</Property>
 	<Property Name="varPersistentID:{6F5E8E25-4BA5-43C4-A52D-0A74FE0C7DD0}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/Time</Property>
@@ -62,7 +62,7 @@
 	<Property Name="varPersistentID:{7F2C09F3-052C-4F26-AD10-D9890CC43F42}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/ServicePush</Property>
 	<Property Name="varPersistentID:{8BCEBFE8-9B41-4E28-A61C-44CDBBBAF9A8}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/AI29</Property>
 	<Property Name="varPersistentID:{8C0BCDD4-654C-44B0-A829-EC79B8DA27C7}" Type="Ref">/My Computer/HostOld/Libraries/HostVariables.lvlib/Connected</Property>
-	<Property Name="varPersistentID:{8E7A10FA-DB0A-4F57-8625-6BDCB1022124}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/Thermisotr 3</Property>
+	<Property Name="varPersistentID:{8E7A10FA-DB0A-4F57-8625-6BDCB1022124}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/AI14</Property>
 	<Property Name="varPersistentID:{972B4991-47D8-4916-A320-5B58FDF44BAB}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod2/Contact H2</Property>
 	<Property Name="varPersistentID:{98EC0D94-179F-4A64-A0F3-A1E4C822FC7A}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/ForceIdle</Property>
 	<Property Name="varPersistentID:{9B1900B0-5DFC-4CD1-AE73-522DE43BBC19}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/Optical Sensor 1</Property>
@@ -75,7 +75,7 @@
 	<Property Name="varPersistentID:{B049685A-2663-4603-8D38-4898BDEDADB0}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/ActuationList</Property>
 	<Property Name="varPersistentID:{B6BBBC88-4FE1-4CA4-9896-4E27F5E7B722}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/DisableFaultCheck</Property>
 	<Property Name="varPersistentID:{BBAC7280-33BD-4C0C-A666-3A16DB70FE02}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/24V Voltage</Property>
-	<Property Name="varPersistentID:{BE74E3AC-73F2-4D85-9CD6-C47DA7E6287B}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/Thermistor 1</Property>
+	<Property Name="varPersistentID:{BE74E3AC-73F2-4D85-9CD6-C47DA7E6287B}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/24V Temperature</Property>
 	<Property Name="varPersistentID:{BFE35EB9-80F9-4F2B-8D6E-9C0878F65813}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod2/Contact H1</Property>
 	<Property Name="varPersistentID:{C04EC50B-DF74-4163-A0F7-6944D7CCCF00}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/CurrentState</Property>
 	<Property Name="varPersistentID:{C160041B-C5EA-47B8-B081-91AD0B1B241D}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod3/Vent Solenoid Control</Property>
@@ -212,7 +212,6 @@
 			<Item Name="Host_SetParameters_Thresholds.vi" Type="VI" URL="../Host/Host_SetParameters_Thresholds.vi"/>
 			<Item Name="Host_STOP.vi" Type="VI" URL="../Host/Globals/Host_STOP.vi"/>
 			<Item Name="Host_Streams_convertClusters.vi" Type="VI" URL="../Host/Streams/Host_Streams_convertClusters.vi"/>
-			<Item Name="MotorStatus.ctl" Type="VI" URL="../Master/CAN/MotorController/MotorStatus.ctl"/>
 			<Item Name="RunTypeList.ctl" Type="VI" URL="../Master/Control/RunTypesLibrary/RunTypeList.ctl"/>
 			<Item Name="Type_Def Actuator Controls.ctl" Type="VI" URL="../Type_Def/Type_Def Actuator Controls.ctl"/>
 			<Item Name="Type_Def ControlState.ctl" Type="VI" URL="../Type_Def/Type_Def ControlState.ctl"/>
@@ -314,28 +313,26 @@ AddOutputFilter chunkFilter
 		<Item Name="State Control" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="States" Type="Folder">
-				<Item Name="FaultConditions" Type="Folder"/>
 				<Item Name="Start&amp;End" Type="Folder">
 					<Item Name="StartProgram.vi" Type="VI" URL="../StateMachineVI/StartProgram.vi"/>
 					<Item Name="EndProgram.vi" Type="VI" URL="../StateMachineVI/EndProgram.vi"/>
 				</Item>
-				<Item Name="CrawlingPrechargeState.vi" Type="VI" URL="../StateMachineVI/CrawlingPrechargeState.vi"/>
-				<Item Name="CrawlingState.vi" Type="VI" URL="../StateMachineVI/CrawlingState.vi"/>
-				<Item Name="FaultCheck.vi" Type="VI" URL="../StateMachineVI/FaultCheck.vi"/>
-				<Item Name="FaultState.vi" Type="VI" URL="../StateMachineVI/FaultState.vi"/>
-				<Item Name="Force_Idle.vi" Type="VI" URL="../StateMachineVI/Force_Idle.vi"/>
-				<Item Name="Go_to_Shutdown.vi" Type="VI" URL="../StateMachineVI/Go_to_Shutdown.vi"/>
-				<Item Name="IdleState.vi" Type="VI" URL="../StateMachineVI/IdleState.vi"/>
-				<Item Name="ActuatorOutput.vi" Type="VI" URL="../StateMachineVI/ActuatorOutput.vi"/>
-				<Item Name="BrakingState.vi" Type="VI" URL="../StateMachineVI/BrakingState.vi"/>
-				<Item Name="PrechargeState.vi" Type="VI" URL="../StateMachineVI/PrechargeState.vi"/>
-				<Item Name="PushingState.vi" Type="VI" URL="../StateMachineVI/PushingState.vi"/>
-				<Item Name="ReadyState.vi" Type="VI" URL="../StateMachineVI/ReadyState.vi"/>
-				<Item Name="ServicePushState.vi" Type="VI" URL="../StateMachineVI/ServicePushState.vi"/>
-				<Item Name="UnpoweredState.vi" Type="VI" URL="../StateMachineVI/UnpoweredState.vi"/>
-				<Item Name="VentState.vi" Type="VI" URL="../StateMachineVI/VentState.vi"/>
-				<Item Name="SystemCheckState.vi" Type="VI" URL="../StateMachineVI/SystemCheckState.vi"/>
-				<Item Name="ServiceWaitState.vi" Type="VI" URL="../StateMachineVI/ServiceWaitState.vi"/>
+				<Item Name="CrawlingPrechargeState.vi" Type="VI" URL="../Control/CrawlingPrechargeState.vi"/>
+				<Item Name="CrawlingState.vi" Type="VI" URL="../Control/CrawlingState.vi"/>
+				<Item Name="FaultCheck.vi" Type="VI" URL="../Control/FaultCheck.vi"/>
+				<Item Name="FaultState.vi" Type="VI" URL="../Control/FaultState.vi"/>
+				<Item Name="Force_Idle.vi" Type="VI" URL="../Control/Force_Idle.vi"/>
+				<Item Name="Go_to_Shutdown.vi" Type="VI" URL="../Control/Go_to_Shutdown.vi"/>
+				<Item Name="IdleState.vi" Type="VI" URL="../Control/IdleState.vi"/>
+				<Item Name="BrakingState.vi" Type="VI" URL="../Control/BrakingState.vi"/>
+				<Item Name="PrechargeState.vi" Type="VI" URL="../Control/PrechargeState.vi"/>
+				<Item Name="PushingState.vi" Type="VI" URL="../Control/PushingState.vi"/>
+				<Item Name="ReadyState.vi" Type="VI" URL="../Control/ReadyState.vi"/>
+				<Item Name="ServicePushState.vi" Type="VI" URL="../Control/ServicePushState.vi"/>
+				<Item Name="UnpoweredState.vi" Type="VI" URL="../Control/UnpoweredState.vi"/>
+				<Item Name="VentState.vi" Type="VI" URL="../Control/VentState.vi"/>
+				<Item Name="SystemCheckState.vi" Type="VI" URL="../Control/SystemCheckState.vi"/>
+				<Item Name="ServiceWaitState.vi" Type="VI" URL="../Control/ServiceWaitState.vi"/>
 			</Item>
 			<Item Name="FaultCheck" Type="Folder">
 				<Item Name="CheckFaultConditions.vi" Type="VI" URL="../FaultCheck/CheckFaultConditions.vi"/>
@@ -346,8 +343,9 @@ AddOutputFilter chunkFilter
 				<Item Name="UpdateMin&amp;Max.vi" Type="VI" URL="../FaultCheck/UpdateMin&amp;Max.vi"/>
 				<Item Name="UpdateSensorReadings.vi" Type="VI" URL="../FaultCheck/UpdateSensorReadings.vi"/>
 				<Item Name="UpdateStateMax&amp;Min.vi" Type="VI" URL="../FaultCheck/UpdateStateMax&amp;Min.vi"/>
+				<Item Name="FaultIndicator.vi" Type="VI" URL="../FaultCheck/FaultIndicator.vi"/>
 			</Item>
-			<Item Name="MainStateMachine.vi" Type="VI" URL="../StateMachineVI/MainStateMachine.vi"/>
+			<Item Name="MainStateMachine.vi" Type="VI" URL="../Control/MainStateMachine.vi"/>
 		</Item>
 		<Item Name="IMU" Type="Folder">
 			<Item Name="Master_IMUMain.vi" Type="VI" URL="../IMU/Master_IMUMain.vi"/>
@@ -404,6 +402,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Master_ValueBuffer.vi" Type="VI" URL="../Master/Navigation/Master_ValueBuffer.vi"/>
 			<Item Name="Master_NavigationLoop.vi" Type="VI" URL="../Navigation/Master_NavigationLoop.vi"/>
 			<Item Name="Master_CalculateOffset.vi" Type="VI" URL="../Master/Navigation/Master_CalculateOffset.vi"/>
+			<Item Name="new_navigator.vi" Type="VI" URL="../Navigation/new_navigator.vi"/>
 		</Item>
 		<Item Name="MainFullCode.vi" Type="VI" URL="../MainFullCode.vi"/>
 		<Item Name="NetworkSharedVariable.lvlib" Type="Library" URL="../NetworkSharedVariable.lvlib"/>
@@ -930,7 +929,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="Thermistor 1" Type="Variable">
+					<Item Name="24V Temperature" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">12</Property>
@@ -944,7 +943,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="Thermistor 2" Type="Variable">
+					<Item Name="AI13" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">13</Property>
@@ -958,7 +957,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="Thermisotr 3" Type="Variable">
+					<Item Name="AI14" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">14</Property>
@@ -972,7 +971,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="Thernistor 4" Type="Variable">
+					<Item Name="AI15" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">15</Property>
@@ -1218,9 +1217,6 @@ AddOutputFilter chunkFilter
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
-				<Item Name="NI_Real-Time Target Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI_Real-Time Target Support.lvlib"/>
-				<Item Name="ni_emb.dll" Type="Document" URL="/&lt;vilib&gt;/ni_emb.dll"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="CANopen Close.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Close.vi"/>
 				<Item Name="CANopen Interface Close.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Interface Close.vi"/>
 				<Item Name="CANopenStatusToError.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopenStatusToError.vi"/>
@@ -1336,14 +1332,12 @@ AddOutputFilter chunkFilter
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 			</Item>
-			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="nicanopenlvapi.dll" Type="Document" URL="nicanopenlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="TheMacroProject_FPGATarget_Fail-SafeControl_eeRwxioMFzY.lvbitx" Type="Document" URL="/D/Downloads/2019_CompetitionCode-master/2019_pod_main_code-masterNoComments/FPGA Bitfiles/TheMacroProject_FPGATarget_Fail-SafeControl_eeRwxioMFzY.lvbitx"/>
+			<Item Name="ActuatorOutput.vi" Type="VI" URL="../Control/ActuatorOutput.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
