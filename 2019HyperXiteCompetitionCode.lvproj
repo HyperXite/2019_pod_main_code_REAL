@@ -212,18 +212,16 @@
 			<Item Name="Host_SetParameters_Thresholds.vi" Type="VI" URL="../Host/Host_SetParameters_Thresholds.vi"/>
 			<Item Name="Host_STOP.vi" Type="VI" URL="../Host/Globals/Host_STOP.vi"/>
 			<Item Name="Host_Streams_convertClusters.vi" Type="VI" URL="../Host/Streams/Host_Streams_convertClusters.vi"/>
-			<Item Name="Master_DataControl.ctl" Type="VI" URL="../Master/DAQ/Master_DataControl.ctl"/>
 			<Item Name="RunTypeList.ctl" Type="VI" URL="../Master/Control/RunTypesLibrary/RunTypeList.ctl"/>
 			<Item Name="Type_Def Actuator Controls.ctl" Type="VI" URL="../Type_Def/Type_Def Actuator Controls.ctl"/>
 			<Item Name="Type_Def ControlState.ctl" Type="VI" URL="../Type_Def/Type_Def ControlState.ctl"/>
 			<Item Name="Type_Def IMUData.ctl" Type="VI" URL="../Type_Def/Type_Def IMUData.ctl"/>
+			<Item Name="Type_Def Master_DataControl.ctl" Type="VI" URL="../Type_Def/Type_Def Master_DataControl.ctl"/>
 			<Item Name="Type_Def MotorStatus.ctl" Type="VI" URL="../Master/CAN/MotorController/Type_Def MotorStatus.ctl"/>
 			<Item Name="TypeDef FixedMotorData.ctl" Type="VI" URL="../Type_Def/TypeDef FixedMotorData.ctl"/>
 			<Item Name="TypeDef_BMS_Status.ctl" Type="VI" URL="../Master/CAN/TypeDef_BMS_Status.ctl"/>
-			<Item Name="TypeDef_BMSData.ctl" Type="VI" URL="../Master/CAN/TypeDef_BMSData.ctl"/>
 			<Item Name="TypeDef_BMSData.ctl" Type="VI" URL="../Type_Def/TypeDef_BMSData.ctl"/>
 			<Item Name="TypeDef_BmsStatus.ctl" Type="VI" URL="../Type_Def/TypeDef_BmsStatus.ctl"/>
-			<Item Name="TypeDef_cRIOData.ctl" Type="VI" URL="../Master/DAQ/TypeDef_cRIOData.ctl"/>
 			<Item Name="TypeDef_cRIOData.ctl" Type="VI" URL="../Type_Def/TypeDef_cRIOData.ctl"/>
 			<Item Name="TypeDef_CurrentState.ctl" Type="VI" URL="../Host/Libraries/TypeDef_CurrentState.ctl"/>
 			<Item Name="TypeDef_DigitalOuts.ctl" Type="VI" URL="../Master/Control/TypeDef_DigitalOuts.ctl"/>
@@ -371,7 +369,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Type_Def SensorMin.ctl" Type="VI" URL="../Type_Def/Type_Def SensorMin.ctl"/>
 			<Item Name="TypeDef_BMSData.ctl" Type="VI" URL="../Type_Def/TypeDef_BMSData.ctl"/>
 			<Item Name="TypeDef_cRIOData.ctl" Type="VI" URL="../Type_Def/TypeDef_cRIOData.ctl"/>
-			<Item Name="TypeDef_DigitalOuts.ctl" Type="VI" URL="../Master/Control/TypeDef_DigitalOuts.ctl"/>
 			<Item Name="TypeDef_BmsStatus.ctl" Type="VI" URL="../Type_Def/TypeDef_BmsStatus.ctl"/>
 			<Item Name="TypeDef_MotorData.ctl" Type="VI" URL="../Type_Def/TypeDef_MotorData.ctl"/>
 			<Item Name="Type_Def SensorData.ctl" Type="VI" URL="../Type_Def/Type_Def SensorData.ctl"/>
@@ -379,10 +376,8 @@ AddOutputFilter chunkFilter
 			<Item Name="Type_Def Actuator Controls.ctl" Type="VI" URL="../Type_Def/Type_Def Actuator Controls.ctl"/>
 			<Item Name="Type_Def MotorControlState.ctl" Type="VI" URL="../Type_Def/Type_Def MotorControlState.ctl"/>
 			<Item Name="Type_Def motorStatus.ctl" Type="VI" URL="../Type_Def/Type_Def motorStatus.ctl"/>
-			<Item Name="TypeDef_LoopPeriods.ctl" Type="VI" URL="../Master/TypeDef_LoopPeriods.ctl"/>
 			<Item Name="Type_Def NetworkStreamState.ctl" Type="VI" URL="../Type_Def/Type_Def NetworkStreamState.ctl"/>
 			<Item Name="TypeDef FixedMotorData.ctl" Type="VI" URL="../Type_Def/TypeDef FixedMotorData.ctl"/>
-			<Item Name="Master_DataStream.vi" Type="VI" URL="../Master/Master_DataStream.vi"/>
 			<Item Name="TypeDef_NetworkStreamState.ctl" Type="VI" URL="../Host/Libraries/TypeDef_NetworkStreamState.ctl"/>
 			<Item Name="Type_Def Master_DataControl.ctl" Type="VI" URL="../Type_Def/Type_Def Master_DataControl.ctl"/>
 		</Item>
@@ -405,9 +400,7 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Navigation" Type="Folder">
 			<Item Name="Master_Navigator.vi" Type="VI" URL="../Navigation/Master_Navigator.vi"/>
-			<Item Name="Master_ValueBuffer.vi" Type="VI" URL="../Master/Navigation/Master_ValueBuffer.vi"/>
 			<Item Name="Master_NavigationLoop.vi" Type="VI" URL="../Navigation/Master_NavigationLoop.vi"/>
-			<Item Name="Master_CalculateOffset.vi" Type="VI" URL="../Master/Navigation/Master_CalculateOffset.vi"/>
 			<Item Name="new_navigator.vi" Type="VI" URL="../Navigation/new_navigator.vi"/>
 		</Item>
 		<Item Name="MainFullCode.vi" Type="VI" URL="../MainFullCode.vi"/>
@@ -1350,6 +1343,9 @@ AddOutputFilter chunkFilter
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Master_ValueBuffer.vi" Type="VI" URL="../Master/Navigation/Master_ValueBuffer.vi"/>
+			<Item Name="Master_CalculateOffset.vi" Type="VI" URL="../Master/Navigation/Master_CalculateOffset.vi"/>
+			<Item Name="Master_DataStream.vi" Type="VI" URL="../Master/Master_DataStream.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
