@@ -141,7 +141,7 @@
 					<Item Name="Host_UDPGLOBALS.vi" Type="VI" URL="../Host/Globals/Host_UDPGLOBALS.vi"/>
 				</Item>
 				<Item Name="HostVariables.lvlib" Type="Library" URL="../Host/Libraries/HostVariables.lvlib"/>
-				<Item Name="Master_DataControl.ctl" Type="VI" URL="../Master/DAQ/Master_DataControl.ctl"/>
+				<Item Name="Master_DataControl.ctl" Type="VI" URL="../Type_Def/Master_DataControl.ctl"/>
 				<Item Name="TypeDef_ControlTabs.ctl" Type="VI" URL="../Host/Libraries/TypeDef_ControlTabs.ctl"/>
 				<Item Name="TypeDef_NetworkStreamState.ctl" Type="VI" URL="../Host/Libraries/TypeDef_NetworkStreamState.ctl"/>
 				<Item Name="TypeDef_TableValues.ctl" Type="VI" URL="../Host/Libraries/TypeDef_TableValues.ctl"/>
@@ -212,13 +212,19 @@
 			<Item Name="Host_SetParameters_Thresholds.vi" Type="VI" URL="../Host/Host_SetParameters_Thresholds.vi"/>
 			<Item Name="Host_STOP.vi" Type="VI" URL="../Host/Globals/Host_STOP.vi"/>
 			<Item Name="Host_Streams_convertClusters.vi" Type="VI" URL="../Host/Streams/Host_Streams_convertClusters.vi"/>
+			<Item Name="Master_DataControl.ctl" Type="VI" URL="../Master/DAQ/Master_DataControl.ctl"/>
 			<Item Name="RunTypeList.ctl" Type="VI" URL="../Master/Control/RunTypesLibrary/RunTypeList.ctl"/>
 			<Item Name="Type_Def Actuator Controls.ctl" Type="VI" URL="../Type_Def/Type_Def Actuator Controls.ctl"/>
 			<Item Name="Type_Def ControlState.ctl" Type="VI" URL="../Type_Def/Type_Def ControlState.ctl"/>
+			<Item Name="Type_Def IMUData.ctl" Type="VI" URL="../Type_Def/Type_Def IMUData.ctl"/>
 			<Item Name="Type_Def MotorStatus.ctl" Type="VI" URL="../Master/CAN/MotorController/Type_Def MotorStatus.ctl"/>
+			<Item Name="TypeDef FixedMotorData.ctl" Type="VI" URL="../Type_Def/TypeDef FixedMotorData.ctl"/>
 			<Item Name="TypeDef_BMS_Status.ctl" Type="VI" URL="../Master/CAN/TypeDef_BMS_Status.ctl"/>
 			<Item Name="TypeDef_BMSData.ctl" Type="VI" URL="../Master/CAN/TypeDef_BMSData.ctl"/>
+			<Item Name="TypeDef_BMSData.ctl" Type="VI" URL="../Type_Def/TypeDef_BMSData.ctl"/>
+			<Item Name="TypeDef_BmsStatus.ctl" Type="VI" URL="../Type_Def/TypeDef_BmsStatus.ctl"/>
 			<Item Name="TypeDef_cRIOData.ctl" Type="VI" URL="../Master/DAQ/TypeDef_cRIOData.ctl"/>
+			<Item Name="TypeDef_cRIOData.ctl" Type="VI" URL="../Type_Def/TypeDef_cRIOData.ctl"/>
 			<Item Name="TypeDef_CurrentState.ctl" Type="VI" URL="../Host/Libraries/TypeDef_CurrentState.ctl"/>
 			<Item Name="TypeDef_DigitalOuts.ctl" Type="VI" URL="../Master/Control/TypeDef_DigitalOuts.ctl"/>
 			<Item Name="TypeDef_IMUData.ctl" Type="VI" URL="../Master/IMU/TypeDef_IMUData.ctl"/>
