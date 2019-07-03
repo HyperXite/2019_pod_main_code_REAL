@@ -22,6 +22,7 @@
 	<Property Name="varPersistentID:{212CD13C-66BF-4E54-BC9C-DE47D001CD5D}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/Optical Sensor 2</Property>
 	<Property Name="varPersistentID:{23A23B93-D6ED-40C7-8F67-F3928482D7F5}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Precharge</Property>
 	<Property Name="varPersistentID:{2476557F-56B7-4EE4-9407-C27CCF05CBCF}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Fault</Property>
+	<Property Name="varPersistentID:{27033A16-B949-4E01-85B8-9BF83BA5A787}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/HighContactorVoltage</Property>
 	<Property Name="varPersistentID:{2931AA9E-C3DF-4511-A092-E42CA9955C3F}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/AI26</Property>
 	<Property Name="varPersistentID:{2C68ED42-E644-4CAF-B1A9-EDCE1D78E547}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Sensor Data/AllDataMax</Property>
 	<Property Name="varPersistentID:{2EA4E413-AD80-4055-8E92-67F9A13FE6FF}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/AI31</Property>
@@ -44,6 +45,7 @@
 	<Property Name="varPersistentID:{4FE6067B-57BE-460A-9989-5425ECE481FC}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/AI27</Property>
 	<Property Name="varPersistentID:{5043D9D5-E77C-469E-8543-8E33AE6859AA}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Launch</Property>
 	<Property Name="varPersistentID:{52241B4A-8D9F-40DC-BD25-3962C3B32252}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/BMSData</Property>
+	<Property Name="varPersistentID:{522C5962-6521-49AF-A8A9-E0565CD4B266}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/BatteriesShortedToFairing</Property>
 	<Property Name="varPersistentID:{552464E5-2D8A-414C-8BC7-10CFFA8C141A}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/SystemCheck</Property>
 	<Property Name="varPersistentID:{554F70F7-08C9-4B33-A3B0-C803579E7E20}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/24V Current</Property>
 	<Property Name="varPersistentID:{5A5C4380-E4F6-41A8-B337-89D305594ABE}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod3/Emergency Brake Solenoid</Property>
@@ -1215,6 +1217,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Master_ValueBuffer.vi" Type="VI" URL="../DAQ/Master_ValueBuffer.vi"/>
 		<Item Name="Master_DataStream.vi" Type="VI" URL="../DAQ/Master_DataStream.vi"/>
 		<Item Name="Master_CalculateOffset.vi" Type="VI" URL="../DAQ/Master_CalculateOffset.vi"/>
+		<Item Name="LedsOn" Type="VI" URL="../Control/LedsOn"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
