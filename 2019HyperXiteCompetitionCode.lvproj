@@ -402,9 +402,9 @@ AddOutputFilter chunkFilter
 			<Item Name="Master_DAQ_ReadVIN.vi" Type="VI" URL="../DAQ/Master_DAQ_ReadVIN.vi"/>
 		</Item>
 		<Item Name="Navigation" Type="Folder">
+			<Item Name="new_navigator.vi" Type="VI" URL="../Navigation/new_navigator.vi"/>
 			<Item Name="Master_Navigator.vi" Type="VI" URL="../Navigation/Master_Navigator.vi"/>
 			<Item Name="Master_NavigationLoop.vi" Type="VI" URL="../Navigation/Master_NavigationLoop.vi"/>
-			<Item Name="new_navigator.vi" Type="VI" URL="../Navigation/new_navigator.vi"/>
 		</Item>
 		<Item Name="MainFullCode.vi" Type="VI" URL="../MainFullCode.vi"/>
 		<Item Name="NetworkSharedVariable.lvlib" Type="Library" URL="../NetworkSharedVariable.lvlib"/>
