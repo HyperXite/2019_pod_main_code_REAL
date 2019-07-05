@@ -217,14 +217,13 @@
 			<Item Name="RunTypeList.ctl" Type="VI" URL="../Master/Control/RunTypesLibrary/RunTypeList.ctl"/>
 			<Item Name="Type_Def Actuator Controls.ctl" Type="VI" URL="../Type_Def/Type_Def Actuator Controls.ctl"/>
 			<Item Name="Type_Def ControlState.ctl" Type="VI" URL="../Type_Def/Type_Def ControlState.ctl"/>
-			<Item Name="Type_Def IMUData.ctl" Type="VI" URL="../Type_Def/Type_Def IMUData.ctl"/>
-			<Item Name="Type_Def Master_DataControl.ctl" Type="VI" URL="../Type_Def/Type_Def Master_DataControl.ctl"/>
+			<Item Name="Type_Def IMUDatas.ctl" Type="VI" URL="../Type_Def/Type_Def IMUDatas.ctl"/>
 			<Item Name="Type_Def MotorStatus.ctl" Type="VI" URL="../Master/CAN/MotorController/Type_Def MotorStatus.ctl"/>
 			<Item Name="TypeDef FixedMotorData.ctl" Type="VI" URL="../Type_Def/TypeDef FixedMotorData.ctl"/>
 			<Item Name="TypeDef_BMS_Status.ctl" Type="VI" URL="../Master/CAN/TypeDef_BMS_Status.ctl"/>
-			<Item Name="TypeDef_BMSData.ctl" Type="VI" URL="../Type_Def/TypeDef_BMSData.ctl"/>
-			<Item Name="TypeDef_BmsStatus.ctl" Type="VI" URL="../Type_Def/TypeDef_BmsStatus.ctl"/>
-			<Item Name="TypeDef_cRIOData.ctl" Type="VI" URL="../Type_Def/TypeDef_cRIOData.ctl"/>
+			<Item Name="TypeDef_BMSDatas.ctl" Type="VI" URL="../Type_Def/TypeDef_BMSDatas.ctl"/>
+			<Item Name="TypeDef_BMSStatuss.ctl" Type="VI" URL="../Type_Def/TypeDef_BMSStatuss.ctl"/>
+			<Item Name="TypeDef_cRIODatas.ctl" Type="VI" URL="../Type_Def/TypeDef_cRIODatas.ctl"/>
 			<Item Name="TypeDef_CurrentState.ctl" Type="VI" URL="../Host/Libraries/TypeDef_CurrentState.ctl"/>
 			<Item Name="TypeDef_DigitalOuts.ctl" Type="VI" URL="../Master/Control/TypeDef_DigitalOuts.ctl"/>
 			<Item Name="TypeDef_IMUData.ctl" Type="VI" URL="../Master/IMU/TypeDef_IMUData.ctl"/>
@@ -366,13 +365,10 @@ AddOutputFilter chunkFilter
 		<Item Name="Type_Def" Type="Folder">
 			<Item Name="Type_Def ControlState.ctl" Type="VI" URL="../Type_Def/Type_Def ControlState.ctl"/>
 			<Item Name="Type_Def SystemCheckInputs.ctl" Type="VI" URL="../Type_Def/Type_Def SystemCheckInputs.ctl"/>
-			<Item Name="Type_Def IMUData.ctl" Type="VI" URL="../Type_Def/Type_Def IMUData.ctl"/>
 			<Item Name="Type_Def ClusterSensor.ctl" Type="VI" URL="../Type_Def/Type_Def ClusterSensor.ctl"/>
 			<Item Name="Type_Def SensorMax.ctl" Type="VI" URL="../Type_Def/Type_Def SensorMax.ctl"/>
 			<Item Name="Type_Def SensorMin.ctl" Type="VI" URL="../Type_Def/Type_Def SensorMin.ctl"/>
-			<Item Name="TypeDef_BMSData.ctl" Type="VI" URL="../Type_Def/TypeDef_BMSData.ctl"/>
-			<Item Name="TypeDef_cRIOData.ctl" Type="VI" URL="../Type_Def/TypeDef_cRIOData.ctl"/>
-			<Item Name="TypeDef_BmsStatus.ctl" Type="VI" URL="../Type_Def/TypeDef_BmsStatus.ctl"/>
+			<Item Name="TypeDef_cRIODatas.ctl" Type="VI" URL="../Type_Def/TypeDef_cRIODatas.ctl"/>
 			<Item Name="TypeDef_MotorData.ctl" Type="VI" URL="../Type_Def/TypeDef_MotorData.ctl"/>
 			<Item Name="Type_Def SensorData.ctl" Type="VI" URL="../Type_Def/Type_Def SensorData.ctl"/>
 			<Item Name="TypeDef_LoopPeriod.ctl" Type="VI" URL="../Type_Def/TypeDef_LoopPeriod.ctl"/>
@@ -382,7 +378,10 @@ AddOutputFilter chunkFilter
 			<Item Name="Type_Def NetworkStreamState.ctl" Type="VI" URL="../Type_Def/Type_Def NetworkStreamState.ctl"/>
 			<Item Name="TypeDef FixedMotorData.ctl" Type="VI" URL="../Type_Def/TypeDef FixedMotorData.ctl"/>
 			<Item Name="TypeDef_NetworkStreamState.ctl" Type="VI" URL="../Host/Libraries/TypeDef_NetworkStreamState.ctl"/>
-			<Item Name="Type_Def Master_DataControl.ctl" Type="VI" URL="../Type_Def/Type_Def Master_DataControl.ctl"/>
+			<Item Name="Master_DataControl.ctl" Type="VI" URL="../Type_Def/Master_DataControl.ctl"/>
+			<Item Name="Type_Def IMUDatas.ctl" Type="VI" URL="../Type_Def/Type_Def IMUDatas.ctl"/>
+			<Item Name="TypeDef_BMSDatas.ctl" Type="VI" URL="../Type_Def/TypeDef_BMSDatas.ctl"/>
+			<Item Name="TypeDef_BMSStatuss.ctl" Type="VI" URL="../Type_Def/TypeDef_BMSStatuss.ctl"/>
 		</Item>
 		<Item Name="CAN" Type="Folder">
 			<Item Name="BMS" Type="Folder">
@@ -1345,10 +1344,11 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="TheMacroProject_FPGATarget_Fail-SafeControl_eeRwxioMFzY.lvbitx" Type="Document" URL="/D/Downloads/2019_CompetitionCode-master/2019_pod_main_code-masterNoComments/FPGA Bitfiles/TheMacroProject_FPGATarget_Fail-SafeControl_eeRwxioMFzY.lvbitx"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="2019Code_FPGATarget_Fail-SafeControl_eeRwxioMFzY.lvbitx" Type="Document" URL="../FPGA Bitfiles/2019Code_FPGATarget_Fail-SafeControl_eeRwxioMFzY.lvbitx"/>
+			<Item Name="Type_Def Master_DataControls.ctl" Type="VI" URL="../Type_Def/Type_Def Master_DataControls.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
