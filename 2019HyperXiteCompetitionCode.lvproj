@@ -22,6 +22,7 @@
 	<Property Name="varPersistentID:{212CD13C-66BF-4E54-BC9C-DE47D001CD5D}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/Optical Sensor 2</Property>
 	<Property Name="varPersistentID:{23A23B93-D6ED-40C7-8F67-F3928482D7F5}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Precharge</Property>
 	<Property Name="varPersistentID:{2476557F-56B7-4EE4-9407-C27CCF05CBCF}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Fault</Property>
+	<Property Name="varPersistentID:{258FD037-393D-4805-A3FC-906B825450B4}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/BrakeFail</Property>
 	<Property Name="varPersistentID:{27033A16-B949-4E01-85B8-9BF83BA5A787}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/HighContactorVoltage</Property>
 	<Property Name="varPersistentID:{2931AA9E-C3DF-4511-A092-E42CA9955C3F}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod4/AI26</Property>
 	<Property Name="varPersistentID:{2C68ED42-E644-4CAF-B1A9-EDCE1D78E547}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Sensor Data/AllDataMax</Property>
