@@ -410,6 +410,14 @@ If Shutdown is False, passes through VI</Property>
 		<Property Name="typedefPath1" Type="PathRel">../Type_Def/TypeDef_LoopPeriod.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$)R!!!!"A!A!!!!!!'!"6!"!!/1W^O&gt;(*P&lt;#"1:8*J&lt;W1!!"&amp;!"Q!+2%&amp;2)&amp;"F=GFP:!!!%5!(!!J*465A5'6S;7^E!!!21!1!#E."4C"1:8*J&lt;W1!!"&amp;!"Q!+4G&amp;W)&amp;"F=GFP:!!!0Q$R!!!!!!!!!!%76(FQ:52F:F^-&lt;W^Q5'6S;7^E,G.U&lt;!!A1&amp;!!"1!!!!%!!A!$!!1,4'^P=#"1:8*J&lt;W1!!1!&amp;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="ReintCAN" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"A!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="SystemMessage" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>

@@ -63,6 +63,7 @@
 	<Property Name="varPersistentID:{956F7E73-96D1-424B-99C6-CE45C113D054}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod1/AI28</Property>
 	<Property Name="varPersistentID:{98EC0D94-179F-4A64-A0F3-A1E4C822FC7A}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/ForceIdle</Property>
 	<Property Name="varPersistentID:{9A99919C-33A8-464C-B316-A1F1D0E1422C}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/Mod1/AI22</Property>
+	<Property Name="varPersistentID:{9D3BC2CD-CDF0-4694-8BD1-B23C1E2C3CA4}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/ReintCAN</Property>
 	<Property Name="varPersistentID:{A2CE47FB-A3F6-4DD1-8DF2-1E9FF9EE1608}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Shutdown</Property>
 	<Property Name="varPersistentID:{A3C91434-0284-4228-B1DD-51D39C879E38}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/NewSystemCheckInputs</Property>
 	<Property Name="varPersistentID:{AC7E52C2-0EF2-46C1-A0F6-8CB35CE8DEF1}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Ready</Property>
@@ -391,8 +392,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Master_NavigationLoop.vi" Type="VI" URL="../Navigation/Master_NavigationLoop.vi"/>
 		</Item>
 		<Item Name="MainFullCode.vi" Type="VI" URL="../MainFullCode.vi"/>
-		<Item Name="NetworkSharedVariable.lvlib" Type="Library" URL="../NetworkSharedVariable.lvlib"/>
-		<Item Name="SingleProcessVariable.lvlib" Type="Library" URL="../SingleProcessVariable.lvlib"/>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
@@ -1375,6 +1374,8 @@ AddOutputFilter chunkFilter
 				</Item>
 			</Item>
 		</Item>
+		<Item Name="NetworkSharedVariable.lvlib" Type="Library" URL="../NetworkSharedVariable.lvlib"/>
+		<Item Name="SingleProcessVariable.lvlib" Type="Library" URL="../SingleProcessVariable.lvlib"/>
 		<Item Name="Master_ValueBuffer.vi" Type="VI" URL="../DAQ/Master_ValueBuffer.vi"/>
 		<Item Name="Master_DataStream.vi" Type="VI" URL="../DAQ/Master_DataStream.vi"/>
 		<Item Name="Master_CalculateOffset.vi" Type="VI" URL="../DAQ/Master_CalculateOffset.vi"/>
