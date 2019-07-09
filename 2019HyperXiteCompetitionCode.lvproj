@@ -1,93 +1,94 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="18008000">
+	<Property Name="varPersistentID:{02DDE762-F1F8-45EA-B623-45E043876F9C}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/ForceIdle</Property>
 	<Property Name="varPersistentID:{0665CD46-8039-4685-AEA1-C3A72ED892F6}" Type="Ref">/My Computer/HostOld/Libraries/HostVariables.lvlib/ReIntStream(local)</Property>
-	<Property Name="varPersistentID:{0A32CABC-3623-4674-BE58-D695228FF482}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/SimulateData</Property>
-	<Property Name="varPersistentID:{0BC60856-79F4-46F0-9D86-F18E1924BF71}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/SystemCheckInputs</Property>
-	<Property Name="varPersistentID:{0C59A446-5CE8-4468-AF9C-62835262A22B}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/StartTime</Property>
-	<Property Name="varPersistentID:{0CE5BFF3-D154-44FC-A1E9-F47E0E00B6B5}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Kinematics/Displacement</Property>
-	<Property Name="varPersistentID:{0D29DE80-6C9A-48BD-85BD-9F668702D64D}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/BMSFreeze</Property>
+	<Property Name="varPersistentID:{066E5F24-484B-42A0-9CAA-B644FD47D3EC}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/ServicePush</Property>
+	<Property Name="varPersistentID:{08E0B71E-A2B2-45DE-A127-DF958A6D5504}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/Time</Property>
+	<Property Name="varPersistentID:{08E546E8-B951-46D7-83EC-D3216D11EAD8}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Precharge</Property>
+	<Property Name="varPersistentID:{0A54BD98-0754-4FAB-851C-1BDD5AF327A2}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/BMSData</Property>
+	<Property Name="varPersistentID:{0D038ACA-2C58-40E4-BE77-48DEC3B6B988}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Shutdown</Property>
 	<Property Name="varPersistentID:{0E992B92-1DD6-44AA-A733-214D081BE4C5}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI14</Property>
 	<Property Name="varPersistentID:{0F032A8C-267C-4540-B2B8-6067A8048E38}" Type="Ref">/My Computer/HostOld/Libraries/HostVariables.lvlib/RecordData</Property>
 	<Property Name="varPersistentID:{14068B91-5A90-48C4-AA3F-32D31BA3A64A}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/ABS Pressure 1</Property>
 	<Property Name="varPersistentID:{1415CB92-E338-4248-893A-7E9985343A2C}" Type="Ref">/My Computer/HostOld/Libraries/HostVariables.lvlib/ServicePump</Property>
-	<Property Name="varPersistentID:{143D4511-FADD-4A4F-BDFE-5A8A77DC12B2}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/ReIntStreams</Property>
-	<Property Name="varPersistentID:{155D0253-488D-4853-BA89-6669AC9EF4E5}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Motor/driveMode</Property>
+	<Property Name="varPersistentID:{141C3AB4-53D8-40E8-B300-713844E309D4}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/BMSFreeze</Property>
 	<Property Name="varPersistentID:{16E2416F-32B9-4FAB-82D2-90982E1E918A}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI23</Property>
-	<Property Name="varPersistentID:{186F1150-A66A-463E-BB4C-33DA5E3233AF}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Vent</Property>
 	<Property Name="varPersistentID:{19CF2428-F073-43E7-A5A5-6E08BD0F4915}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI15</Property>
 	<Property Name="varPersistentID:{22B9AC33-E2D1-4AD0-ACCF-F23DD4F6C847}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/24V Current</Property>
-	<Property Name="varPersistentID:{23A23B93-D6ED-40C7-8F67-F3928482D7F5}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Precharge</Property>
-	<Property Name="varPersistentID:{2476557F-56B7-4EE4-9407-C27CCF05CBCF}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Fault</Property>
-	<Property Name="varPersistentID:{258FD037-393D-4805-A3FC-906B825450B4}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/BrakeFail</Property>
-	<Property Name="varPersistentID:{27033A16-B949-4E01-85B8-9BF83BA5A787}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/HighContactorVoltage</Property>
+	<Property Name="varPersistentID:{25510B56-8C47-4930-95D2-31AC62E426BD}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/StopControlLoop</Property>
 	<Property Name="varPersistentID:{289EE87B-4634-4E6D-9CD6-A3571220A367}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Pump PT</Property>
 	<Property Name="varPersistentID:{28A5BB30-F50B-44CB-B1CB-F465A893EBAE}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/ABS Pressure 2</Property>
 	<Property Name="varPersistentID:{290439C6-4BA5-4157-A0EA-F27FEC524A1B}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI21</Property>
+	<Property Name="varPersistentID:{2B31581A-1AE6-4DAA-8194-6C8C52F9CF55}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/MotorControllerData</Property>
 	<Property Name="varPersistentID:{2C3AA597-6C06-43B4-9085-84DF19C07513}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI27</Property>
-	<Property Name="varPersistentID:{2C68ED42-E644-4CAF-B1A9-EDCE1D78E547}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Sensor Data/AllDataMax</Property>
-	<Property Name="varPersistentID:{3854127F-8EE5-42A8-ADC9-A6477C957ACA}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/GlobalStop</Property>
+	<Property Name="varPersistentID:{2D954AF7-212D-4BCF-A181-7BD3E63FDC3A}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/BrakeFail</Property>
 	<Property Name="varPersistentID:{3B287710-7617-48C1-B788-E8321A6BB0A0}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI26</Property>
-	<Property Name="varPersistentID:{3C9FFBFF-E893-491C-A1B3-811ED0879920}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Motor/driveEnable</Property>
+	<Property Name="varPersistentID:{3B294AC3-E3FA-4D17-9652-440A28B87FEB}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/ReIntStreams</Property>
+	<Property Name="varPersistentID:{3D5B843A-3717-4D84-B055-97BC790BF672}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/BMSSignal</Property>
 	<Property Name="varPersistentID:{3E1A4859-765E-438F-A532-C5BB73D14740}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI19</Property>
-	<Property Name="varPersistentID:{3ED87202-D248-42F5-87CB-4981BF21197B}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/MotorControllerData</Property>
-	<Property Name="varPersistentID:{4104E8D2-5FCA-4675-8438-B77DC9D3595E}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/StripeCount</Property>
+	<Property Name="varPersistentID:{3EDF5BD5-51C5-43FD-9A1D-85FC18C98008}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/SimulateData</Property>
+	<Property Name="varPersistentID:{40CA6D74-9220-412B-AF9C-69C1BB7C858A}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/CurrentActuations</Property>
 	<Property Name="varPersistentID:{42632E4F-5E6E-4C10-9F68-DD6A1EE90E72}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Brake PT</Property>
-	<Property Name="varPersistentID:{433AD886-622D-4CF5-A9B9-B6404CC92375}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/IsPowered</Property>
-	<Property Name="varPersistentID:{436264AC-B002-4761-A062-AE65D1F01DCE}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/NavigationReset</Property>
-	<Property Name="varPersistentID:{4620E7EA-D3F8-4F21-8FCE-0693E052F748}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/LoopPeriods</Property>
-	<Property Name="varPersistentID:{46617DE6-BC56-438C-B6BE-652716B5162C}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Service</Property>
+	<Property Name="varPersistentID:{42933AC9-BED9-4203-9751-DF46EF51E2C8}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/DisableFaultCheck</Property>
+	<Property Name="varPersistentID:{448E28A6-469D-4EC2-8B4C-7FE3CDA00BEC}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Fault</Property>
 	<Property Name="varPersistentID:{482E3C6B-9E33-4AE7-BC3D-C995C03BFB55}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/24V Temperature</Property>
-	<Property Name="varPersistentID:{4B590063-1EA6-4B4E-BA96-4B666C60637F}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/StopControlLoop</Property>
+	<Property Name="varPersistentID:{48E38B81-A49D-4F72-BC75-0FBDB12152A1}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/CalcAccelerationOffSet</Property>
+	<Property Name="varPersistentID:{49C46F64-D3C2-4F54-826D-23F967A35395}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/LoopPeriods</Property>
 	<Property Name="varPersistentID:{4C04DCEF-291C-4E07-AE9A-D065864C8D5D}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI13</Property>
-	<Property Name="varPersistentID:{5043D9D5-E77C-469E-8543-8E33AE6859AA}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Launch</Property>
-	<Property Name="varPersistentID:{52241B4A-8D9F-40DC-BD25-3962C3B32252}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/BMSData</Property>
-	<Property Name="varPersistentID:{522C5962-6521-49AF-A8A9-E0565CD4B266}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/BatteriesShortedToFairing</Property>
-	<Property Name="varPersistentID:{552464E5-2D8A-414C-8BC7-10CFFA8C141A}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/SystemCheck</Property>
+	<Property Name="varPersistentID:{4F7DB970-BE45-4C60-A0E7-16276A80EEC6}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Sensor Data/AllDataMax</Property>
+	<Property Name="varPersistentID:{51F2B26C-093E-4A69-8E4D-D283DC73C3A1}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/SystemCheck</Property>
 	<Property Name="varPersistentID:{5598699E-7FC3-4164-B058-C5E20AE364BE}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI30</Property>
-	<Property Name="varPersistentID:{5DF61318-AAB1-4634-A10C-9D60AECB27EA}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/Connected</Property>
-	<Property Name="varPersistentID:{62769874-7AC7-4307-944B-7CA943FA1ABD}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/DataOverride</Property>
 	<Property Name="varPersistentID:{6367FA5D-6288-4148-85DB-B067BAC01236}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Hall Effect Right</Property>
 	<Property Name="varPersistentID:{6374AD0B-8A70-42F5-8AC9-E548D6AEF81C}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI29</Property>
 	<Property Name="varPersistentID:{64FC8CB5-D87B-4703-AF98-57B67BFEEA8C}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Contactor H2 Continuity</Property>
+	<Property Name="varPersistentID:{668977E5-08E4-4765-B6E0-3A5097C77108}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/SensorData</Property>
 	<Property Name="varPersistentID:{6A21DFE3-1E8A-4782-8CC0-1F793BAB9FF6}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI31</Property>
-	<Property Name="varPersistentID:{6F58ECB6-CB9A-4A3A-90C8-2D6ED006BB4C}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Motor/driveTarget</Property>
-	<Property Name="varPersistentID:{6F5E8E25-4BA5-43C4-A52D-0A74FE0C7DD0}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/Time</Property>
 	<Property Name="varPersistentID:{70B1BF2F-2955-4023-8E5A-29422E1D8941}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI20</Property>
-	<Property Name="varPersistentID:{79F3DED1-5AA1-44E8-8B1F-23E939E2908E}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Kinematics/Acceleration</Property>
-	<Property Name="varPersistentID:{7C84187C-F3D0-4CF1-9E81-BAC73ED59CA0}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/IMUData</Property>
-	<Property Name="varPersistentID:{7F2C09F3-052C-4F26-AD10-D9890CC43F42}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/ServicePush</Property>
+	<Property Name="varPersistentID:{725C24DA-ACB3-4EE2-AC2C-AF4784142174}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/ReintCAN</Property>
+	<Property Name="varPersistentID:{7698FBCD-F984-461E-BDFF-CF120BE5F290}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/ActuationList</Property>
+	<Property Name="varPersistentID:{7D74DE09-FEBA-4B89-9B1C-D28A2167C922}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/SystemMessage</Property>
 	<Property Name="varPersistentID:{7FD28CCD-E252-468D-9F12-19853451EB71}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Tank PT</Property>
+	<Property Name="varPersistentID:{8200A9DA-900E-4806-A261-5C79F1550C08}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Launch</Property>
+	<Property Name="varPersistentID:{84A0A303-5C51-42C8-9AD0-E3E340CAD882}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/SystemCheckInputs</Property>
+	<Property Name="varPersistentID:{8685D305-7A10-49F4-90EC-AD4E87E30445}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Ready</Property>
+	<Property Name="varPersistentID:{8A96CA6C-BDD8-40CD-BBA0-7427DF0794B5}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/NewSystemCheckInputs</Property>
 	<Property Name="varPersistentID:{8C0BCDD4-654C-44B0-A829-EC79B8DA27C7}" Type="Ref">/My Computer/HostOld/Libraries/HostVariables.lvlib/Connected</Property>
 	<Property Name="varPersistentID:{8E891AFF-8BE7-4BE3-A8E7-AFF216B88E6A}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI24</Property>
 	<Property Name="varPersistentID:{8EEA9F08-D4C2-41A5-ABE0-841F63FC8F5A}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Hall Effect Left</Property>
+	<Property Name="varPersistentID:{8F412DC3-B415-4F53-B17E-301435712A75}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/IsPowered</Property>
+	<Property Name="varPersistentID:{907F5B42-5EB6-4BE2-8BC7-0C6AC58A9F78}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/HighContactorVoltage</Property>
+	<Property Name="varPersistentID:{940CDFB5-BAC6-496D-8663-816711FC46BD}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Motor/driveEnable</Property>
 	<Property Name="varPersistentID:{956F7E73-96D1-424B-99C6-CE45C113D054}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI28</Property>
-	<Property Name="varPersistentID:{98EC0D94-179F-4A64-A0F3-A1E4C822FC7A}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/ForceIdle</Property>
+	<Property Name="varPersistentID:{984E43FB-6951-4DF3-BFD7-2EEEDD6C2961}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/Connected</Property>
+	<Property Name="varPersistentID:{9881BB34-FE64-4FA0-99EF-8D658B05C607}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/StripeCount</Property>
 	<Property Name="varPersistentID:{9A99919C-33A8-464C-B316-A1F1D0E1422C}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI22</Property>
-	<Property Name="varPersistentID:{9D3BC2CD-CDF0-4694-8BD1-B23C1E2C3CA4}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/ReintCAN</Property>
-	<Property Name="varPersistentID:{A2CE47FB-A3F6-4DD1-8DF2-1E9FF9EE1608}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Shutdown</Property>
-	<Property Name="varPersistentID:{A3C91434-0284-4228-B1DD-51D39C879E38}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/NewSystemCheckInputs</Property>
-	<Property Name="varPersistentID:{AC7E52C2-0EF2-46C1-A0F6-8CB35CE8DEF1}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Ready</Property>
+	<Property Name="varPersistentID:{AA3AD73F-16D5-42DB-9548-12EC1B082753}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Sensor Data/AllData</Property>
+	<Property Name="varPersistentID:{AB153C8A-8D26-44AF-9758-52BB5AAD1D73}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/NavigationReset</Property>
+	<Property Name="varPersistentID:{ABA58C5E-6D37-4066-8F22-D74E6A27EC4A}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/CurrentState</Property>
 	<Property Name="varPersistentID:{AE9D4E59-D833-4E61-A280-02976935CC9B}" Type="Ref">/My Computer/HostNew/HostGlobals.lvlib/DataPlaceholder</Property>
-	<Property Name="varPersistentID:{B049685A-2663-4603-8D38-4898BDEDADB0}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/ActuationList</Property>
-	<Property Name="varPersistentID:{B6BBBC88-4FE1-4CA4-9896-4E27F5E7B722}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/DisableFaultCheck</Property>
+	<Property Name="varPersistentID:{B01F5BA8-F956-4CA8-98F1-66F26C01D710}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/BatteriesShortedToFairing</Property>
+	<Property Name="varPersistentID:{B7F7C021-6CBC-4147-8146-037D6029102A}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/NetworkCheck</Property>
 	<Property Name="varPersistentID:{BECF6C46-6C7A-498E-9902-39A8698E4391}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Optical Sensor 1</Property>
-	<Property Name="varPersistentID:{C04EC50B-DF74-4163-A0F7-6944D7CCCF00}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/CurrentState</Property>
 	<Property Name="varPersistentID:{C1408B4C-72B6-4089-9E85-68E993FF879F}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/COntactor L2 Continuity</Property>
 	<Property Name="varPersistentID:{C27869E0-2D89-4AE9-976F-B94A6AD0B759}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Contactor L! Contunity</Property>
+	<Property Name="varPersistentID:{C2BD8A50-E5D0-40BB-B406-3C17F479EA10}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/DataOverride</Property>
 	<Property Name="varPersistentID:{C782A0D2-21AD-465E-AC3F-24A1230D2C50}" Type="Ref">/My Computer/HostOld/Libraries/HostVariables.lvlib/SensorData</Property>
-	<Property Name="varPersistentID:{C90F78E4-1DD1-40C0-AD7D-EE4876B19CB0}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/SystemMessage</Property>
+	<Property Name="varPersistentID:{C7CFD0B9-5407-40BF-BE1E-60044209E0FB}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Motor/driveMode</Property>
+	<Property Name="varPersistentID:{CA406B25-7C38-4209-8644-C79AD38C6359}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/CrawlingTime</Property>
+	<Property Name="varPersistentID:{CB063464-B2B4-4E0E-A169-9250B4CA256E}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Kinematics/Velocity</Property>
+	<Property Name="varPersistentID:{CCD1EBB1-40CD-4BF5-834F-CC57C2B72067}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/IMUData</Property>
+	<Property Name="varPersistentID:{CEB6ED41-55D8-4C0C-8ED9-981B14D9BF61}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Kinematics/Acceleration</Property>
 	<Property Name="varPersistentID:{D1D56B9E-58D2-403B-B838-3CF3A113F832}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Contactor H1 Contiunity</Property>
 	<Property Name="varPersistentID:{D8705446-4DB3-4AEA-B3CC-BD21D380D0B8}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI25</Property>
-	<Property Name="varPersistentID:{E0652C3A-0035-4004-B42B-744D65D401BA}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Sensor Data/AllDataMin</Property>
-	<Property Name="varPersistentID:{E0BC11D1-7FDC-4B3C-8C75-0DD00E9947BD}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/CurrentActuations</Property>
-	<Property Name="varPersistentID:{E2CA1D89-2B21-4DED-B232-D036D52C8A74}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/CalcAccelerationOffSet</Property>
-	<Property Name="varPersistentID:{E4C70BE3-FA19-43D9-9F4F-C7E9CA6EF12F}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Kinematics/Velocity</Property>
+	<Property Name="varPersistentID:{DDD2C496-A43A-4452-BA3C-88FE7DC72AFC}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/GlobalStop</Property>
+	<Property Name="varPersistentID:{E480529B-75E9-4FD7-9C78-19E12060D198}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Service</Property>
 	<Property Name="varPersistentID:{E7C6BC62-E9A0-4D41-887E-6B1C70A97CCD}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Optical Sensor 2</Property>
-	<Property Name="varPersistentID:{EB33ED7E-5027-48CA-A03D-5551B2DB9448}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/BMSSignal</Property>
+	<Property Name="varPersistentID:{E88D91FD-6C0B-4171-9FF0-7D614BCCAF17}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Kinematics/Displacement</Property>
+	<Property Name="varPersistentID:{E939817A-B425-4E2A-85B5-ED192E7B9377}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/StartTime</Property>
+	<Property Name="varPersistentID:{EA24021F-D209-42F9-BF62-488F69CA2578}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Motor/driveTarget</Property>
 	<Property Name="varPersistentID:{EECEEB67-78C3-43F4-9D0E-FFA8B76DA84E}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/24V Voltage</Property>
-	<Property Name="varPersistentID:{EFB51117-E117-4A00-9E9F-C62C20FDCA1C}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Sensor Data/AllData</Property>
-	<Property Name="varPersistentID:{F0D79D2F-7622-4390-A6B5-2218C2E43535}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/SensorData</Property>
-	<Property Name="varPersistentID:{F2E49B46-2D9D-46F9-9ABA-D44E935DBC86}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/CrawlingTime</Property>
+	<Property Name="varPersistentID:{F27DA2C7-A1F7-45DA-8C46-CF6C3AC7C01F}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Vent</Property>
+	<Property Name="varPersistentID:{FED0273E-4349-4289-B434-DFC6A3FE161A}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Sensor Data/AllDataMin</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>

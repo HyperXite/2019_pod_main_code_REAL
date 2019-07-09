@@ -491,7 +491,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 	</Item>
-	<Item Name="Write pdoBufferSize.vi" Type="VI" URL="../Write pdoBufferSize.vi">
+	<Item Name="Write pdoBufferSize.vi" Type="VI" URL="../../MotorController/Write pdoBufferSize.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;3!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%*!=!!?!!!?(%VP&gt;'^S1W^O&gt;(*P&lt;'RF=E.M98.T,GRW9WRB=X-!!"B.&lt;X2P=E.P&lt;H2S&lt;WRM:8*$&lt;'&amp;T=S"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!%U!'!!VQ:'^#&gt;7:G:8*4;8JF!%"!=!!?!!!?(%VP&gt;'^S1W^O&gt;(*P&lt;'RF=E.M98.T,GRW9WRB=X-!!"&gt;.&lt;X2P=E.P&lt;H2S&lt;WRM:8*$&lt;'&amp;T=S"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!1!!!!EA!!!!!"!!E!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
