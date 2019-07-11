@@ -7,7 +7,7 @@
 	<Property Name="varPersistentID:{08E546E8-B951-46D7-83EC-D3216D11EAD8}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Precharge</Property>
 	<Property Name="varPersistentID:{0A54BD98-0754-4FAB-851C-1BDD5AF327A2}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/BMSData</Property>
 	<Property Name="varPersistentID:{0D038ACA-2C58-40E4-BE77-48DEC3B6B988}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Shutdown</Property>
-	<Property Name="varPersistentID:{0E992B92-1DD6-44AA-A733-214D081BE4C5}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI14</Property>
+	<Property Name="varPersistentID:{0E992B92-1DD6-44AA-A733-214D081BE4C5}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/PV2 Temp</Property>
 	<Property Name="varPersistentID:{0F032A8C-267C-4540-B2B8-6067A8048E38}" Type="Ref">/My Computer/HostOld/Libraries/HostVariables.lvlib/RecordData</Property>
 	<Property Name="varPersistentID:{14068B91-5A90-48C4-AA3F-32D31BA3A64A}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/ABS Pressure 1</Property>
 	<Property Name="varPersistentID:{1415CB92-E338-4248-893A-7E9985343A2C}" Type="Ref">/My Computer/HostOld/Libraries/HostVariables.lvlib/ServicePump</Property>
@@ -21,7 +21,7 @@
 	<Property Name="varPersistentID:{290439C6-4BA5-4157-A0EA-F27FEC524A1B}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI21</Property>
 	<Property Name="varPersistentID:{2B31581A-1AE6-4DAA-8194-6C8C52F9CF55}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/MotorControllerData</Property>
 	<Property Name="varPersistentID:{2C3AA597-6C06-43B4-9085-84DF19C07513}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI27</Property>
-	<Property Name="varPersistentID:{2D954AF7-212D-4BCF-A181-7BD3E63FDC3A}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/BrakeFail</Property>
+	<Property Name="varPersistentID:{33765CAF-0DE7-4C48-A53B-D27ACA537F2B}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/BrakeFail</Property>
 	<Property Name="varPersistentID:{3B287710-7617-48C1-B788-E8321A6BB0A0}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI26</Property>
 	<Property Name="varPersistentID:{3B294AC3-E3FA-4D17-9652-440A28B87FEB}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/ReIntStreams</Property>
 	<Property Name="varPersistentID:{3D5B843A-3717-4D84-B055-97BC790BF672}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/BMSSignal</Property>
@@ -34,7 +34,7 @@
 	<Property Name="varPersistentID:{482E3C6B-9E33-4AE7-BC3D-C995C03BFB55}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/24V Temperature</Property>
 	<Property Name="varPersistentID:{48E38B81-A49D-4F72-BC75-0FBDB12152A1}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/CalcAccelerationOffSet</Property>
 	<Property Name="varPersistentID:{49C46F64-D3C2-4F54-826D-23F967A35395}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/LoopPeriods</Property>
-	<Property Name="varPersistentID:{4C04DCEF-291C-4E07-AE9A-D065864C8D5D}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI13</Property>
+	<Property Name="varPersistentID:{4C04DCEF-291C-4E07-AE9A-D065864C8D5D}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/PV1 Temp</Property>
 	<Property Name="varPersistentID:{4F7DB970-BE45-4C60-A0E7-16276A80EEC6}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Sensor Data/AllDataMax</Property>
 	<Property Name="varPersistentID:{51F2B26C-093E-4A69-8E4D-D283DC73C3A1}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/SystemCheck</Property>
 	<Property Name="varPersistentID:{5598699E-7FC3-4164-B058-C5E20AE364BE}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI30</Property>
@@ -46,9 +46,11 @@
 	<Property Name="varPersistentID:{70B1BF2F-2955-4023-8E5A-29422E1D8941}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI20</Property>
 	<Property Name="varPersistentID:{725C24DA-ACB3-4EE2-AC2C-AF4784142174}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/ReintCAN</Property>
 	<Property Name="varPersistentID:{7698FBCD-F984-461E-BDFF-CF120BE5F290}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/ActuationList</Property>
+	<Property Name="varPersistentID:{7C410938-A73D-4990-A9FB-D58E9CACB8AB}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/DataOverride</Property>
 	<Property Name="varPersistentID:{7D74DE09-FEBA-4B89-9B1C-D28A2167C922}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/SystemMessage</Property>
 	<Property Name="varPersistentID:{7FD28CCD-E252-468D-9F12-19853451EB71}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Tank PT</Property>
 	<Property Name="varPersistentID:{8200A9DA-900E-4806-A261-5C79F1550C08}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Launch</Property>
+	<Property Name="varPersistentID:{8225E4E9-51A9-442A-A20B-54B10A886527}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Motor/ServiceRPMTarget</Property>
 	<Property Name="varPersistentID:{84A0A303-5C51-42C8-9AD0-E3E340CAD882}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/SystemCheckInputs</Property>
 	<Property Name="varPersistentID:{8685D305-7A10-49F4-90EC-AD4E87E30445}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Ready</Property>
 	<Property Name="varPersistentID:{8A96CA6C-BDD8-40CD-BBA0-7427DF0794B5}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/NewSystemCheckInputs</Property>
@@ -70,8 +72,7 @@
 	<Property Name="varPersistentID:{B7F7C021-6CBC-4147-8146-037D6029102A}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/NetworkCheck</Property>
 	<Property Name="varPersistentID:{BECF6C46-6C7A-498E-9902-39A8698E4391}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Optical Sensor 1</Property>
 	<Property Name="varPersistentID:{C1408B4C-72B6-4089-9E85-68E993FF879F}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/COntactor L2 Continuity</Property>
-	<Property Name="varPersistentID:{C27869E0-2D89-4AE9-976F-B94A6AD0B759}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Contactor L! Contunity</Property>
-	<Property Name="varPersistentID:{C2BD8A50-E5D0-40BB-B406-3C17F479EA10}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/DataOverride</Property>
+	<Property Name="varPersistentID:{C27869E0-2D89-4AE9-976F-B94A6AD0B759}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Contactor L1 Contunity</Property>
 	<Property Name="varPersistentID:{C782A0D2-21AD-465E-AC3F-24A1230D2C50}" Type="Ref">/My Computer/HostOld/Libraries/HostVariables.lvlib/SensorData</Property>
 	<Property Name="varPersistentID:{C7CFD0B9-5407-40BF-BE1E-60044209E0FB}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Motor/driveMode</Property>
 	<Property Name="varPersistentID:{CA406B25-7C38-4209-8644-C79AD38C6359}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/CrawlingTime</Property>
@@ -222,7 +223,7 @@
 	</Item>
 	<Item Name="BEEFRIO" Type="RT CompactRIO">
 		<Property Name="alias.name" Type="Str">BEEFRIO</Property>
-		<Property Name="alias.value" Type="Str">172.22.11.2</Property>
+		<Property Name="alias.value" Type="Str">192.168.0.50</Property>
 		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,ARM;DeviceCode,7740;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">7740</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
@@ -247,7 +248,7 @@
 		<Property Name="target.IOScan.StartEngineOnDeploy" Type="Bool">false</Property>
 		<Property Name="target.IsRemotePanelSupported" Type="Bool">true</Property>
 		<Property Name="target.RTCPULoadMonitoringEnabled" Type="Bool">true</Property>
-		<Property Name="target.RTDebugWebServerHTTPPort" Type="Int">8001</Property>
+		<Property Name="target.RTDebugWebServerHTTPPort" Type="UInt">8001</Property>
 		<Property Name="target.RTTarget.ApplicationPath" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>
 		<Property Name="target.RTTarget.EnableFileSharing" Type="Bool">true</Property>
 		<Property Name="target.RTTarget.IPAccess" Type="Str">+*</Property>
@@ -259,38 +260,40 @@
 		<Property Name="target.server.tcp.enabled" Type="Bool">false</Property>
 		<Property Name="target.server.tcp.paranoid" Type="Bool">true</Property>
 		<Property Name="target.server.tcp.port" Type="Int">3363</Property>
-		<Property Name="target.server.tcp.serviceName" Type="Str">Main Application Instance/VI Server</Property>
+		<Property Name="target.server.tcp.serviceName" Type="Str"></Property>
 		<Property Name="target.server.tcp.serviceName.default" Type="Str">Main Application Instance/VI Server</Property>
 		<Property Name="target.server.vi.access" Type="Str">+*</Property>
 		<Property Name="target.server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.vi.propertiesEnabled" Type="Bool">true</Property>
-		<Property Name="target.WebServer.Config" Type="Str">Listen 8000
+		<Property Name="target.server.viscripting.showScriptingOperationsInContextHelp" Type="Bool">false</Property>
+		<Property Name="target.server.viscripting.showScriptingOperationsInEditor" Type="Bool">false</Property>
+		<Property Name="target.WebServer.Config" Type="Str"># Web server configuration file.
+# Generated by LabVIEW 18.0.1f2
+# 7/10/2019 6:38:23 PM
 
-NI.ServerName default
-DocumentRoot "$LVSERVER_DOCROOT"
+#
+# Global Directives
+#
+NI.AddLVRouteVars
 TypesConfig "$LVSERVER_CONFIGROOT/mime.types"
-DirectoryIndex index.htm
-WorkerLimit 10
-InactivityTimeout 60
-
+LimitWorkers 10
 LoadModulePath "$LVSERVER_MODULEPATHS"
 LoadModule LVAuth lvauthmodule
 LoadModule LVRFP lvrfpmodule
+Listen 8000
 
 #
-# Pipeline Definition
+# Directives that apply to the default server
 #
-
+NI.ServerName default
+DocumentRoot "$LVSERVER_DOCROOT"
+InactivityTimeout 60
 SetConnector netConnector
-
 AddHandler LVAuth
 AddHandler LVRFP
-
 AddHandler fileHandler ""
-
 AddOutputFilter chunkFilter
-
-
+DirectoryIndex index.htm
 </Property>
 		<Property Name="target.WebServer.Enabled" Type="Bool">false</Property>
 		<Property Name="target.WebServer.LogEnabled" Type="Bool">false</Property>
@@ -380,6 +383,7 @@ AddOutputFilter chunkFilter
 			<Item Name="CAN_MotorControlandBMS.vi" Type="VI" URL="../CAN/CAN_MotorControlandBMS.vi"/>
 			<Item Name="CAN_ReadBMS.vi" Type="VI" URL="../CAN/CAN_ReadBMS.vi"/>
 			<Item Name="Master_CAN.vi" Type="VI" URL="../CAN/Master_CAN.vi"/>
+			<Item Name="CAN_MotorControlandBMS2.vi" Type="VI" URL="../CAN/CAN_MotorControlandBMS2.vi"/>
 		</Item>
 		<Item Name="DAQ" Type="Folder">
 			<Item Name="Master_DAQ.vi" Type="VI" URL="../DAQ/Master_DAQ.vi"/>
@@ -604,7 +608,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="Contactor L! Contunity" Type="Variable">
+					<Item Name="Contactor L1 Contunity" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">8</Property>
@@ -674,7 +678,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="AI13" Type="Variable">
+					<Item Name="PV1 Temp" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">13</Property>
@@ -688,7 +692,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="AI14" Type="Variable">
+					<Item Name="PV2 Temp" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">14</Property>
@@ -948,7 +952,6 @@ AddOutputFilter chunkFilter
 				<Property Name="configString.name" Type="Str">24 VDC CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO2;0;ReadMethodType=bool;WriteMethodType=bool40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;AnalogInputs[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]BO7BArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO7;0;ReadMethodType=bool;WriteMethodType=boolBrake Solenoid CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO5;0;ReadMethodType=bool;WriteMethodType=boolCANOpenModule[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=true,cRIOModule.EnableHsOutput=true,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16Contact H1ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO1;0;ReadMethodType=bool;WriteMethodType=boolContact H2ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO3;0;ReadMethodType=bool;WriteMethodType=boolContact L1ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO2;0;ReadMethodType=bool;WriteMethodType=boolContact L2ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO4;0;ReadMethodType=bool;WriteMethodType=boolcRIO-9063/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9063FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGADO7AArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO7;0;ReadMethodType=bool;WriteMethodType=boolEMCY Brake Solenoid CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO6;0;ReadMethodType=bool;WriteMethodType=boolForward CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO0;0;ReadMethodType=bool;WriteMethodType=boolLED GREENArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO6;0;ReadMethodType=bool;WriteMethodType=boolLED REDArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO5;0;ReadMethodType=bool;WriteMethodType=boolMod3/DO7:0ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod3[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9472,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]Mod4/DO7:0ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod4[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9472,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]Precharge CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO1;0;ReadMethodType=bool;WriteMethodType=boolPump Solenoid CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO3;0;ReadMethodType=bool;WriteMethodType=boolReverse CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO0;0;ReadMethodType=bool;WriteMethodType=boolScan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/USER FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolVent Solenoid CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO4;0;ReadMethodType=bool;WriteMethodType=bool</Property>
 				<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">cRIO-9063/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9063FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA</Property>
 				<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
-				<Property Name="niFpga_TopLevelVIID" Type="Path">/C/Users/HXPC/Documents/GitHub/HyperXcite2019CompetitionCode_Final/2019_pod_main_code_REAL/FPGA/Fail-Safe Control FPGA.vi</Property>
 				<Property Name="Resource Name" Type="Str">RIO0</Property>
 				<Property Name="Target Class" Type="Str">cRIO-9063</Property>
 				<Property Name="Top-Level Timing Source" Type="Str">40 MHz Onboard Clock</Property>
