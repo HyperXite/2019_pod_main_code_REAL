@@ -36,7 +36,7 @@
 	<Property Name="varPersistentID:{49C46F64-D3C2-4F54-826D-23F967A35395}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/LoopPeriods</Property>
 	<Property Name="varPersistentID:{4C04DCEF-291C-4E07-AE9A-D065864C8D5D}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/PV1 Temp</Property>
 	<Property Name="varPersistentID:{4F7DB970-BE45-4C60-A0E7-16276A80EEC6}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Sensor Data/AllDataMax</Property>
-	<Property Name="varPersistentID:{51F2B26C-093E-4A69-8E4D-D283DC73C3A1}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/SystemCheck</Property>
+	<Property Name="varPersistentID:{51F2B26C-093E-4A69-8E4D-D283DC73C3A1}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/SystemCheck</Property>
 	<Property Name="varPersistentID:{5598699E-7FC3-4164-B058-C5E20AE364BE}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI30</Property>
 	<Property Name="varPersistentID:{6367FA5D-6288-4148-85DB-B067BAC01236}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Hall Effect Right</Property>
 	<Property Name="varPersistentID:{6374AD0B-8A70-42F5-8AC9-E548D6AEF81C}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI29</Property>
@@ -45,19 +45,16 @@
 	<Property Name="varPersistentID:{6A21DFE3-1E8A-4782-8CC0-1F793BAB9FF6}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI31</Property>
 	<Property Name="varPersistentID:{70B1BF2F-2955-4023-8E5A-29422E1D8941}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI20</Property>
 	<Property Name="varPersistentID:{725C24DA-ACB3-4EE2-AC2C-AF4784142174}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/ReintCAN</Property>
-	<Property Name="varPersistentID:{7698FBCD-F984-461E-BDFF-CF120BE5F290}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/ActuationList</Property>
 	<Property Name="varPersistentID:{7C410938-A73D-4990-A9FB-D58E9CACB8AB}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/DataOverride</Property>
 	<Property Name="varPersistentID:{7D74DE09-FEBA-4B89-9B1C-D28A2167C922}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/SystemMessage</Property>
 	<Property Name="varPersistentID:{7FD28CCD-E252-468D-9F12-19853451EB71}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Tank PT</Property>
 	<Property Name="varPersistentID:{8200A9DA-900E-4806-A261-5C79F1550C08}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Launch</Property>
 	<Property Name="varPersistentID:{8225E4E9-51A9-442A-A20B-54B10A886527}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Motor/ServiceRPMTarget</Property>
-	<Property Name="varPersistentID:{84A0A303-5C51-42C8-9AD0-E3E340CAD882}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/SystemCheckInputs</Property>
 	<Property Name="varPersistentID:{8685D305-7A10-49F4-90EC-AD4E87E30445}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Ready</Property>
 	<Property Name="varPersistentID:{8A96CA6C-BDD8-40CD-BBA0-7427DF0794B5}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/NewSystemCheckInputs</Property>
 	<Property Name="varPersistentID:{8C0BCDD4-654C-44B0-A829-EC79B8DA27C7}" Type="Ref">/My Computer/HostOld/Libraries/HostVariables.lvlib/Connected</Property>
 	<Property Name="varPersistentID:{8E891AFF-8BE7-4BE3-A8E7-AFF216B88E6A}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI24</Property>
 	<Property Name="varPersistentID:{8EEA9F08-D4C2-41A5-ABE0-841F63FC8F5A}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Hall Effect Left</Property>
-	<Property Name="varPersistentID:{8F412DC3-B415-4F53-B17E-301435712A75}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/IsPowered</Property>
 	<Property Name="varPersistentID:{907F5B42-5EB6-4BE2-8BC7-0C6AC58A9F78}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/HighContactorVoltage</Property>
 	<Property Name="varPersistentID:{940CDFB5-BAC6-496D-8663-816711FC46BD}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Motor/driveEnable</Property>
 	<Property Name="varPersistentID:{956F7E73-96D1-424B-99C6-CE45C113D054}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI28</Property>
@@ -70,6 +67,7 @@
 	<Property Name="varPersistentID:{AE9D4E59-D833-4E61-A280-02976935CC9B}" Type="Ref">/My Computer/HostNew/HostGlobals.lvlib/DataPlaceholder</Property>
 	<Property Name="varPersistentID:{B01F5BA8-F956-4CA8-98F1-66F26C01D710}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/BatteriesShortedToFairing</Property>
 	<Property Name="varPersistentID:{B7F7C021-6CBC-4147-8146-037D6029102A}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/NetworkCheck</Property>
+	<Property Name="varPersistentID:{B95888B3-3736-43B5-A3BE-ECDEC1AB2092}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Motor/SystemCheckRPMTarget</Property>
 	<Property Name="varPersistentID:{BECF6C46-6C7A-498E-9902-39A8698E4391}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Optical Sensor 1</Property>
 	<Property Name="varPersistentID:{C1408B4C-72B6-4089-9E85-68E993FF879F}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/COntactor L2 Continuity</Property>
 	<Property Name="varPersistentID:{C27869E0-2D89-4AE9-976F-B94A6AD0B759}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Contactor L1 Contunity</Property>
@@ -149,6 +147,7 @@
 		</Item>
 		<Item Name="Host__Main.vi" Type="VI" URL="../Host/Host__Main.vi"/>
 		<Item Name="Host__MainNewS.vi" Type="VI" URL="../Host/Host__MainNewS.vi"/>
+		<Item Name="Host_Save_Datagram.vi" Type="VI" URL="../Host/Host_Save_Datagram.vi"/>
 		<Item Name="Send_Datagram.vi" Type="VI" URL="../Host/Send_Datagram.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -325,7 +324,6 @@ DirectoryIndex index.htm
 				<Item Name="ReadyState.vi" Type="VI" URL="../Control/ReadyState.vi"/>
 				<Item Name="ActuatorOutput.vi" Type="VI" URL="../Control/ActuatorOutput.vi"/>
 				<Item Name="ServicePushState.vi" Type="VI" URL="../Control/ServicePushState.vi"/>
-				<Item Name="UnpoweredState.vi" Type="VI" URL="../Control/UnpoweredState.vi"/>
 				<Item Name="VentState.vi" Type="VI" URL="../Control/VentState.vi"/>
 				<Item Name="SystemCheckState.vi" Type="VI" URL="../Control/SystemCheckState.vi"/>
 				<Item Name="ServiceWaitState.vi" Type="VI" URL="../Control/ServiceWaitState.vi"/>
