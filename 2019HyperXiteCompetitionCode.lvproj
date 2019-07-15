@@ -1,16 +1,13 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="18008000">
 	<Property Name="varPersistentID:{02DDE762-F1F8-45EA-B623-45E043876F9C}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/ForceIdle</Property>
-	<Property Name="varPersistentID:{0665CD46-8039-4685-AEA1-C3A72ED892F6}" Type="Ref">/My Computer/HostOld/Libraries/HostVariables.lvlib/ReIntStream(local)</Property>
 	<Property Name="varPersistentID:{066E5F24-484B-42A0-9CAA-B644FD47D3EC}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/ServicePush</Property>
 	<Property Name="varPersistentID:{08E0B71E-A2B2-45DE-A127-DF958A6D5504}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/Time</Property>
 	<Property Name="varPersistentID:{08E546E8-B951-46D7-83EC-D3216D11EAD8}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Precharge</Property>
 	<Property Name="varPersistentID:{0A54BD98-0754-4FAB-851C-1BDD5AF327A2}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/BMSData</Property>
 	<Property Name="varPersistentID:{0D038ACA-2C58-40E4-BE77-48DEC3B6B988}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Shutdown</Property>
 	<Property Name="varPersistentID:{0E992B92-1DD6-44AA-A733-214D081BE4C5}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/PV2 Temp</Property>
-	<Property Name="varPersistentID:{0F032A8C-267C-4540-B2B8-6067A8048E38}" Type="Ref">/My Computer/HostOld/Libraries/HostVariables.lvlib/RecordData</Property>
 	<Property Name="varPersistentID:{14068B91-5A90-48C4-AA3F-32D31BA3A64A}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/ABS Pressure 1</Property>
-	<Property Name="varPersistentID:{1415CB92-E338-4248-893A-7E9985343A2C}" Type="Ref">/My Computer/HostOld/Libraries/HostVariables.lvlib/ServicePump</Property>
 	<Property Name="varPersistentID:{141C3AB4-53D8-40E8-B300-713844E309D4}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/BMSFreeze</Property>
 	<Property Name="varPersistentID:{16E2416F-32B9-4FAB-82D2-90982E1E918A}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI23</Property>
 	<Property Name="varPersistentID:{19CF2428-F073-43E7-A5A5-6E08BD0F4915}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI15</Property>
@@ -38,6 +35,7 @@
 	<Property Name="varPersistentID:{4F7DB970-BE45-4C60-A0E7-16276A80EEC6}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Sensor Data/AllDataMax</Property>
 	<Property Name="varPersistentID:{51F2B26C-093E-4A69-8E4D-D283DC73C3A1}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/SystemCheck</Property>
 	<Property Name="varPersistentID:{5598699E-7FC3-4164-B058-C5E20AE364BE}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI30</Property>
+	<Property Name="varPersistentID:{5EC4C5DB-6E74-4E0F-A5BD-6A6096582948}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/NavFaultFlag</Property>
 	<Property Name="varPersistentID:{6367FA5D-6288-4148-85DB-B067BAC01236}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Hall Effect Right</Property>
 	<Property Name="varPersistentID:{6374AD0B-8A70-42F5-8AC9-E548D6AEF81C}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI29</Property>
 	<Property Name="varPersistentID:{64FC8CB5-D87B-4703-AF98-57B67BFEEA8C}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Contactor H2 Continuity</Property>
@@ -45,14 +43,13 @@
 	<Property Name="varPersistentID:{6A21DFE3-1E8A-4782-8CC0-1F793BAB9FF6}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI31</Property>
 	<Property Name="varPersistentID:{70B1BF2F-2955-4023-8E5A-29422E1D8941}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI20</Property>
 	<Property Name="varPersistentID:{725C24DA-ACB3-4EE2-AC2C-AF4784142174}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/ReintCAN</Property>
-	<Property Name="varPersistentID:{7C410938-A73D-4990-A9FB-D58E9CACB8AB}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/DataOverride</Property>
+	<Property Name="varPersistentID:{7C410938-A73D-4990-A9FB-D58E9CACB8AB}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Sensor Data/DataOverride</Property>
 	<Property Name="varPersistentID:{7D74DE09-FEBA-4B89-9B1C-D28A2167C922}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/SystemMessage</Property>
 	<Property Name="varPersistentID:{7FD28CCD-E252-468D-9F12-19853451EB71}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Tank PT</Property>
 	<Property Name="varPersistentID:{8200A9DA-900E-4806-A261-5C79F1550C08}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Launch</Property>
 	<Property Name="varPersistentID:{8225E4E9-51A9-442A-A20B-54B10A886527}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Motor/ServiceRPMTarget</Property>
 	<Property Name="varPersistentID:{8685D305-7A10-49F4-90EC-AD4E87E30445}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Ready</Property>
 	<Property Name="varPersistentID:{8A96CA6C-BDD8-40CD-BBA0-7427DF0794B5}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/NewSystemCheckInputs</Property>
-	<Property Name="varPersistentID:{8C0BCDD4-654C-44B0-A829-EC79B8DA27C7}" Type="Ref">/My Computer/HostOld/Libraries/HostVariables.lvlib/Connected</Property>
 	<Property Name="varPersistentID:{8E891AFF-8BE7-4BE3-A8E7-AFF216B88E6A}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI24</Property>
 	<Property Name="varPersistentID:{8EEA9F08-D4C2-41A5-ABE0-841F63FC8F5A}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Hall Effect Left</Property>
 	<Property Name="varPersistentID:{907F5B42-5EB6-4BE2-8BC7-0C6AC58A9F78}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/HighContactorVoltage</Property>
@@ -71,7 +68,6 @@
 	<Property Name="varPersistentID:{BECF6C46-6C7A-498E-9902-39A8698E4391}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Optical Sensor 1</Property>
 	<Property Name="varPersistentID:{C1408B4C-72B6-4089-9E85-68E993FF879F}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/COntactor L2 Continuity</Property>
 	<Property Name="varPersistentID:{C27869E0-2D89-4AE9-976F-B94A6AD0B759}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Contactor L1 Contunity</Property>
-	<Property Name="varPersistentID:{C782A0D2-21AD-465E-AC3F-24A1230D2C50}" Type="Ref">/My Computer/HostOld/Libraries/HostVariables.lvlib/SensorData</Property>
 	<Property Name="varPersistentID:{C7CFD0B9-5407-40BF-BE1E-60044209E0FB}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Motor/driveMode</Property>
 	<Property Name="varPersistentID:{CA406B25-7C38-4209-8644-C79AD38C6359}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/CrawlingTime</Property>
 	<Property Name="varPersistentID:{CB063464-B2B4-4E0E-A169-9250B4CA256E}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Kinematics/Velocity</Property>
@@ -111,47 +107,12 @@
 			<Item Name="Host_SetParameters_new.vi" Type="VI" URL="../Host/Host_SetParameters_new.vi"/>
 			<Item Name="HostGlobals.lvlib" Type="Library" URL="../Host/HealthCheckClass/HostGlobals.lvlib"/>
 		</Item>
-		<Item Name="HostOld" Type="Folder">
-			<Item Name="ExtendedDetails" Type="Folder">
-				<Item Name="Host_ExtendedDetails.vi" Type="VI" URL="../Host/ExtendedDetails/Host_ExtendedDetails.vi"/>
-				<Item Name="Host_ExtendedDetails_convertClusterBMS.vi" Type="VI" URL="../Host/ExtendedDetails/Host_ExtendedDetails_convertClusterBMS.vi"/>
-				<Item Name="Host_ExtendedDetails_convertClusterCRIOIMU.vi" Type="VI" URL="../Host/ExtendedDetails/Host_ExtendedDetails_convertClusterCRIOIMU.vi"/>
-				<Item Name="Host_ExtendedDetails_convertClusterMC.vi" Type="VI" URL="../Host/ExtendedDetails/Host_ExtendedDetails_convertClusterMC.vi"/>
-				<Item Name="Host_ExtendedDetails_Update.vi" Type="VI" URL="../Host/ExtendedDetails/Host_ExtendedDetails_Update.vi"/>
-			</Item>
-			<Item Name="Health Check" Type="Folder">
-				<Item Name="Host_HealthCheck_convertCluster.vi" Type="VI" URL="../Host/HealthCheck/Host_HealthCheck_convertCluster.vi"/>
-				<Item Name="Host_HealthCheck_Initializer.vi" Type="VI" URL="../Host/HealthCheck/Host_HealthCheck_Initializer.vi"/>
-				<Item Name="Host_HealthCheck_update.vi" Type="VI" URL="../Host/HealthCheck/Host_HealthCheck_update.vi"/>
-			</Item>
-			<Item Name="Libraries" Type="Folder">
-				<Item Name="Globals" Type="Folder">
-					<Item Name="Host_UDPGLOBALS.vi" Type="VI" URL="../Host/Globals/Host_UDPGLOBALS.vi"/>
-				</Item>
-				<Item Name="HostVariables.lvlib" Type="Library" URL="../Host/Libraries/HostVariables.lvlib"/>
-				<Item Name="Master_DataControl.ctl" Type="VI" URL="../Type_Def/Master_DataControl.ctl"/>
-				<Item Name="TypeDef_ControlTabs.ctl" Type="VI" URL="../Host/Libraries/TypeDef_ControlTabs.ctl"/>
-				<Item Name="TypeDef_NetworkStreamState.ctl" Type="VI" URL="../Host/Libraries/TypeDef_NetworkStreamState.ctl"/>
-				<Item Name="TypeDef_TableValues.ctl" Type="VI" URL="../Host/Libraries/TypeDef_TableValues.ctl"/>
-			</Item>
-			<Item Name="Streams" Type="Folder">
-				<Item Name="Host_StreamLoop.vi" Type="VI" URL="../Host/Streams/Host_StreamLoop.vi"/>
-			</Item>
-			<Item Name="Host_DialogueUpdate.vi" Type="VI" URL="../Host/Host_DialogueUpdate.vi"/>
-			<Item Name="Host_FormatUDP.vi" Type="VI" URL="../Host/Host_FormatUDP.vi"/>
-			<Item Name="Host_RunVI.vi" Type="VI" URL="../Host/Host_RunVI.vi"/>
-			<Item Name="Host_SaveToFile.vi" Type="VI" URL="../Host/Host_SaveToFile.vi"/>
-			<Item Name="Host_SetParameters.vi" Type="VI" URL="../Host/Host_SetParameters.vi"/>
-			<Item Name="Host_SimulateData.vi" Type="VI" URL="../Host/Host_SimulateData.vi"/>
-			<Item Name="Host_UDPLoop.vi" Type="VI" URL="../Host/Host_UDPLoop.vi"/>
-		</Item>
-		<Item Name="Host__Main.vi" Type="VI" URL="../Host/Host__Main.vi"/>
 		<Item Name="Host__MainNewS.vi" Type="VI" URL="../Host/Host__MainNewS.vi"/>
 		<Item Name="Host_Save_Datagram.vi" Type="VI" URL="../Host/Host_Save_Datagram.vi"/>
 		<Item Name="Send_Datagram.vi" Type="VI" URL="../Host/Send_Datagram.vi"/>
+		<Item Name="SimulateData_GUI_Popup.vi" Type="VI" URL="../Host/SimulateData_GUI_Popup.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -159,7 +120,6 @@
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
@@ -175,7 +135,6 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
-				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
@@ -193,30 +152,15 @@
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
-			<Item Name="fixedMotorData.ctl" Type="VI" URL="../Master/CAN/MotorController/fixedMotorData.ctl"/>
-			<Item Name="Host_DATAALL.vi" Type="VI" URL="../Host/Globals/Host_DATAALL.vi"/>
-			<Item Name="Host_HealthCheck_Color.vi" Type="VI" URL="../Host/HealthCheck/Host_HealthCheck_Color.vi"/>
-			<Item Name="Host_HealthCheck_CompareValue.vi" Type="VI" URL="../Host/HealthCheck/Host_HealthCheck_CompareValue.vi"/>
-			<Item Name="Host_RUNPARAMETERS.vi" Type="VI" URL="../Host/Globals/Host_RUNPARAMETERS.vi"/>
-			<Item Name="Host_SetParameters_Thresholds.vi" Type="VI" URL="../Host/Host_SetParameters_Thresholds.vi"/>
-			<Item Name="Host_STOP.vi" Type="VI" URL="../Host/Globals/Host_STOP.vi"/>
-			<Item Name="Host_Streams_convertClusters.vi" Type="VI" URL="../Host/Streams/Host_Streams_convertClusters.vi"/>
-			<Item Name="RunTypeList.ctl" Type="VI" URL="../Master/Control/RunTypesLibrary/RunTypeList.ctl"/>
+			<Item Name="Master_DataControl.ctl" Type="VI" URL="../Type_Def/Master_DataControl.ctl"/>
 			<Item Name="Type_Def Actuator Controls.ctl" Type="VI" URL="../Type_Def/Type_Def Actuator Controls.ctl"/>
 			<Item Name="Type_Def ControlState.ctl" Type="VI" URL="../Type_Def/Type_Def ControlState.ctl"/>
 			<Item Name="Type_Def IMUDatas.ctl" Type="VI" URL="../Type_Def/Type_Def IMUDatas.ctl"/>
-			<Item Name="Type_Def MotorStatus.ctl" Type="VI" URL="../Master/CAN/MotorController/Type_Def MotorStatus.ctl"/>
 			<Item Name="TypeDef FixedMotorData.ctl" Type="VI" URL="../Type_Def/TypeDef FixedMotorData.ctl"/>
-			<Item Name="TypeDef_BMS_Status.ctl" Type="VI" URL="../Master/CAN/TypeDef_BMS_Status.ctl"/>
 			<Item Name="TypeDef_BMSDatas.ctl" Type="VI" URL="../Type_Def/TypeDef_BMSDatas.ctl"/>
 			<Item Name="TypeDef_BMSStatuss.ctl" Type="VI" URL="../Type_Def/TypeDef_BMSStatuss.ctl"/>
 			<Item Name="TypeDef_cRIODatas.ctl" Type="VI" URL="../Type_Def/TypeDef_cRIODatas.ctl"/>
-			<Item Name="TypeDef_CurrentState.ctl" Type="VI" URL="../Host/Libraries/TypeDef_CurrentState.ctl"/>
-			<Item Name="TypeDef_DigitalOuts.ctl" Type="VI" URL="../Master/Control/TypeDef_DigitalOuts.ctl"/>
-			<Item Name="TypeDef_IMUData.ctl" Type="VI" URL="../Master/IMU/TypeDef_IMUData.ctl"/>
 			<Item Name="TypeDef_LoopPeriod.ctl" Type="VI" URL="../Type_Def/TypeDef_LoopPeriod.ctl"/>
-			<Item Name="TypeDef_LoopPeriods.ctl" Type="VI" URL="../Master/TypeDef_LoopPeriods.ctl"/>
-			<Item Name="TypeDef_RunParameters.ctl" Type="VI" URL="../Master/TypeDef_RunParameters.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -498,6 +442,7 @@ DirectoryIndex index.htm
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">0</Property>
+						<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
 						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -506,7 +451,7 @@ DirectoryIndex index.htm
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
 					<Item Name="Hall Effect Right" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -1384,6 +1329,7 @@ DirectoryIndex index.htm
 		<Item Name="Master_CalculateOffset.vi" Type="VI" URL="../DAQ/Master_CalculateOffset.vi"/>
 		<Item Name="LedsOn" Type="VI" URL="../Control/LedsOn"/>
 		<Item Name="FPGACANTest.vi" Type="VI" URL="../FPGACANTest.vi"/>
+		<Item Name="Control 4.ctl" Type="VI" URL="../FPGA Bitfiles/Control 4.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>

@@ -76,6 +76,15 @@
 		<Property Name="typedefPath1" Type="PathRel">../Type_Def/TypeDef_MotorData.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;_?A%!!"A!A!!!!!!1!"6!!Q!0)&amp;:F&lt;'^D;82Z)#B35%UJ!".!"1!.)%VP&gt;'^S6'6N=#B$+1!61!5!$S"$&lt;WZU=G^M6'6N=#B$+1!61!I!$C"%9URJ&lt;GN7&lt;WRU+&amp;9J!!!21!I!#C"&amp;=H*P=E.P:'5!!!R!)1&gt;*=U&amp;M;8:F!!R!)1&gt;J=V*F972Z!!J!)12J=U^O!!!/1#%);8.0='6S27Y!!!R!)1&gt;J=U:B&gt;7RU!!Z!)1BJ=V:P&lt;(2&amp;&lt;A!!%E!B$82B=G&gt;F&gt;&amp;*F97.I:71!$E!B#7FT6W&amp;S&lt;GFO:Q!A1&amp;!!"Q!'!!=!#!!*!!I!#Q!-#WVP&gt;'^S5X2B&gt;(6T!"N!"A!5&lt;7^U&lt;X*$&lt;WZU=G^M&lt;'6S5X2B&gt;'5!!%)!]1!!!!!!!!!"&amp;62Z='6%:7:@47^U&lt;X*%982B,G.U&lt;!!E1&amp;!!#!!!!!%!!A!$!!1!"1!.!!Y*47^U&lt;X*%982B!!%!$Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="NavFaultFlag" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"A!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="SensorData" Type="Variable">
 		<Property Name="Description:Description" Type="Str">This variable contains all the data from the cRIO, the IMU, and the Motor Controller. But it is a local variable so it is mostly used for calculations</Property>
 		<Property Name="featurePacks" Type="Str">Description,Global</Property>
