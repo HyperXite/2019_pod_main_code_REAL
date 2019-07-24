@@ -1,63 +1,64 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="18008000">
 	<Property Name="varPersistentID:{02DDE762-F1F8-45EA-B623-45E043876F9C}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/ForceIdle</Property>
+	<Property Name="varPersistentID:{0300006B-5483-47F9-8AE7-C49CD23746A7}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI15</Property>
+	<Property Name="varPersistentID:{053F388A-BA60-4869-9F33-6A6338525146}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI30</Property>
+	<Property Name="varPersistentID:{05B4C9EB-A9D3-4F4F-B2DE-FA6ADFE66F50}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/PV1 Temp</Property>
 	<Property Name="varPersistentID:{066E5F24-484B-42A0-9CAA-B644FD47D3EC}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/ServicePush</Property>
 	<Property Name="varPersistentID:{08E0B71E-A2B2-45DE-A127-DF958A6D5504}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/Time</Property>
 	<Property Name="varPersistentID:{08E546E8-B951-46D7-83EC-D3216D11EAD8}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Precharge</Property>
 	<Property Name="varPersistentID:{0A54BD98-0754-4FAB-851C-1BDD5AF327A2}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/BMSData</Property>
+	<Property Name="varPersistentID:{0A96031F-1E35-4EE0-A2C4-B8777EC6AFDE}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI23</Property>
+	<Property Name="varPersistentID:{0BC0C406-0BDD-40E9-8EC2-4105EA0E67F4}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/ControlWord15</Property>
 	<Property Name="varPersistentID:{0D038ACA-2C58-40E4-BE77-48DEC3B6B988}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Shutdown</Property>
-	<Property Name="varPersistentID:{0E992B92-1DD6-44AA-A733-214D081BE4C5}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/PV2 Temp</Property>
-	<Property Name="varPersistentID:{14068B91-5A90-48C4-AA3F-32D31BA3A64A}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/ABS Pressure 1</Property>
+	<Property Name="varPersistentID:{1239A970-1B42-4F66-9318-29709B3C9E14}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI27</Property>
 	<Property Name="varPersistentID:{141C3AB4-53D8-40E8-B300-713844E309D4}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/BMSFreeze</Property>
-	<Property Name="varPersistentID:{16E2416F-32B9-4FAB-82D2-90982E1E918A}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI23</Property>
-	<Property Name="varPersistentID:{19CF2428-F073-43E7-A5A5-6E08BD0F4915}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI15</Property>
-	<Property Name="varPersistentID:{22B9AC33-E2D1-4AD0-ACCF-F23DD4F6C847}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/24V Current</Property>
+	<Property Name="varPersistentID:{1812B633-2F62-499A-9E42-0D690D094B29}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI29</Property>
+	<Property Name="varPersistentID:{1AFDC972-1CD5-40BD-A0DD-E91CFFCF47B0}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/BrakingFaultFlag</Property>
+	<Property Name="varPersistentID:{1D4BEC09-33AF-4A71-898D-F2C9624470E8}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/StripeDisplacement</Property>
+	<Property Name="varPersistentID:{1E85FD55-A373-44C2-BEC2-9474CB998F40}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Contactor H1 Contiunity</Property>
 	<Property Name="varPersistentID:{25510B56-8C47-4930-95D2-31AC62E426BD}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/StopControlLoop</Property>
-	<Property Name="varPersistentID:{289EE87B-4634-4E6D-9CD6-A3571220A367}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Pump PT</Property>
-	<Property Name="varPersistentID:{28A5BB30-F50B-44CB-B1CB-F465A893EBAE}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/ABS Pressure 2</Property>
-	<Property Name="varPersistentID:{290439C6-4BA5-4157-A0EA-F27FEC524A1B}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI21</Property>
 	<Property Name="varPersistentID:{2B31581A-1AE6-4DAA-8194-6C8C52F9CF55}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/MotorControllerData</Property>
-	<Property Name="varPersistentID:{2C3AA597-6C06-43B4-9085-84DF19C07513}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI27</Property>
+	<Property Name="varPersistentID:{2C3C17C2-351D-4A54-9980-6E64D92CDC54}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI22</Property>
 	<Property Name="varPersistentID:{33765CAF-0DE7-4C48-A53B-D27ACA537F2B}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/BrakeFail</Property>
-	<Property Name="varPersistentID:{3B287710-7617-48C1-B788-E8321A6BB0A0}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI26</Property>
 	<Property Name="varPersistentID:{3B294AC3-E3FA-4D17-9652-440A28B87FEB}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/ReIntStreams</Property>
 	<Property Name="varPersistentID:{3D5B843A-3717-4D84-B055-97BC790BF672}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/BMSSignal</Property>
-	<Property Name="varPersistentID:{3E1A4859-765E-438F-A532-C5BB73D14740}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI19</Property>
+	<Property Name="varPersistentID:{3E37646B-DAA0-428B-99D3-830DD2970461}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/PV2 Temp</Property>
 	<Property Name="varPersistentID:{3EDF5BD5-51C5-43FD-9A1D-85FC18C98008}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/SimulateData</Property>
 	<Property Name="varPersistentID:{40CA6D74-9220-412B-AF9C-69C1BB7C858A}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/CurrentActuations</Property>
-	<Property Name="varPersistentID:{42632E4F-5E6E-4C10-9F68-DD6A1EE90E72}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Brake PT</Property>
 	<Property Name="varPersistentID:{42933AC9-BED9-4203-9751-DF46EF51E2C8}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/DisableFaultCheck</Property>
 	<Property Name="varPersistentID:{448E28A6-469D-4EC2-8B4C-7FE3CDA00BEC}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Fault</Property>
-	<Property Name="varPersistentID:{482E3C6B-9E33-4AE7-BC3D-C995C03BFB55}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/24V Temperature</Property>
+	<Property Name="varPersistentID:{4530BFB5-968D-4868-8DDD-520CFCEF27A4}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Hall Effect Right</Property>
+	<Property Name="varPersistentID:{468057EC-E570-458B-AB27-FAFBE95030C6}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI31</Property>
 	<Property Name="varPersistentID:{48E38B81-A49D-4F72-BC75-0FBDB12152A1}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/CalcAccelerationOffSet</Property>
 	<Property Name="varPersistentID:{49C46F64-D3C2-4F54-826D-23F967A35395}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/LoopPeriods</Property>
-	<Property Name="varPersistentID:{4C04DCEF-291C-4E07-AE9A-D065864C8D5D}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/PV1 Temp</Property>
 	<Property Name="varPersistentID:{4F7DB970-BE45-4C60-A0E7-16276A80EEC6}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Sensor Data/AllDataMax</Property>
+	<Property Name="varPersistentID:{4FB10985-B618-4FAF-8CDD-E01AF76B48D2}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Pump PT</Property>
 	<Property Name="varPersistentID:{51F2B26C-093E-4A69-8E4D-D283DC73C3A1}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/SystemCheck</Property>
-	<Property Name="varPersistentID:{5598699E-7FC3-4164-B058-C5E20AE364BE}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI30</Property>
-	<Property Name="varPersistentID:{5EC4C5DB-6E74-4E0F-A5BD-6A6096582948}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/NavFaultFlag</Property>
-	<Property Name="varPersistentID:{6367FA5D-6288-4148-85DB-B067BAC01236}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Hall Effect Right</Property>
-	<Property Name="varPersistentID:{6374AD0B-8A70-42F5-8AC9-E548D6AEF81C}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI29</Property>
-	<Property Name="varPersistentID:{64FC8CB5-D87B-4703-AF98-57B67BFEEA8C}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Contactor H2 Continuity</Property>
+	<Property Name="varPersistentID:{5EC4C5DB-6E74-4E0F-A5BD-6A6096582948}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/NavFaultFlag</Property>
 	<Property Name="varPersistentID:{668977E5-08E4-4765-B6E0-3A5097C77108}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/SensorData</Property>
-	<Property Name="varPersistentID:{6A21DFE3-1E8A-4782-8CC0-1F793BAB9FF6}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI31</Property>
-	<Property Name="varPersistentID:{70B1BF2F-2955-4023-8E5A-29422E1D8941}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI20</Property>
+	<Property Name="varPersistentID:{68880DC0-9F78-498D-8BAF-16C9B157E919}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Contactor L1 Contunity</Property>
 	<Property Name="varPersistentID:{725C24DA-ACB3-4EE2-AC2C-AF4784142174}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/ReintCAN</Property>
+	<Property Name="varPersistentID:{75D8805D-3307-40C7-B1C3-A1F2F365E3CF}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/24V Temperature</Property>
 	<Property Name="varPersistentID:{7C410938-A73D-4990-A9FB-D58E9CACB8AB}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Sensor Data/DataOverride</Property>
 	<Property Name="varPersistentID:{7D74DE09-FEBA-4B89-9B1C-D28A2167C922}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/SystemMessage</Property>
-	<Property Name="varPersistentID:{7FD28CCD-E252-468D-9F12-19853451EB71}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Tank PT</Property>
+	<Property Name="varPersistentID:{7ECEF7D5-4455-4ACD-9130-934C6F787532}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI19</Property>
+	<Property Name="varPersistentID:{7FDF5A45-5F3B-4F64-81AF-0C2DA2056744}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Tank PT</Property>
+	<Property Name="varPersistentID:{81306B42-9F2E-49F9-B477-7F02ABAEA09F}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Contactor H2 Continuity</Property>
 	<Property Name="varPersistentID:{8200A9DA-900E-4806-A261-5C79F1550C08}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Launch</Property>
 	<Property Name="varPersistentID:{8225E4E9-51A9-442A-A20B-54B10A886527}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Motor/ServiceRPMTarget</Property>
+	<Property Name="varPersistentID:{85BA195E-416D-4A5C-8F4E-8C0DD61B5426}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI24</Property>
 	<Property Name="varPersistentID:{8685D305-7A10-49F4-90EC-AD4E87E30445}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Ready</Property>
+	<Property Name="varPersistentID:{87BD03D9-882B-40A1-A72D-3F419D27E7F6}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/IMUdisplacement</Property>
 	<Property Name="varPersistentID:{8A96CA6C-BDD8-40CD-BBA0-7427DF0794B5}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/NewSystemCheckInputs</Property>
-	<Property Name="varPersistentID:{8E891AFF-8BE7-4BE3-A8E7-AFF216B88E6A}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI24</Property>
-	<Property Name="varPersistentID:{8EEA9F08-D4C2-41A5-ABE0-841F63FC8F5A}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Hall Effect Left</Property>
+	<Property Name="varPersistentID:{8CF8FF32-2096-4B75-A0CA-E52185800846}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Optical Sensor 2</Property>
 	<Property Name="varPersistentID:{907F5B42-5EB6-4BE2-8BC7-0C6AC58A9F78}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/HighContactorVoltage</Property>
 	<Property Name="varPersistentID:{940CDFB5-BAC6-496D-8663-816711FC46BD}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Motor/driveEnable</Property>
-	<Property Name="varPersistentID:{956F7E73-96D1-424B-99C6-CE45C113D054}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI28</Property>
+	<Property Name="varPersistentID:{97324481-A9E2-40AF-A001-8B5210B455F7}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/COntactor L2 Continuity</Property>
 	<Property Name="varPersistentID:{984E43FB-6951-4DF3-BFD7-2EEEDD6C2961}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/Connected</Property>
 	<Property Name="varPersistentID:{9881BB34-FE64-4FA0-99EF-8D658B05C607}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/StripeCount</Property>
-	<Property Name="varPersistentID:{9A99919C-33A8-464C-B316-A1F1D0E1422C}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI22</Property>
+	<Property Name="varPersistentID:{9DA2B14F-9058-4883-A6C5-41AABA1D1879}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Optical Sensor 1</Property>
+	<Property Name="varPersistentID:{A09952CE-92CF-4CB0-AF59-9F593214C2CF}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/24V Current</Property>
 	<Property Name="varPersistentID:{AA3AD73F-16D5-42DB-9548-12EC1B082753}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Sensor Data/AllData</Property>
 	<Property Name="varPersistentID:{AB153C8A-8D26-44AF-9758-52BB5AAD1D73}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/NavigationReset</Property>
 	<Property Name="varPersistentID:{ABA58C5E-6D37-4066-8F22-D74E6A27EC4A}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/CurrentState</Property>
@@ -65,24 +66,30 @@
 	<Property Name="varPersistentID:{B01F5BA8-F956-4CA8-98F1-66F26C01D710}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/BatteriesShortedToFairing</Property>
 	<Property Name="varPersistentID:{B7F7C021-6CBC-4147-8146-037D6029102A}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/NetworkCheck</Property>
 	<Property Name="varPersistentID:{B95888B3-3736-43B5-A3BE-ECDEC1AB2092}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Motor/SystemCheckRPMTarget</Property>
-	<Property Name="varPersistentID:{BECF6C46-6C7A-498E-9902-39A8698E4391}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Optical Sensor 1</Property>
-	<Property Name="varPersistentID:{C1408B4C-72B6-4089-9E85-68E993FF879F}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/COntactor L2 Continuity</Property>
-	<Property Name="varPersistentID:{C27869E0-2D89-4AE9-976F-B94A6AD0B759}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Contactor L1 Contunity</Property>
+	<Property Name="varPersistentID:{BF8F01B7-F902-4A5C-A5AE-9176E2A0B319}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI26</Property>
+	<Property Name="varPersistentID:{BFF9CB7C-33FC-4A4C-8276-5FAF9E64129A}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/24V Voltage</Property>
+	<Property Name="varPersistentID:{C5A7C840-072C-4908-940B-FE69AEF66052}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Hall Effect Left</Property>
+	<Property Name="varPersistentID:{C60C164B-B8B6-49AE-859D-CA5AD1A370BF}" Type="Ref">/My Computer/HostNew/HostGlobals.lvlib/Telemetry</Property>
 	<Property Name="varPersistentID:{C7CFD0B9-5407-40BF-BE1E-60044209E0FB}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Motor/driveMode</Property>
+	<Property Name="varPersistentID:{C8B1FD75-1A63-4AFF-AFA9-C4EA4A965035}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI21</Property>
 	<Property Name="varPersistentID:{CA406B25-7C38-4209-8644-C79AD38C6359}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/CrawlingTime</Property>
 	<Property Name="varPersistentID:{CB063464-B2B4-4E0E-A169-9250B4CA256E}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Kinematics/Velocity</Property>
 	<Property Name="varPersistentID:{CCD1EBB1-40CD-4BF5-834F-CC57C2B72067}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/IMUData</Property>
+	<Property Name="varPersistentID:{CD591132-FD5D-45A1-9BB5-9118CDCE5687}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Brake PT</Property>
 	<Property Name="varPersistentID:{CEB6ED41-55D8-4C0C-8ED9-981B14D9BF61}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Kinematics/Acceleration</Property>
-	<Property Name="varPersistentID:{D1D56B9E-58D2-403B-B838-3CF3A113F832}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Contactor H1 Contiunity</Property>
-	<Property Name="varPersistentID:{D8705446-4DB3-4AEA-B3CC-BD21D380D0B8}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI25</Property>
+	<Property Name="varPersistentID:{D56A0931-682B-43D8-A897-E43341EF4F0B}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI25</Property>
+	<Property Name="varPersistentID:{D949A88A-86F3-4B3A-A7D9-624A388B7A4A}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI20</Property>
 	<Property Name="varPersistentID:{DDD2C496-A43A-4452-BA3C-88FE7DC72AFC}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/GlobalStop</Property>
+	<Property Name="varPersistentID:{E09ECAE5-D8E2-4AD0-BEF5-E8E5D7F25938}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/ABS Pressure 1</Property>
 	<Property Name="varPersistentID:{E480529B-75E9-4FD7-9C78-19E12060D198}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Service</Property>
-	<Property Name="varPersistentID:{E7C6BC62-E9A0-4D41-887E-6B1C70A97CCD}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/Optical Sensor 2</Property>
 	<Property Name="varPersistentID:{E88D91FD-6C0B-4171-9FF0-7D614BCCAF17}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Kinematics/Displacement</Property>
 	<Property Name="varPersistentID:{E939817A-B425-4E2A-85B5-ED192E7B9377}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/StartTime</Property>
 	<Property Name="varPersistentID:{EA24021F-D209-42F9-BF62-488F69CA2578}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Motor/driveTarget</Property>
-	<Property Name="varPersistentID:{EECEEB67-78C3-43F4-9D0E-FFA8B76DA84E}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/24V Voltage</Property>
+	<Property Name="varPersistentID:{EC788E38-99CA-47AE-9A7E-C1B494BB27BB}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Booleans/Controlword6</Property>
+	<Property Name="varPersistentID:{F0D9F671-486A-4159-935B-4C6633BC1F8D}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/AI28</Property>
 	<Property Name="varPersistentID:{F27DA2C7-A1F7-45DA-8C46-CF6C3AC7C01F}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/States/Vent</Property>
+	<Property Name="varPersistentID:{F45BFA72-474F-4741-ADFC-EF6813B0AFE6}" Type="Ref">/BEEFRIO/SingleProcessVariable.lvlib/RPMdisplacement</Property>
+	<Property Name="varPersistentID:{F94A5AF3-C11E-4EAE-B3D9-C62F4031430A}" Type="Ref">/BEEFRIO/Chassis/Real-Time Scan Resources/AnalogInputs/ABS Pressure 2</Property>
 	<Property Name="varPersistentID:{FED0273E-4349-4289-B434-DFC6A3FE161A}" Type="Ref">/BEEFRIO/NetworkSharedVariable.lvlib/Sensor Data/AllDataMin</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
@@ -107,10 +114,12 @@
 			<Item Name="Host_SetParameters_new.vi" Type="VI" URL="../Host/Host_SetParameters_new.vi"/>
 			<Item Name="HostGlobals.lvlib" Type="Library" URL="../Host/HealthCheckClass/HostGlobals.lvlib"/>
 		</Item>
+		<Item Name="BMS_Extended_Data_view.vi" Type="VI" URL="../Host/BMS_Extended_Data_view.vi"/>
 		<Item Name="Host__MainNewS.vi" Type="VI" URL="../Host/Host__MainNewS.vi"/>
 		<Item Name="Host_Save_Datagram.vi" Type="VI" URL="../Host/Host_Save_Datagram.vi"/>
 		<Item Name="Send_Datagram.vi" Type="VI" URL="../Host/Send_Datagram.vi"/>
 		<Item Name="SimulateData_GUI_Popup.vi" Type="VI" URL="../Host/SimulateData_GUI_Popup.vi"/>
+		<Item Name="Untitled 1.vi" Type="VI" URL="../../../../LabView Test/Untitled 1.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -316,16 +325,18 @@ DirectoryIndex index.htm
 			<Item Name="TypeDef_BMSStatuss.ctl" Type="VI" URL="../Type_Def/TypeDef_BMSStatuss.ctl"/>
 		</Item>
 		<Item Name="CAN" Type="Folder">
-			<Item Name="BMS" Type="Folder">
-				<Item Name="OrionBMSClass.lvclass" Type="LVClass" URL="../CAN/BMS/OrionBMSClass.lvclass"/>
+			<Item Name="ParseVIs" Type="Folder">
+				<Item Name="CAN_parse_BMS_1.vi" Type="VI" URL="../CAN/CAN_parse_BMS_1.vi"/>
+				<Item Name="CAN_parse_BMS_2.vi" Type="VI" URL="../CAN/CAN_parse_BMS_2.vi"/>
+				<Item Name="CAN_parse_motor_controller.vi" Type="VI" URL="../CAN/CAN_parse_motor_controller.vi"/>
+				<Item Name="CAN_parse_BMS_1_temp.vi" Type="VI" URL="../CAN/CAN_parse_BMS_1_temp.vi"/>
+				<Item Name="CAN_parse_BMS_2_temp.vi" Type="VI" URL="../CAN/CAN_parse_BMS_2_temp.vi"/>
+				<Item Name="CAN_parse_BMS_1_cell_voltage.vi" Type="VI" URL="../CAN/CAN_parse_BMS_1_cell_voltage.vi"/>
+				<Item Name="CAN_parse_BMS_2_cell_voltages.vi" Type="VI" URL="../CAN/CAN_parse_BMS_2_cell_voltages.vi"/>
 			</Item>
-			<Item Name="MotorController" Type="Folder">
-				<Item Name="MotorControllerClass.lvclass" Type="LVClass" URL="../CAN/BMS/MotorControllerClass.lvclass"/>
-			</Item>
-			<Item Name="CAN_MotorControlandBMS.vi" Type="VI" URL="../CAN/CAN_MotorControlandBMS.vi"/>
-			<Item Name="CAN_ReadBMS.vi" Type="VI" URL="../CAN/CAN_ReadBMS.vi"/>
 			<Item Name="Master_CAN.vi" Type="VI" URL="../CAN/Master_CAN.vi"/>
-			<Item Name="CAN_MotorControlandBMS2.vi" Type="VI" URL="../CAN/CAN_MotorControlandBMS2.vi"/>
+			<Item Name="CAN_ReadBMS.vi" Type="VI" URL="../CAN/CAN_ReadBMS.vi"/>
+			<Item Name="CAN_Interface_Motor.vi" Type="VI" URL="../CAN/CAN_Interface_Motor.vi"/>
 		</Item>
 		<Item Name="DAQ" Type="Folder">
 			<Item Name="Master_DAQ.vi" Type="VI" URL="../DAQ/Master_DAQ.vi"/>
@@ -339,6 +350,14 @@ DirectoryIndex index.htm
 			<Item Name="Master_NavigationLoop.vi" Type="VI" URL="../Navigation/Master_NavigationLoop.vi"/>
 		</Item>
 		<Item Name="MainFullCode.vi" Type="VI" URL="../MainFullCode.vi"/>
+		<Item Name="NetworkSharedVariable.lvlib" Type="Library" URL="../NetworkSharedVariable.lvlib"/>
+		<Item Name="SingleProcessVariable.lvlib" Type="Library" URL="../SingleProcessVariable.lvlib"/>
+		<Item Name="Master_ValueBuffer.vi" Type="VI" URL="../DAQ/Master_ValueBuffer.vi"/>
+		<Item Name="Master_DataStream.vi" Type="VI" URL="../DAQ/Master_DataStream.vi"/>
+		<Item Name="Master_CalculateOffset.vi" Type="VI" URL="../DAQ/Master_CalculateOffset.vi"/>
+		<Item Name="LedsOn" Type="VI" URL="../Control/LedsOn"/>
+		<Item Name="FPGACANTest.vi" Type="VI" URL="../FPGACANTest.vi"/>
+		<Item Name="Control 4.ctl" Type="VI" URL="../FPGA Bitfiles/Control 4.ctl"/>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
@@ -891,7 +910,7 @@ DirectoryIndex index.htm
 			</Item>
 			<Item Name="FPGA Target" Type="FPGA Target">
 				<Property Name="AutoRun" Type="Bool">false</Property>
-				<Property Name="configString.guid" Type="Str">{014374A1-2B17-4329-A78E-64AC873ABAA9}[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{0166C4A5-6E95-40CC-AED5-70E80D056BBA}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO4;0;ReadMethodType=bool;WriteMethodType=bool{0AC015FA-7602-4D9B-91D9-4F4655DB6F0A}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9472,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{2F3342E3-B5A0-4C19-B219-D17318FF3DA1}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/USER FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{360BACCC-4EB4-4ABB-B651-1EFB530BE6C8}resource=/Scan Clock;0;ReadMethodType=bool{3785FFF8-89CE-4089-9BE1-F2C94AEA300C}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO5;0;ReadMethodType=bool;WriteMethodType=bool{456572E4-CC64-4275-81CC-E7251E0D7E5D}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{47186CC3-FD5B-4411-9A35-5D96FDD0F315}[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=true,cRIOModule.EnableHsOutput=true,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{4E44E243-A8EF-4AEF-A2FE-972D1DBFD443}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO2;0;ReadMethodType=bool;WriteMethodType=bool{5366E2B4-67C5-42AD-85C0-EC6ABF7D2AF8}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO5;0;ReadMethodType=bool;WriteMethodType=bool{6D0147D6-594A-43B5-B0DF-867CDE05CDCB}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO2;0;ReadMethodType=bool;WriteMethodType=bool{71438DA6-8398-4908-B7BE-857953A2BF28}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO4;0;ReadMethodType=bool;WriteMethodType=bool{811860D2-D690-428B-B157-505CC0CF49ED}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO1;0;ReadMethodType=bool;WriteMethodType=bool{84E69AD0-35D8-466A-8B70-7D0AF6A72769}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO3;0;ReadMethodType=bool;WriteMethodType=bool{85C628AE-1B3C-4E30-883E-82B5B378C7DB}resource=/Chassis Temperature;0;ReadMethodType=i16{884269DA-BC29-4F21-84AB-DFE8AE41791F}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO6;0;ReadMethodType=bool;WriteMethodType=bool{C38ECCD3-7DD9-49B8-BB28-9514CAF54AB3}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{C44DD568-979E-4181-8EB6-798CA456F674}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO7:0;0;ReadMethodType=u8;WriteMethodType=u8{C663A33B-AFD4-4F56-914E-F4C8FF87F6D2}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO0;0;ReadMethodType=bool;WriteMethodType=bool{C9D14445-39E5-424D-BDAD-D3ED8C1C3529}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO0;0;ReadMethodType=bool;WriteMethodType=bool{DF4B0E96-B18F-42A4-9089-F44F39A6041D}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{E2890068-CB58-45A3-B311-9365E1A333BE}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO3;0;ReadMethodType=bool;WriteMethodType=bool{E29AA642-25AB-4153-9C77-13A55FDC2C3D}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO1;0;ReadMethodType=bool;WriteMethodType=bool{E4E28235-B427-43C3-A9E7-BE759AC36C68}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO7:0;0;ReadMethodType=u8;WriteMethodType=u8{E87142AF-001B-4FF8-90CF-199964046A94}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9472,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{EC4D75E9-BEE8-4D70-95C2-222AC4AEF9C4}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO6;0;ReadMethodType=bool;WriteMethodType=bool{F75F5C81-0751-4888-B6BE-A3D63BD77E51}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO7;0;ReadMethodType=bool;WriteMethodType=bool{FC3DF122-E369-4D63-9416-608CB8531CD1}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO7;0;ReadMethodType=bool;WriteMethodType=boolcRIO-9063/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9063FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA</Property>
+				<Property Name="configString.guid" Type="Str">{014374A1-2B17-4329-A78E-64AC873ABAA9}[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{0AC015FA-7602-4D9B-91D9-4F4655DB6F0A}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9472,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{13714FC1-EC1C-4313-9D0A-4E10FC4E23F2}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO6;0;ReadMethodType=bool;WriteMethodType=bool{1911553C-932E-4884-99D9-276C3359F69A}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO1;0;ReadMethodType=bool;WriteMethodType=bool{247B5732-B5A3-44B0-8E0D-CCDDF1D723BD}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO7;0;ReadMethodType=bool;WriteMethodType=bool{2761ACA1-6F42-4C0F-B89A-ECF62CF72960}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO4;0;ReadMethodType=bool;WriteMethodType=bool{2E1C57EA-49BF-4490-83CE-623D66DD2D13}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{2E68357B-54BF-4D88-AB4E-2116041F095D}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO4;0;ReadMethodType=bool;WriteMethodType=bool{3474408A-CBEF-4958-B4F3-53D98E2C8FE2}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{393F9523-0049-4A4B-967D-F5AC1FAAC572}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/USER FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{396335E4-65BB-4035-BE26-F09CB070E817}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO7;0;ReadMethodType=bool;WriteMethodType=bool{3CA2295D-1742-4072-BFB8-7178C29B6944}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO7:0;0;ReadMethodType=u8;WriteMethodType=u8{3F15E414-91ED-427C-8232-B9481A65C59E}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO5;0;ReadMethodType=bool;WriteMethodType=bool{47186CC3-FD5B-4411-9A35-5D96FDD0F315}[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=true,cRIOModule.EnableHsOutput=true,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{7460E9F2-CF7C-4D19-B7F1-BC66DE1A8ABF}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO6;0;ReadMethodType=bool;WriteMethodType=bool{778CDACB-8BDA-4015-91FD-F457860EC860}resource=/Scan Clock;0;ReadMethodType=bool{7B107C46-8EAC-4C92-A577-77DEEC56A3C8}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO3;0;ReadMethodType=bool;WriteMethodType=bool{85F6F6A2-29F6-4811-8B25-0801EF604C0C}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO7:0;0;ReadMethodType=u8;WriteMethodType=u8{9FB28443-9E8C-4279-9BFB-73347AB6F37A}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO2;0;ReadMethodType=bool;WriteMethodType=bool{A57422B1-B7AC-40BD-ABEB-B484794D971C}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{A694104E-72DF-44A8-A67F-8B26D66128A3}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO0;0;ReadMethodType=bool;WriteMethodType=bool{AC89CC30-5B48-413A-B93E-391425D916C8}resource=/Chassis Temperature;0;ReadMethodType=i16{ADA5D876-0F9B-4E55-9EB6-921602E4C7CD}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO5;0;ReadMethodType=bool;WriteMethodType=bool{ADDC0103-4274-4B84-85E1-C58019002EC0}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO3;0;ReadMethodType=bool;WriteMethodType=bool{C7E3E4D8-52C1-40AF-A452-243D64F26ADC}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO1;0;ReadMethodType=bool;WriteMethodType=bool{E2B7B4B8-47E4-40DC-83A7-B0601853CCEB}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO2;0;ReadMethodType=bool;WriteMethodType=bool{E87142AF-001B-4FF8-90CF-199964046A94}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9472,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{FF32BAF0-D01A-4DDF-ABC8-47F828912FDF}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO0;0;ReadMethodType=bool;WriteMethodType=boolcRIO-9063/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9063FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA</Property>
 				<Property Name="configString.name" Type="Str">24 VDC CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO2;0;ReadMethodType=bool;WriteMethodType=bool40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;AnalogInputs[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]BO7BArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO7;0;ReadMethodType=bool;WriteMethodType=boolBrake Solenoid CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO5;0;ReadMethodType=bool;WriteMethodType=boolCANOpenModule[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=true,cRIOModule.EnableHsOutput=true,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16Contact H1ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO1;0;ReadMethodType=bool;WriteMethodType=boolContact H2ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO3;0;ReadMethodType=bool;WriteMethodType=boolContact L1ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO2;0;ReadMethodType=bool;WriteMethodType=boolContact L2ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO4;0;ReadMethodType=bool;WriteMethodType=boolcRIO-9063/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9063FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGADO7AArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO7;0;ReadMethodType=bool;WriteMethodType=boolEMCY Brake Solenoid CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO6;0;ReadMethodType=bool;WriteMethodType=boolForward CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO0;0;ReadMethodType=bool;WriteMethodType=boolLED GREENArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO6;0;ReadMethodType=bool;WriteMethodType=boolLED REDArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO5;0;ReadMethodType=bool;WriteMethodType=boolMod3/DO7:0ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod3[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9472,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]Mod4/DO7:0ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod4[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9472,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]Precharge CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO1;0;ReadMethodType=bool;WriteMethodType=boolPump Solenoid CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO3;0;ReadMethodType=bool;WriteMethodType=boolReverse CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO0;0;ReadMethodType=bool;WriteMethodType=boolScan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/USER FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolVent Solenoid CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO4;0;ReadMethodType=bool;WriteMethodType=bool</Property>
 				<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">cRIO-9063/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9063FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA</Property>
 				<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
@@ -907,7 +926,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{85C628AE-1B3C-4E30-883E-82B5B378C7DB}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{AC89CC30-5B48-413A-B93E-391425D916C8}</Property>
 					</Item>
 					<Item Name="Sleep" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -916,7 +935,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{456572E4-CC64-4275-81CC-E7251E0D7E5D}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{2E1C57EA-49BF-4490-83CE-623D66DD2D13}</Property>
 					</Item>
 					<Item Name="System Reset" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -925,7 +944,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{C38ECCD3-7DD9-49B8-BB28-9514CAF54AB3}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{A57422B1-B7AC-40BD-ABEB-B484794D971C}</Property>
 					</Item>
 					<Item Name="USER FPGA LED" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -943,7 +962,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{2F3342E3-B5A0-4C19-B219-D17318FF3DA1}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{393F9523-0049-4A4B-967D-F5AC1FAAC572}</Property>
 					</Item>
 					<Item Name="Scan Clock" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -952,37 +971,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{360BACCC-4EB4-4ABB-B651-1EFB530BE6C8}</Property>
-					</Item>
-				</Item>
-				<Item Name="FPGA" Type="Folder">
-					<Item Name="Storage" Type="Folder">
-						<Item Name="Fail-Safe Control FPGA Globals.vi" Type="VI" URL="../FPGA/Storage/Fail-Safe Control FPGA Globals.vi">
-							<Property Name="configString.guid" Type="Str">{014374A1-2B17-4329-A78E-64AC873ABAA9}[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{0166C4A5-6E95-40CC-AED5-70E80D056BBA}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO4;0;ReadMethodType=bool;WriteMethodType=bool{0AC015FA-7602-4D9B-91D9-4F4655DB6F0A}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9472,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{2F3342E3-B5A0-4C19-B219-D17318FF3DA1}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/USER FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{360BACCC-4EB4-4ABB-B651-1EFB530BE6C8}resource=/Scan Clock;0;ReadMethodType=bool{3785FFF8-89CE-4089-9BE1-F2C94AEA300C}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO5;0;ReadMethodType=bool;WriteMethodType=bool{456572E4-CC64-4275-81CC-E7251E0D7E5D}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{47186CC3-FD5B-4411-9A35-5D96FDD0F315}[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=true,cRIOModule.EnableHsOutput=true,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{4E44E243-A8EF-4AEF-A2FE-972D1DBFD443}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO2;0;ReadMethodType=bool;WriteMethodType=bool{5366E2B4-67C5-42AD-85C0-EC6ABF7D2AF8}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO5;0;ReadMethodType=bool;WriteMethodType=bool{6D0147D6-594A-43B5-B0DF-867CDE05CDCB}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO2;0;ReadMethodType=bool;WriteMethodType=bool{71438DA6-8398-4908-B7BE-857953A2BF28}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO4;0;ReadMethodType=bool;WriteMethodType=bool{811860D2-D690-428B-B157-505CC0CF49ED}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO1;0;ReadMethodType=bool;WriteMethodType=bool{84E69AD0-35D8-466A-8B70-7D0AF6A72769}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO3;0;ReadMethodType=bool;WriteMethodType=bool{85C628AE-1B3C-4E30-883E-82B5B378C7DB}resource=/Chassis Temperature;0;ReadMethodType=i16{884269DA-BC29-4F21-84AB-DFE8AE41791F}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO6;0;ReadMethodType=bool;WriteMethodType=bool{C38ECCD3-7DD9-49B8-BB28-9514CAF54AB3}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{C44DD568-979E-4181-8EB6-798CA456F674}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO7:0;0;ReadMethodType=u8;WriteMethodType=u8{C663A33B-AFD4-4F56-914E-F4C8FF87F6D2}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO0;0;ReadMethodType=bool;WriteMethodType=bool{C9D14445-39E5-424D-BDAD-D3ED8C1C3529}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO0;0;ReadMethodType=bool;WriteMethodType=bool{DF4B0E96-B18F-42A4-9089-F44F39A6041D}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{E2890068-CB58-45A3-B311-9365E1A333BE}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO3;0;ReadMethodType=bool;WriteMethodType=bool{E29AA642-25AB-4153-9C77-13A55FDC2C3D}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO1;0;ReadMethodType=bool;WriteMethodType=bool{E4E28235-B427-43C3-A9E7-BE759AC36C68}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO7:0;0;ReadMethodType=u8;WriteMethodType=u8{E87142AF-001B-4FF8-90CF-199964046A94}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9472,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{EC4D75E9-BEE8-4D70-95C2-222AC4AEF9C4}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO6;0;ReadMethodType=bool;WriteMethodType=bool{F75F5C81-0751-4888-B6BE-A3D63BD77E51}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO7;0;ReadMethodType=bool;WriteMethodType=bool{FC3DF122-E369-4D63-9416-608CB8531CD1}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO7;0;ReadMethodType=bool;WriteMethodType=boolcRIO-9063/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9063FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA</Property>
-							<Property Name="configString.name" Type="Str">24 VDC CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO2;0;ReadMethodType=bool;WriteMethodType=bool40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;AnalogInputs[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]BO7BArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO7;0;ReadMethodType=bool;WriteMethodType=boolBrake Solenoid CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO5;0;ReadMethodType=bool;WriteMethodType=boolCANOpenModule[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=true,cRIOModule.EnableHsOutput=true,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16Contact H1ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO1;0;ReadMethodType=bool;WriteMethodType=boolContact H2ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO3;0;ReadMethodType=bool;WriteMethodType=boolContact L1ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO2;0;ReadMethodType=bool;WriteMethodType=boolContact L2ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO4;0;ReadMethodType=bool;WriteMethodType=boolcRIO-9063/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9063FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGADO7AArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO7;0;ReadMethodType=bool;WriteMethodType=boolEMCY Brake Solenoid CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO6;0;ReadMethodType=bool;WriteMethodType=boolForward CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO0;0;ReadMethodType=bool;WriteMethodType=boolLED GREENArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO6;0;ReadMethodType=bool;WriteMethodType=boolLED REDArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO5;0;ReadMethodType=bool;WriteMethodType=boolMod3/DO7:0ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod3[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9472,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]Mod4/DO7:0ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod4[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9472,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]Precharge CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO1;0;ReadMethodType=bool;WriteMethodType=boolPump Solenoid CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO3;0;ReadMethodType=bool;WriteMethodType=boolReverse CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO0;0;ReadMethodType=bool;WriteMethodType=boolScan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/USER FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolVent Solenoid CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO4;0;ReadMethodType=bool;WriteMethodType=bool</Property>
-						</Item>
-					</Item>
-					<Item Name="SubVIs" Type="Folder">
-						<Item Name="Elapsed Time.vi" Type="VI" URL="../FPGA/SubVIs/Elapsed Time.vi">
-							<Property Name="configString.guid" Type="Str">{014374A1-2B17-4329-A78E-64AC873ABAA9}[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{0166C4A5-6E95-40CC-AED5-70E80D056BBA}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO4;0;ReadMethodType=bool;WriteMethodType=bool{0AC015FA-7602-4D9B-91D9-4F4655DB6F0A}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9472,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{2F3342E3-B5A0-4C19-B219-D17318FF3DA1}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/USER FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{360BACCC-4EB4-4ABB-B651-1EFB530BE6C8}resource=/Scan Clock;0;ReadMethodType=bool{3785FFF8-89CE-4089-9BE1-F2C94AEA300C}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO5;0;ReadMethodType=bool;WriteMethodType=bool{456572E4-CC64-4275-81CC-E7251E0D7E5D}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{47186CC3-FD5B-4411-9A35-5D96FDD0F315}[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=true,cRIOModule.EnableHsOutput=true,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{4E44E243-A8EF-4AEF-A2FE-972D1DBFD443}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO2;0;ReadMethodType=bool;WriteMethodType=bool{5366E2B4-67C5-42AD-85C0-EC6ABF7D2AF8}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO5;0;ReadMethodType=bool;WriteMethodType=bool{6D0147D6-594A-43B5-B0DF-867CDE05CDCB}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO2;0;ReadMethodType=bool;WriteMethodType=bool{71438DA6-8398-4908-B7BE-857953A2BF28}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO4;0;ReadMethodType=bool;WriteMethodType=bool{811860D2-D690-428B-B157-505CC0CF49ED}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO1;0;ReadMethodType=bool;WriteMethodType=bool{84E69AD0-35D8-466A-8B70-7D0AF6A72769}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO3;0;ReadMethodType=bool;WriteMethodType=bool{85C628AE-1B3C-4E30-883E-82B5B378C7DB}resource=/Chassis Temperature;0;ReadMethodType=i16{884269DA-BC29-4F21-84AB-DFE8AE41791F}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO6;0;ReadMethodType=bool;WriteMethodType=bool{C38ECCD3-7DD9-49B8-BB28-9514CAF54AB3}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{C44DD568-979E-4181-8EB6-798CA456F674}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO7:0;0;ReadMethodType=u8;WriteMethodType=u8{C663A33B-AFD4-4F56-914E-F4C8FF87F6D2}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO0;0;ReadMethodType=bool;WriteMethodType=bool{C9D14445-39E5-424D-BDAD-D3ED8C1C3529}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO0;0;ReadMethodType=bool;WriteMethodType=bool{DF4B0E96-B18F-42A4-9089-F44F39A6041D}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{E2890068-CB58-45A3-B311-9365E1A333BE}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO3;0;ReadMethodType=bool;WriteMethodType=bool{E29AA642-25AB-4153-9C77-13A55FDC2C3D}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO1;0;ReadMethodType=bool;WriteMethodType=bool{E4E28235-B427-43C3-A9E7-BE759AC36C68}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO7:0;0;ReadMethodType=u8;WriteMethodType=u8{E87142AF-001B-4FF8-90CF-199964046A94}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9472,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{EC4D75E9-BEE8-4D70-95C2-222AC4AEF9C4}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO6;0;ReadMethodType=bool;WriteMethodType=bool{F75F5C81-0751-4888-B6BE-A3D63BD77E51}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO7;0;ReadMethodType=bool;WriteMethodType=bool{FC3DF122-E369-4D63-9416-608CB8531CD1}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO7;0;ReadMethodType=bool;WriteMethodType=boolcRIO-9063/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9063FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA</Property>
-							<Property Name="configString.name" Type="Str">24 VDC CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO2;0;ReadMethodType=bool;WriteMethodType=bool40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;AnalogInputs[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]BO7BArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO7;0;ReadMethodType=bool;WriteMethodType=boolBrake Solenoid CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO5;0;ReadMethodType=bool;WriteMethodType=boolCANOpenModule[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=true,cRIOModule.EnableHsOutput=true,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16Contact H1ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO1;0;ReadMethodType=bool;WriteMethodType=boolContact H2ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO3;0;ReadMethodType=bool;WriteMethodType=boolContact L1ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO2;0;ReadMethodType=bool;WriteMethodType=boolContact L2ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO4;0;ReadMethodType=bool;WriteMethodType=boolcRIO-9063/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9063FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGADO7AArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO7;0;ReadMethodType=bool;WriteMethodType=boolEMCY Brake Solenoid CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO6;0;ReadMethodType=bool;WriteMethodType=boolForward CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO0;0;ReadMethodType=bool;WriteMethodType=boolLED GREENArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO6;0;ReadMethodType=bool;WriteMethodType=boolLED REDArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO5;0;ReadMethodType=bool;WriteMethodType=boolMod3/DO7:0ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod3[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9472,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]Mod4/DO7:0ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod4[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9472,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]Precharge CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO1;0;ReadMethodType=bool;WriteMethodType=boolPump Solenoid CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO3;0;ReadMethodType=bool;WriteMethodType=boolReverse CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO0;0;ReadMethodType=bool;WriteMethodType=boolScan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/USER FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolVent Solenoid CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO4;0;ReadMethodType=bool;WriteMethodType=bool</Property>
-						</Item>
-					</Item>
-					<Item Name="Type Defs" Type="Folder">
-						<Item Name="Fail-Safe FPGA States.ctl" Type="VI" URL="../FPGA/Type Defs/Fail-Safe FPGA States.ctl">
-							<Property Name="configString.guid" Type="Str">{014374A1-2B17-4329-A78E-64AC873ABAA9}[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{0166C4A5-6E95-40CC-AED5-70E80D056BBA}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO4;0;ReadMethodType=bool;WriteMethodType=bool{0AC015FA-7602-4D9B-91D9-4F4655DB6F0A}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9472,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{2F3342E3-B5A0-4C19-B219-D17318FF3DA1}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/USER FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{360BACCC-4EB4-4ABB-B651-1EFB530BE6C8}resource=/Scan Clock;0;ReadMethodType=bool{3785FFF8-89CE-4089-9BE1-F2C94AEA300C}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO5;0;ReadMethodType=bool;WriteMethodType=bool{456572E4-CC64-4275-81CC-E7251E0D7E5D}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{47186CC3-FD5B-4411-9A35-5D96FDD0F315}[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=true,cRIOModule.EnableHsOutput=true,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{4E44E243-A8EF-4AEF-A2FE-972D1DBFD443}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO2;0;ReadMethodType=bool;WriteMethodType=bool{5366E2B4-67C5-42AD-85C0-EC6ABF7D2AF8}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO5;0;ReadMethodType=bool;WriteMethodType=bool{6D0147D6-594A-43B5-B0DF-867CDE05CDCB}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO2;0;ReadMethodType=bool;WriteMethodType=bool{71438DA6-8398-4908-B7BE-857953A2BF28}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO4;0;ReadMethodType=bool;WriteMethodType=bool{811860D2-D690-428B-B157-505CC0CF49ED}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO1;0;ReadMethodType=bool;WriteMethodType=bool{84E69AD0-35D8-466A-8B70-7D0AF6A72769}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO3;0;ReadMethodType=bool;WriteMethodType=bool{85C628AE-1B3C-4E30-883E-82B5B378C7DB}resource=/Chassis Temperature;0;ReadMethodType=i16{884269DA-BC29-4F21-84AB-DFE8AE41791F}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO6;0;ReadMethodType=bool;WriteMethodType=bool{C38ECCD3-7DD9-49B8-BB28-9514CAF54AB3}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{C44DD568-979E-4181-8EB6-798CA456F674}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO7:0;0;ReadMethodType=u8;WriteMethodType=u8{C663A33B-AFD4-4F56-914E-F4C8FF87F6D2}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO0;0;ReadMethodType=bool;WriteMethodType=bool{C9D14445-39E5-424D-BDAD-D3ED8C1C3529}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO0;0;ReadMethodType=bool;WriteMethodType=bool{DF4B0E96-B18F-42A4-9089-F44F39A6041D}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{E2890068-CB58-45A3-B311-9365E1A333BE}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO3;0;ReadMethodType=bool;WriteMethodType=bool{E29AA642-25AB-4153-9C77-13A55FDC2C3D}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO1;0;ReadMethodType=bool;WriteMethodType=bool{E4E28235-B427-43C3-A9E7-BE759AC36C68}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO7:0;0;ReadMethodType=u8;WriteMethodType=u8{E87142AF-001B-4FF8-90CF-199964046A94}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9472,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{EC4D75E9-BEE8-4D70-95C2-222AC4AEF9C4}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO6;0;ReadMethodType=bool;WriteMethodType=bool{F75F5C81-0751-4888-B6BE-A3D63BD77E51}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO7;0;ReadMethodType=bool;WriteMethodType=bool{FC3DF122-E369-4D63-9416-608CB8531CD1}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO7;0;ReadMethodType=bool;WriteMethodType=boolcRIO-9063/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9063FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA</Property>
-							<Property Name="configString.name" Type="Str">24 VDC CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO2;0;ReadMethodType=bool;WriteMethodType=bool40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;AnalogInputs[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]BO7BArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO7;0;ReadMethodType=bool;WriteMethodType=boolBrake Solenoid CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO5;0;ReadMethodType=bool;WriteMethodType=boolCANOpenModule[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=true,cRIOModule.EnableHsOutput=true,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16Contact H1ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO1;0;ReadMethodType=bool;WriteMethodType=boolContact H2ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO3;0;ReadMethodType=bool;WriteMethodType=boolContact L1ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO2;0;ReadMethodType=bool;WriteMethodType=boolContact L2ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO4;0;ReadMethodType=bool;WriteMethodType=boolcRIO-9063/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9063FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGADO7AArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO7;0;ReadMethodType=bool;WriteMethodType=boolEMCY Brake Solenoid CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO6;0;ReadMethodType=bool;WriteMethodType=boolForward CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO0;0;ReadMethodType=bool;WriteMethodType=boolLED GREENArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO6;0;ReadMethodType=bool;WriteMethodType=boolLED REDArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO5;0;ReadMethodType=bool;WriteMethodType=boolMod3/DO7:0ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod3[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9472,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]Mod4/DO7:0ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod4[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9472,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]Precharge CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO1;0;ReadMethodType=bool;WriteMethodType=boolPump Solenoid CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO3;0;ReadMethodType=bool;WriteMethodType=boolReverse CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO0;0;ReadMethodType=bool;WriteMethodType=boolScan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/USER FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolVent Solenoid CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO4;0;ReadMethodType=bool;WriteMethodType=bool</Property>
-						</Item>
-					</Item>
-					<Item Name="Blank.vi" Type="VI" URL="../FPGA/Blank.vi">
-						<Property Name="configString.guid" Type="Str">{014374A1-2B17-4329-A78E-64AC873ABAA9}[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{0166C4A5-6E95-40CC-AED5-70E80D056BBA}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO4;0;ReadMethodType=bool;WriteMethodType=bool{0AC015FA-7602-4D9B-91D9-4F4655DB6F0A}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9472,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{2F3342E3-B5A0-4C19-B219-D17318FF3DA1}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/USER FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{360BACCC-4EB4-4ABB-B651-1EFB530BE6C8}resource=/Scan Clock;0;ReadMethodType=bool{3785FFF8-89CE-4089-9BE1-F2C94AEA300C}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO5;0;ReadMethodType=bool;WriteMethodType=bool{456572E4-CC64-4275-81CC-E7251E0D7E5D}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{47186CC3-FD5B-4411-9A35-5D96FDD0F315}[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=true,cRIOModule.EnableHsOutput=true,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{4E44E243-A8EF-4AEF-A2FE-972D1DBFD443}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO2;0;ReadMethodType=bool;WriteMethodType=bool{5366E2B4-67C5-42AD-85C0-EC6ABF7D2AF8}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO5;0;ReadMethodType=bool;WriteMethodType=bool{6D0147D6-594A-43B5-B0DF-867CDE05CDCB}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO2;0;ReadMethodType=bool;WriteMethodType=bool{71438DA6-8398-4908-B7BE-857953A2BF28}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO4;0;ReadMethodType=bool;WriteMethodType=bool{811860D2-D690-428B-B157-505CC0CF49ED}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO1;0;ReadMethodType=bool;WriteMethodType=bool{84E69AD0-35D8-466A-8B70-7D0AF6A72769}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO3;0;ReadMethodType=bool;WriteMethodType=bool{85C628AE-1B3C-4E30-883E-82B5B378C7DB}resource=/Chassis Temperature;0;ReadMethodType=i16{884269DA-BC29-4F21-84AB-DFE8AE41791F}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO6;0;ReadMethodType=bool;WriteMethodType=bool{C38ECCD3-7DD9-49B8-BB28-9514CAF54AB3}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{C44DD568-979E-4181-8EB6-798CA456F674}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO7:0;0;ReadMethodType=u8;WriteMethodType=u8{C663A33B-AFD4-4F56-914E-F4C8FF87F6D2}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO0;0;ReadMethodType=bool;WriteMethodType=bool{C9D14445-39E5-424D-BDAD-D3ED8C1C3529}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO0;0;ReadMethodType=bool;WriteMethodType=bool{DF4B0E96-B18F-42A4-9089-F44F39A6041D}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{E2890068-CB58-45A3-B311-9365E1A333BE}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO3;0;ReadMethodType=bool;WriteMethodType=bool{E29AA642-25AB-4153-9C77-13A55FDC2C3D}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO1;0;ReadMethodType=bool;WriteMethodType=bool{E4E28235-B427-43C3-A9E7-BE759AC36C68}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO7:0;0;ReadMethodType=u8;WriteMethodType=u8{E87142AF-001B-4FF8-90CF-199964046A94}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9472,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{EC4D75E9-BEE8-4D70-95C2-222AC4AEF9C4}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO6;0;ReadMethodType=bool;WriteMethodType=bool{F75F5C81-0751-4888-B6BE-A3D63BD77E51}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO7;0;ReadMethodType=bool;WriteMethodType=bool{FC3DF122-E369-4D63-9416-608CB8531CD1}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO7;0;ReadMethodType=bool;WriteMethodType=boolcRIO-9063/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9063FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA</Property>
-						<Property Name="configString.name" Type="Str">24 VDC CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO2;0;ReadMethodType=bool;WriteMethodType=bool40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;AnalogInputs[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]BO7BArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO7;0;ReadMethodType=bool;WriteMethodType=boolBrake Solenoid CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO5;0;ReadMethodType=bool;WriteMethodType=boolCANOpenModule[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=true,cRIOModule.EnableHsOutput=true,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16Contact H1ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO1;0;ReadMethodType=bool;WriteMethodType=boolContact H2ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO3;0;ReadMethodType=bool;WriteMethodType=boolContact L1ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO2;0;ReadMethodType=bool;WriteMethodType=boolContact L2ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO4;0;ReadMethodType=bool;WriteMethodType=boolcRIO-9063/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9063FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGADO7AArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO7;0;ReadMethodType=bool;WriteMethodType=boolEMCY Brake Solenoid CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO6;0;ReadMethodType=bool;WriteMethodType=boolForward CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO0;0;ReadMethodType=bool;WriteMethodType=boolLED GREENArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO6;0;ReadMethodType=bool;WriteMethodType=boolLED REDArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO5;0;ReadMethodType=bool;WriteMethodType=boolMod3/DO7:0ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod3[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9472,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]Mod4/DO7:0ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod4[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9472,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]Precharge CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO1;0;ReadMethodType=bool;WriteMethodType=boolPump Solenoid CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO3;0;ReadMethodType=bool;WriteMethodType=boolReverse CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO0;0;ReadMethodType=bool;WriteMethodType=boolScan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/USER FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolVent Solenoid CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO4;0;ReadMethodType=bool;WriteMethodType=bool</Property>
-					</Item>
-					<Item Name="Fail-Safe Control FPGA.vi" Type="VI" URL="../FPGA/Fail-Safe Control FPGA.vi">
-						<Property Name="BuildSpec" Type="Str">{1241F68E-EF35-4094-98D5-3AF88EBD358F}</Property>
-						<Property Name="configString.guid" Type="Str">{014374A1-2B17-4329-A78E-64AC873ABAA9}[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{0166C4A5-6E95-40CC-AED5-70E80D056BBA}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO4;0;ReadMethodType=bool;WriteMethodType=bool{0AC015FA-7602-4D9B-91D9-4F4655DB6F0A}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9472,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{2F3342E3-B5A0-4C19-B219-D17318FF3DA1}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/USER FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{360BACCC-4EB4-4ABB-B651-1EFB530BE6C8}resource=/Scan Clock;0;ReadMethodType=bool{3785FFF8-89CE-4089-9BE1-F2C94AEA300C}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO5;0;ReadMethodType=bool;WriteMethodType=bool{456572E4-CC64-4275-81CC-E7251E0D7E5D}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{47186CC3-FD5B-4411-9A35-5D96FDD0F315}[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=true,cRIOModule.EnableHsOutput=true,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{4E44E243-A8EF-4AEF-A2FE-972D1DBFD443}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO2;0;ReadMethodType=bool;WriteMethodType=bool{5366E2B4-67C5-42AD-85C0-EC6ABF7D2AF8}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO5;0;ReadMethodType=bool;WriteMethodType=bool{6D0147D6-594A-43B5-B0DF-867CDE05CDCB}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO2;0;ReadMethodType=bool;WriteMethodType=bool{71438DA6-8398-4908-B7BE-857953A2BF28}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO4;0;ReadMethodType=bool;WriteMethodType=bool{811860D2-D690-428B-B157-505CC0CF49ED}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO1;0;ReadMethodType=bool;WriteMethodType=bool{84E69AD0-35D8-466A-8B70-7D0AF6A72769}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO3;0;ReadMethodType=bool;WriteMethodType=bool{85C628AE-1B3C-4E30-883E-82B5B378C7DB}resource=/Chassis Temperature;0;ReadMethodType=i16{884269DA-BC29-4F21-84AB-DFE8AE41791F}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO6;0;ReadMethodType=bool;WriteMethodType=bool{C38ECCD3-7DD9-49B8-BB28-9514CAF54AB3}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{C44DD568-979E-4181-8EB6-798CA456F674}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO7:0;0;ReadMethodType=u8;WriteMethodType=u8{C663A33B-AFD4-4F56-914E-F4C8FF87F6D2}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO0;0;ReadMethodType=bool;WriteMethodType=bool{C9D14445-39E5-424D-BDAD-D3ED8C1C3529}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO0;0;ReadMethodType=bool;WriteMethodType=bool{DF4B0E96-B18F-42A4-9089-F44F39A6041D}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{E2890068-CB58-45A3-B311-9365E1A333BE}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO3;0;ReadMethodType=bool;WriteMethodType=bool{E29AA642-25AB-4153-9C77-13A55FDC2C3D}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO1;0;ReadMethodType=bool;WriteMethodType=bool{E4E28235-B427-43C3-A9E7-BE759AC36C68}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO7:0;0;ReadMethodType=u8;WriteMethodType=u8{E87142AF-001B-4FF8-90CF-199964046A94}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9472,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{EC4D75E9-BEE8-4D70-95C2-222AC4AEF9C4}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO6;0;ReadMethodType=bool;WriteMethodType=bool{F75F5C81-0751-4888-B6BE-A3D63BD77E51}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO7;0;ReadMethodType=bool;WriteMethodType=bool{FC3DF122-E369-4D63-9416-608CB8531CD1}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO7;0;ReadMethodType=bool;WriteMethodType=boolcRIO-9063/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9063FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA</Property>
-						<Property Name="configString.name" Type="Str">24 VDC CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO2;0;ReadMethodType=bool;WriteMethodType=bool40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;AnalogInputs[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]BO7BArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO7;0;ReadMethodType=bool;WriteMethodType=boolBrake Solenoid CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO5;0;ReadMethodType=bool;WriteMethodType=boolCANOpenModule[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=true,cRIOModule.EnableHsOutput=true,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16Contact H1ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO1;0;ReadMethodType=bool;WriteMethodType=boolContact H2ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO3;0;ReadMethodType=bool;WriteMethodType=boolContact L1ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO2;0;ReadMethodType=bool;WriteMethodType=boolContact L2ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO4;0;ReadMethodType=bool;WriteMethodType=boolcRIO-9063/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9063FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGADO7AArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO7;0;ReadMethodType=bool;WriteMethodType=boolEMCY Brake Solenoid CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO6;0;ReadMethodType=bool;WriteMethodType=boolForward CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO0;0;ReadMethodType=bool;WriteMethodType=boolLED GREENArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO6;0;ReadMethodType=bool;WriteMethodType=boolLED REDArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO5;0;ReadMethodType=bool;WriteMethodType=boolMod3/DO7:0ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod3[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9472,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]Mod4/DO7:0ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod4[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9472,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]Precharge CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO1;0;ReadMethodType=bool;WriteMethodType=boolPump Solenoid CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO3;0;ReadMethodType=bool;WriteMethodType=boolReverse CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO0;0;ReadMethodType=bool;WriteMethodType=boolScan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/USER FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolVent Solenoid CtrlArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod4/DO4;0;ReadMethodType=bool;WriteMethodType=bool</Property>
-						<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\Users\HXPC\Documents\GitHub\HyperXcite2019CompetitionCode_Final\2019_pod_main_code_REAL\FPGA Bitfiles\2019HyperXiteCom_FPGATarget_Fail-SafeControl_eg2p2q-h5Jg.lvbitx</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{778CDACB-8BDA-4015-91FD-F457860EC860}</Property>
 					</Item>
 				</Item>
 				<Item Name="Digital Output 1" Type="Folder">
@@ -996,7 +985,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{C663A33B-AFD4-4F56-914E-F4C8FF87F6D2}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{FF32BAF0-D01A-4DDF-ABC8-47F828912FDF}</Property>
 					</Item>
 					<Item Name="Contact H1" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1008,7 +997,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{E29AA642-25AB-4153-9C77-13A55FDC2C3D}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{1911553C-932E-4884-99D9-276C3359F69A}</Property>
 					</Item>
 					<Item Name="Contact L1" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1020,7 +1009,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{4E44E243-A8EF-4AEF-A2FE-972D1DBFD443}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{E2B7B4B8-47E4-40DC-83A7-B0601853CCEB}</Property>
 					</Item>
 					<Item Name="Contact H2" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1032,7 +1021,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{84E69AD0-35D8-466A-8B70-7D0AF6A72769}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{ADDC0103-4274-4B84-85E1-C58019002EC0}</Property>
 					</Item>
 					<Item Name="Contact L2" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1044,7 +1033,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{0166C4A5-6E95-40CC-AED5-70E80D056BBA}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{2761ACA1-6F42-4C0F-B89A-ECF62CF72960}</Property>
 					</Item>
 					<Item Name="LED RED" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1056,7 +1045,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{3785FFF8-89CE-4089-9BE1-F2C94AEA300C}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{ADA5D876-0F9B-4E55-9EB6-921602E4C7CD}</Property>
 					</Item>
 					<Item Name="LED GREEN" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1068,7 +1057,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{EC4D75E9-BEE8-4D70-95C2-222AC4AEF9C4}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{7460E9F2-CF7C-4D19-B7F1-BC66DE1A8ABF}</Property>
 					</Item>
 					<Item Name="DO7A" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1080,7 +1069,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{FC3DF122-E369-4D63-9416-608CB8531CD1}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{396335E4-65BB-4035-BE26-F09CB070E817}</Property>
 					</Item>
 					<Item Name="Mod3/DO7:0" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1092,7 +1081,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{C44DD568-979E-4181-8EB6-798CA456F674}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{85F6F6A2-29F6-4811-8B25-0801EF604C0C}</Property>
 					</Item>
 				</Item>
 				<Item Name="Digital Output 2" Type="Folder">
@@ -1106,7 +1095,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{C9D14445-39E5-424D-BDAD-D3ED8C1C3529}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{A694104E-72DF-44A8-A67F-8B26D66128A3}</Property>
 					</Item>
 					<Item Name="Precharge Ctrl" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1118,7 +1107,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{811860D2-D690-428B-B157-505CC0CF49ED}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{C7E3E4D8-52C1-40AF-A452-243D64F26ADC}</Property>
 					</Item>
 					<Item Name="24 VDC Ctrl" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1130,7 +1119,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{6D0147D6-594A-43B5-B0DF-867CDE05CDCB}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{9FB28443-9E8C-4279-9BFB-73347AB6F37A}</Property>
 					</Item>
 					<Item Name="Pump Solenoid Ctrl" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1142,7 +1131,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{E2890068-CB58-45A3-B311-9365E1A333BE}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{7B107C46-8EAC-4C92-A577-77DEEC56A3C8}</Property>
 					</Item>
 					<Item Name="Vent Solenoid Ctrl" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1154,7 +1143,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{71438DA6-8398-4908-B7BE-857953A2BF28}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{2E68357B-54BF-4D88-AB4E-2116041F095D}</Property>
 					</Item>
 					<Item Name="Brake Solenoid Ctrl" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1166,7 +1155,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{5366E2B4-67C5-42AD-85C0-EC6ABF7D2AF8}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{3F15E414-91ED-427C-8232-B9481A65C59E}</Property>
 					</Item>
 					<Item Name="EMCY Brake Solenoid Ctrl" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1178,7 +1167,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{884269DA-BC29-4F21-84AB-DFE8AE41791F}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{13714FC1-EC1C-4313-9D0A-4E10FC4E23F2}</Property>
 					</Item>
 					<Item Name="BO7B" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1190,7 +1179,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{F75F5C81-0751-4888-B6BE-A3D63BD77E51}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{247B5732-B5A3-44B0-8E0D-CCDDF1D723BD}</Property>
 					</Item>
 					<Item Name="Mod4/DO7:0" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1202,7 +1191,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{E4E28235-B427-43C3-A9E7-BE759AC36C68}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{3CA2295D-1742-4072-BFB8-7178C29B6944}</Property>
 					</Item>
 				</Item>
 				<Item Name="Mod3" Type="RIO C Series Module">
@@ -1254,7 +1243,7 @@ DirectoryIndex index.htm
 					<Property Name="FPGA.PersistentID" Type="Str">{0AC015FA-7602-4D9B-91D9-4F4655DB6F0A}</Property>
 				</Item>
 				<Item Name="40 MHz Onboard Clock" Type="FPGA Base Clock">
-					<Property Name="FPGA.PersistentID" Type="Str">{DF4B0E96-B18F-42A4-9089-F44F39A6041D}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{3474408A-CBEF-4958-B4F3-53D98E2C8FE2}</Property>
 					<Property Name="NI.LV.FPGA.BaseTSConfig" Type="Str">ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;</Property>
 					<Property Name="NI.LV.FPGA.BaseTSConfig.Accuracy" Type="Dbl">100</Property>
 					<Property Name="NI.LV.FPGA.BaseTSConfig.ClockSignalName" Type="Str">Clk40</Property>
@@ -1275,11 +1264,7 @@ DirectoryIndex index.htm
 					<Item Name="Dependencies" Type="Dependencies"/>
 					<Item Name="Build Specifications" Type="Build"/>
 				</Item>
-				<Item Name="Dependencies" Type="Dependencies">
-					<Item Name="vi.lib" Type="Folder">
-						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
-					</Item>
-				</Item>
+				<Item Name="Dependencies" Type="Dependencies"/>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="Fail-Safe Control FPGA" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
@@ -1317,19 +1302,11 @@ DirectoryIndex index.htm
 						<Property Name="SupportDownload" Type="Bool">true</Property>
 						<Property Name="SupportResourceEstimation" Type="Bool">false</Property>
 						<Property Name="TargetName" Type="Str">FPGA Target</Property>
-						<Property Name="TopLevelVI" Type="Ref">/BEEFRIO/Chassis/FPGA Target/FPGA/Fail-Safe Control FPGA.vi</Property>
+						<Property Name="TopLevelVI" Type="Ref"></Property>
 					</Item>
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="NetworkSharedVariable.lvlib" Type="Library" URL="../NetworkSharedVariable.lvlib"/>
-		<Item Name="SingleProcessVariable.lvlib" Type="Library" URL="../SingleProcessVariable.lvlib"/>
-		<Item Name="Master_ValueBuffer.vi" Type="VI" URL="../DAQ/Master_ValueBuffer.vi"/>
-		<Item Name="Master_DataStream.vi" Type="VI" URL="../DAQ/Master_DataStream.vi"/>
-		<Item Name="Master_CalculateOffset.vi" Type="VI" URL="../DAQ/Master_CalculateOffset.vi"/>
-		<Item Name="LedsOn" Type="VI" URL="../Control/LedsOn"/>
-		<Item Name="FPGACANTest.vi" Type="VI" URL="../FPGACANTest.vi"/>
-		<Item Name="Control 4.ctl" Type="VI" URL="../FPGA Bitfiles/Control 4.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
@@ -1365,7 +1342,6 @@ DirectoryIndex index.htm
 				<Item Name="CANopen SYNC Start.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SYNC Start.vi"/>
 				<Item Name="CANopen CAN Frame Read Start.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen CAN Frame Read Start.vi"/>
 				<Item Name="CANopen Node Guarding Start.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Node Guarding Start.vi"/>
-				<Item Name="CANopen TPDO Read.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen TPDO Read.vi"/>
 				<Item Name="CANopen Fetch from Data.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Fetch from Data.vi"/>
 				<Item Name="CANopen Fetch from Data [DBL].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Fetch from Data [DBL].vi"/>
 				<Item Name="CANopen Fetch from Data [I16].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Fetch from Data [I16].vi"/>
@@ -1376,46 +1352,7 @@ DirectoryIndex index.htm
 				<Item Name="CANopen Fetch from Data [U16].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Fetch from Data [U16].vi"/>
 				<Item Name="CANopen Fetch from Data [U32].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Fetch from Data [U32].vi"/>
 				<Item Name="CANopen Fetch from Data [U8].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Fetch from Data [U8].vi"/>
-				<Item Name="CANopen RPDO Write.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen RPDO Write.vi"/>
-				<Item Name="CANopen Convert To Data [I8].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Convert To Data [I8].vi"/>
-				<Item Name="CANopen SDO Write [I8].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Write [I8].vi"/>
-				<Item Name="CANopen Convert To Data [U8].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Convert To Data [U8].vi"/>
-				<Item Name="CANopen SDO Write [U8].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Write [U8].vi"/>
-				<Item Name="CANopen Convert To Data [U32].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Convert To Data [U32].vi"/>
-				<Item Name="CANopen SDO Write [U32].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Write [U32].vi"/>
-				<Item Name="CANopen Convert To Data [U16].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Convert To Data [U16].vi"/>
-				<Item Name="CANopen SDO Write [U16].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Write [U16].vi"/>
-				<Item Name="CANopen SDO Write [STR].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Write [STR].vi"/>
-				<Item Name="CANopen Convert To Data [SGL].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Convert To Data [SGL].vi"/>
-				<Item Name="CANopen SDO Write [SGL].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Write [SGL].vi"/>
-				<Item Name="CANopen Convert To Data [I32].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Convert To Data [I32].vi"/>
-				<Item Name="CANopen SDO Write [I32].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Write [I32].vi"/>
-				<Item Name="CANopen Convert To Data [I16].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Convert To Data [I16].vi"/>
-				<Item Name="CANopen SDO Write [I16].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Write [I16].vi"/>
-				<Item Name="CANopen Convert To Data [DBL].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Convert To Data [DBL].vi"/>
-				<Item Name="CANopen SDO Write [DBL].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Write [DBL].vi"/>
-				<Item Name="CANopen SDO Write [Block].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Write [Block].vi"/>
-				<Item Name="CANopen SDO Write.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Write.vi"/>
-				<Item Name="CANopen SDO Read [STR].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Read [STR].vi"/>
-				<Item Name="CANopen SDO Read [U8].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Read [U8].vi"/>
-				<Item Name="CANopen SDO Read [U16].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Read [U16].vi"/>
-				<Item Name="CANopen SDO Read [U32].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Read [U32].vi"/>
-				<Item Name="CANopen SDO Read [SGL].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Read [SGL].vi"/>
-				<Item Name="CANopen SDO Read [I8].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Read [I8].vi"/>
-				<Item Name="CANopen SDO Read [I32].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Read [I32].vi"/>
-				<Item Name="CANopen SDO Read [I16].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Read [I16].vi"/>
-				<Item Name="CANopen SDO Read [DBL].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Read [DBL].vi"/>
-				<Item Name="CANopen SDO Read [Block].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Read [Block].vi"/>
-				<Item Name="CANopen SDO Read.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Read.vi"/>
-				<Item Name="CANopen CAN Frame Write.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen CAN Frame Write.vi"/>
-				<Item Name="CANopen SDO Completion Code to String.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Completion Code to String.vi"/>
-				<Item Name="CANopen Node Guarding State Read.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Node Guarding State Read.vi"/>
-				<Item Name="CANopen Heartbeat State Read.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Heartbeat State Read.vi"/>
-				<Item Name="CANopen Emergency Read.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Emergency Read.vi"/>
-				<Item Name="CANopen Error Control Read.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Error Control Read.vi"/>
 				<Item Name="CANopen NMT Write.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen NMT Write.vi"/>
-				<Item Name="CANopen Convert To Data.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Convert To Data.vi"/>
-				<Item Name="CANopen Convert To Data [STR].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Convert To Data [STR].vi"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
@@ -1452,6 +1389,37 @@ DirectoryIndex index.htm
 				<Item Name="NI_Real-Time Target Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI_Real-Time Target Support.lvlib"/>
 				<Item Name="ni_emb.dll" Type="Document" URL="/&lt;vilib&gt;/ni_emb.dll"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="CANopen CAN Frame Read.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen CAN Frame Read.vi"/>
+				<Item Name="CANopen Convert To Data [I8].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Convert To Data [I8].vi"/>
+				<Item Name="CANopen SDO Write [I8].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Write [I8].vi"/>
+				<Item Name="CANopen Convert To Data [U8].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Convert To Data [U8].vi"/>
+				<Item Name="CANopen SDO Write [U8].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Write [U8].vi"/>
+				<Item Name="CANopen Convert To Data [U32].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Convert To Data [U32].vi"/>
+				<Item Name="CANopen SDO Write [U32].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Write [U32].vi"/>
+				<Item Name="CANopen Convert To Data [U16].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Convert To Data [U16].vi"/>
+				<Item Name="CANopen SDO Write [U16].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Write [U16].vi"/>
+				<Item Name="CANopen SDO Write [STR].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Write [STR].vi"/>
+				<Item Name="CANopen Convert To Data [SGL].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Convert To Data [SGL].vi"/>
+				<Item Name="CANopen SDO Write [SGL].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Write [SGL].vi"/>
+				<Item Name="CANopen Convert To Data [I32].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Convert To Data [I32].vi"/>
+				<Item Name="CANopen SDO Write [I32].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Write [I32].vi"/>
+				<Item Name="CANopen Convert To Data [I16].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Convert To Data [I16].vi"/>
+				<Item Name="CANopen SDO Write [I16].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Write [I16].vi"/>
+				<Item Name="CANopen Convert To Data [DBL].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen Convert To Data [DBL].vi"/>
+				<Item Name="CANopen SDO Write [DBL].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Write [DBL].vi"/>
+				<Item Name="CANopen SDO Write [Block].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Write [Block].vi"/>
+				<Item Name="CANopen SDO Write.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Write.vi"/>
+				<Item Name="CANopen SDO Read [STR].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Read [STR].vi"/>
+				<Item Name="CANopen SDO Read [U8].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Read [U8].vi"/>
+				<Item Name="CANopen SDO Read [U16].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Read [U16].vi"/>
+				<Item Name="CANopen SDO Read [U32].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Read [U32].vi"/>
+				<Item Name="CANopen SDO Read [SGL].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Read [SGL].vi"/>
+				<Item Name="CANopen SDO Read [I8].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Read [I8].vi"/>
+				<Item Name="CANopen SDO Read [I32].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Read [I32].vi"/>
+				<Item Name="CANopen SDO Read [I16].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Read [I16].vi"/>
+				<Item Name="CANopen SDO Read [DBL].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Read [DBL].vi"/>
+				<Item Name="CANopen SDO Read [Block].vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Read [Block].vi"/>
+				<Item Name="CANopen SDO Read.vi" Type="VI" URL="/&lt;vilib&gt;/CANopenLib/CANOPEN.llb/CANopen SDO Read.vi"/>
 			</Item>
 			<Item Name="nicanopenlvapi.dll" Type="Document" URL="nicanopenlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
